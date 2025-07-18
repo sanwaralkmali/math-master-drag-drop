@@ -1,0 +1,68 @@
+{
+  "title": "Quadratic Functions",
+  "description": "Identify and categorize quadratic function properties and forms",
+  "categories": [
+    {
+      "id": "vertex-form",
+      "name": "Vertex Form",
+      "description": "Functions in the form f(x) = a(x - h)² + k",
+      "color": "primary"
+    },
+    {
+      "id": "standard-form",
+      "name": "Standard Form",
+      "description": "Functions in the form f(x) = ax² + bx + c",
+      "color": "success"
+    },
+    {
+      "id": "factored-form",
+      "name": "Factored Form",
+      "description": "Functions in the form f(x) = a(x - r₁)(x - r₂)",
+      "color": "game-accent"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "content": "f(x) = 2(x - 3)² + 1",
+      "correctCategory": "vertex-form",
+      "explanation": "This is in vertex form with vertex at (3, 1) and a = 2"
+    },
+    {
+      "id": "q2",
+      "content": "f(x) = x² - 5x + 6",
+      "correctCategory": "standard-form",
+      "explanation": "This is in standard form with a=1, b=-5, and c=6"
+    },
+    {
+      "id": "q3",
+      "content": "f(x) = 3(x - 2)(x + 4)",
+      "correctCategory": "factored-form",
+      "explanation": "This is in factored form with zeros at x=2 and x=-4"
+    },
+    {
+      "id": "q4",
+      "content": "f(x) = -(x + 1)² - 5",
+      "correctCategory": "vertex-form",
+      "explanation": "This is in vertex form with vertex at (-1, -5) and a = -1"
+    },
+    {
+      "id": "q5",
+      "content": "f(x) = 2x² + 8x - 3",
+      "correctCategory": "standard-form",
+      "explanation": "This is in standard form with a=2, b=8, and c=-3"
+    },
+    {
+      "id": "q6",
+      "content": "f(x) = (x - 1)(x - 7)",
+      "correctCategory": "factored-form",
+      "explanation": "This is in factored form with zeros at x=1 and x=7"
+    },
+    {
+      "id": "q7",
+      "content": "f(x) = ½(x - 4)² + 2",
+      "correctCategory": "vertex-form",
+      "explanation": "This is in vertex form with vertex at (4, 2) and a = ½"
+    }
+  ]
+}

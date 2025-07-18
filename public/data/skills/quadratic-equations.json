@@ -1,0 +1,74 @@
+{
+  "title": "Quadratic Functions",
+  "description": "Identify different forms and properties of quadratic functions",
+  "categories": [
+    {
+      "id": "standard-form",
+      "name": "Standard Form",
+      "description": "Equations in the form ax² + bx + c = 0",
+      "color": "primary"
+    },
+    {
+      "id": "vertex-form",
+      "name": "Vertex Form", 
+      "description": "Equations in the form a(x - h)² + k",
+      "color": "success"
+    },
+    {
+      "id": "factored-form",
+      "name": "Factored Form",
+      "description": "Equations in the form a(x - r₁)(x - r₂)",
+      "color": "warning"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "content": "y = x² - 4x + 3",
+      "correctCategory": "standard-form",
+      "explanation": "This is in standard form with a=1, b=-4, c=3"
+    },
+    {
+      "id": "q2", 
+      "content": "y = 2(x - 3)² + 1",
+      "correctCategory": "vertex-form",
+      "explanation": "This is in vertex form with vertex at (3,1)"
+    },
+    {
+      "id": "q3",
+      "content": "y = (x - 2)(x + 5)",
+      "correctCategory": "factored-form", 
+      "explanation": "This is in factored form with roots at x=2 and x=-5"
+    },
+    {
+      "id": "q4",
+      "content": "y = -x² + 6x - 9",
+      "correctCategory": "standard-form",
+      "explanation": "This is in standard form with a=-1, b=6, c=-9"
+    },
+    {
+      "id": "q5",
+      "content": "y = 3(x + 1)² - 4",
+      "correctCategory": "vertex-form",
+      "explanation": "This is in vertex form with vertex at (-1,-4)"
+    },
+    {
+      "id": "q6",
+      "content": "y = -2(x - 1)(x - 7)",
+      "correctCategory": "factored-form",
+      "explanation": "This is in factored form with roots at x=1 and x=7"
+    },
+    {
+      "id": "q7",
+      "content": "y = x² + 8x + 16",
+      "correctCategory": "standard-form", 
+      "explanation": "This is in standard form with a=1, b=8, c=16"
+    },
+    {
+      "id": "q8",
+      "content": "y = -(x - 4)² + 2",
+      "correctCategory": "vertex-form",
+      "explanation": "This is in vertex form with vertex at (4,2)"
+    }
+  ]
+}

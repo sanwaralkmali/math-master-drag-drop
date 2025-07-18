@@ -1,0 +1,68 @@
+{
+  "title": "Trigonometry",
+  "description": "Match trigonometric identities and classify equation types",
+  "categories": [
+    {
+      "id": "pythagorean",
+      "name": "Pythagorean Identities",
+      "description": "Identities based on sin²θ + cos²θ = 1",
+      "color": "primary"
+    },
+    {
+      "id": "reciprocal",
+      "name": "Reciprocal Identities",
+      "description": "Identities relating trig functions to their reciprocals",
+      "color": "success"
+    },
+    {
+      "id": "cofunction",
+      "name": "Cofunction Identities",
+      "description": "Identities relating complementary angles",
+      "color": "warning"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "content": "sin²θ + cos²θ = 1",
+      "correctCategory": "pythagorean",
+      "explanation": "This is the fundamental Pythagorean identity"
+    },
+    {
+      "id": "q2",
+      "content": "csc θ = 1/sin θ",
+      "correctCategory": "reciprocal",
+      "explanation": "Cosecant is the reciprocal of sine"
+    },
+    {
+      "id": "q3",
+      "content": "sin θ = cos(90° - θ)",
+      "correctCategory": "cofunction",
+      "explanation": "Sine of an angle equals cosine of its complement"
+    },
+    {
+      "id": "q4",
+      "content": "1 + tan²θ = sec²θ",
+      "correctCategory": "pythagorean",
+      "explanation": "This is derived from the fundamental Pythagorean identity"
+    },
+    {
+      "id": "q5",
+      "content": "sec θ = 1/cos θ",
+      "correctCategory": "reciprocal",
+      "explanation": "Secant is the reciprocal of cosine"
+    },
+    {
+      "id": "q6",
+      "content": "tan θ = cot(90° - θ)",
+      "correctCategory": "cofunction",
+      "explanation": "Tangent of an angle equals cotangent of its complement"
+    },
+    {
+      "id": "q7",
+      "content": "1 + cot²θ = csc²θ",
+      "correctCategory": "pythagorean",
+      "explanation": "Another form of the Pythagorean identity"
+    }
+  ]
+}
