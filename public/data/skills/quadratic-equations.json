@@ -19,6 +19,24 @@
       "name": "Factored Form",
       "description": "Equations in the form a(x - r₁)(x - r₂)",
       "color": "warning"
+    },
+    {
+      "id": "standard-form-2",
+      "name": "Standard Form 2",
+      "description": "Equations in the form ax² + bx + c = 0",
+      "color": "primary"
+    },
+    {
+      "id": "vertex-form-2",
+      "name": "Vertex Form 2", 
+      "description": "Equations in the form a(x - h)² + k",
+      "color": "success"
+    },
+    {
+      "id": "factored-form-2",
+      "name": "Factored Form 2",
+      "description": "Equations in the form a(x - r₁)(x - r₂)",
+      "color": "warning"
     }
   ],
   "questions": [
@@ -69,6 +87,38 @@
       "content": "y = -(x - 4)² + 2",
       "correctCategory": "vertex-form",
       "explanation": "This is in vertex form with vertex at (4,2)"
+    },
+    {
+      "id": "q9",
+      "content": "y = 2x^2 - 8x + 6",
+      "correctCategory": "standard-form",
+      "explanation": "This is in standard form with a=2, b=-8, c=6"
+    },
+    {
+      "id": "q10",
+      "content": "y = (x + 3)(x - 2)",
+      "correctCategory": "factored-form",
+      "explanation": "This is in factored form with roots at x=-3 and x=2"
+    },
+    {
+      "id": "q11",
+      "content": "y = 4(x - 2)^2 + 5",
+      "correctCategory": "vertex-form",
+      "explanation": "This is in vertex form with vertex at (2,5)"
+    },
+    {
+      "id": "q12",
+      "content": "y = -3(x + 1)(x - 4)",
+      "correctCategory": "factored-form",
+      "explanation": "This is in factored form with roots at x=-1 and x=4"
     }
+  ],
+  "instructions": [
+    "Enter your name and start the game.",
+    "You will see 20 numbers. Your task is to classify each number into the correct category (e.g., Rational, Irrational, Integer, etc.).",
+    "Click a number to select it, then click the category where it belongs.",
+    "If you make a mistake, you can move numbers between categories.",
+    "When you finish, click the Submit button to see your results and score.",
+    "Try to get as many correct as possible and see your name on the leaderboard!"
   ]
 }

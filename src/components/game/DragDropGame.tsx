@@ -10,9 +10,10 @@ import { useToast } from "@/hooks/use-toast";
 interface DragDropGameProps {
   gameData: GameData;
   onComplete: (score: number) => void;
+  userName?: string;
 }
 
-export const DragDropGame = ({ gameData, onComplete }: DragDropGameProps) => {
+export const DragDropGame = ({ gameData, onComplete, userName }: DragDropGameProps) => {
   const { toast } = useToast();
   
   // Initialize questions as draggable items

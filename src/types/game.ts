@@ -17,6 +17,7 @@ export interface GameData {
   description: string;
   categories: GameCategory[];
   questions: GameQuestion[];
+  instructions?: string[];
 }
 
 export interface DragItem {

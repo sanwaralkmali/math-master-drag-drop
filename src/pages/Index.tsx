@@ -6,6 +6,16 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { AlertCircle, RotateCcw } from "lucide-react";
 import heroImage from "@/assets/math-hero.jpg";
+import {
+  Dialog,
+  DialogTrigger,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+  DialogClose
+} from "@/components/ui/dialog";
+import { useRef } from "react";
 
 const Index = () => {
   const [searchParams] = useSearchParams();
@@ -15,12 +25,32 @@ const Index = () => {
   const [error, setError] = useState<string | null>(null);
   const [gameCompleted, setGameCompleted] = useState(false);
   const [finalScore, setFinalScore] = useState<number>(0);
+  const [userName, setUserName] = useState("");
+  const [showGame, setShowGame] = useState(false);
+  const [showLeaderboard, setShowLeaderboard] = useState(false);
+  const [showInstructions, setShowInstructions] = useState(false);
+  const [timer, setTimer] = useState(0);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     if (skillParam) {
       loadGameData(skillParam);
     }
   }, [skillParam]);
+
+  useEffect(() => {
+    if (showGame) {
+      setTimer(0);
+      timerRef.current = setInterval(() => {
+        setTimer((prev) => prev + 1);
+      }, 1000);
+    } else {
+      if (timerRef.current) clearInterval(timerRef.current);
+    }
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [showGame]);
 
   const loadGameData = async (skill: string) => {
     setLoading(true);
@@ -32,7 +62,16 @@ const Index = () => {
         throw new Error(`Skill "${skill}" not found`);
       }
       const data = await response.json();
-      setGameData(data);
+      // Randomly select 12 questions if more than 12
+      let questions = data.questions;
+      if (Array.isArray(questions) && questions.length > 12) {
+        questions = questions
+          .map(q => ({ q, sort: Math.random() }))
+          .sort((a, b) => a.sort - b.sort)
+          .slice(0, 12)
+          .map(({ q }) => q);
+      }
+      setGameData({ ...data, questions });
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to load game data');
     } finally {
@@ -43,11 +82,25 @@ const Index = () => {
   const handleGameComplete = (score: number) => {
     setFinalScore(score);
     setGameCompleted(true);
+    if (timerRef.current) clearInterval(timerRef.current);
   };
 
   const handlePlayAgain = () => {
     setGameCompleted(false);
     setFinalScore(0);
+    setTimer(0);
+    // Re-randomize questions if more than 12
+    if (gameData && Array.isArray(gameData.questions) && gameData.questions.length > 12) {
+      const allQuestions = [...gameData.questions];
+      const questions = allQuestions
+        .map(q => ({ q, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .slice(0, 12)
+        .map(({ q }) => q);
+      setGameData({ ...gameData, questions });
+    }
+    setShowGame(false);
+    setTimeout(() => setShowGame(true), 0); // Restart game
   };
 
   // Landing page when no skill is specified
@@ -128,21 +181,138 @@ const Index = () => {
     );
   }
 
-  // Game interface
-  if (gameData) {
+  // Pre-interface before game starts
+  if (skillParam && gameData && !showGame) {
+    // Fake leaderboard data
+    const leaderboard = [
+      { name: "Alice", score: 95 },
+      { name: "Bob", score: 90 },
+      { name: "Charlie", score: 85 },
+      { name: "You", score: finalScore, highlight: gameCompleted },
+    ];
     return (
-      <div className="min-h-screen bg-gradient-game p-4">
-        <div className="max-w-7xl mx-auto">
-          {/* Game Header */}
-          <div className="mb-8 text-center">
-            <h1 className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-              {gameData.title}
-            </h1>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              {gameData.description}
-            </p>
-          </div>
+      <div className="min-h-screen bg-gradient-game flex items-center justify-center">
+        <Card className="w-full max-w-md mx-4 bg-card/80 backdrop-blur-sm">
+          <CardHeader>
+            <CardTitle className="text-center">{gameData.title}</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="mb-4">
+              <label className="block mb-2 font-medium">Enter your name:</label>
+              <input
+                type="text"
+                className="w-full px-3 py-2 border rounded focus:outline-none focus:ring"
+                value={userName}
+                onChange={e => setUserName(e.target.value)}
+                placeholder="Your name"
+              />
+            </div>
+            <div className="flex flex-col gap-3">
+              <Button
+                className="w-full"
+                disabled={!userName}
+                onClick={() => setShowGame(true)}
+              >
+                Start the Game
+              </Button>
+              {/* Leaderboard Button and Dialog */}
+              <Button className="w-full" variant="outline" onClick={() => setShowLeaderboard(true)}>
+                Leaderboard
+              </Button>
+              <Dialog open={showLeaderboard} onOpenChange={setShowLeaderboard}>
+                <DialogContent>
+                  <DialogHeader>
+                    <DialogTitle>Leaderboard - {gameData.title}</DialogTitle>
+                  </DialogHeader>
+                  <div className="mt-2">
+                    <table className="w-full text-left">
+                      <thead>
+                        <tr>
+                          <th className="py-1">Name</th>
+                          <th className="py-1">Score</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {leaderboard.map((entry, idx) => (
+                          <tr key={idx} className={entry.highlight ? "font-bold text-primary" : ""}>
+                            <td className="py-1">{entry.name}</td>
+                            <td className="py-1">{entry.score}%</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  <DialogClose asChild>
+                    <Button className="mt-4 w-full">Close</Button>
+                  </DialogClose>
+                </DialogContent>
+              </Dialog>
+              {/* How to Play Button and Dialog */}
+              <Button className="w-full" variant="outline" onClick={() => {
+                console.log('Opening How to play the game dialog');
+                setShowInstructions(true);
+              }}>
+                How to play the game
+              </Button>
+              <Dialog open={showInstructions} onOpenChange={(open) => {
+                console.log('Dialog onOpenChange', open);
+                setShowInstructions(open);
+              }}>
+                <DialogContent>
+                  <DialogHeader>
+                    <DialogTitle>How to Play</DialogTitle>
+                  </DialogHeader>
+                  <DialogDescription>
+                    <ul className="list-disc pl-5 space-y-2 text-left">
+                      {(gameData && Array.isArray(gameData.instructions) ? gameData.instructions : [
+                        "No instructions available for this skill."
+                      ]).map((line, idx) => (
+                        <li key={idx}>{line}</li>
+                      ))}
+                    </ul>
+                    <div className="mt-4 font-semibold">Good luck and have fun learning!</div>
+                  </DialogDescription>
+                  <DialogClose asChild>
+                    <Button className="mt-4 w-full">Close</Button>
+                  </DialogClose>
+                </DialogContent>
+              </Dialog>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    );
+  }
 
+  // Game interface
+  if (gameData && showGame) {
+    return (
+      <div className="min-h-screen bg-gradient-game p-4 font-cairo relative overflow-hidden">
+        {/* Math symbols background */}
+        <div className="absolute inset-0 pointer-events-none z-0 animate-float-math">
+          {/* Example math symbols, you can add more or use SVGs for better visuals */}
+          <span className="absolute left-10 top-10 text-6xl opacity-20 select-none">∑</span>
+          <span className="absolute right-20 top-32 text-5xl opacity-20 select-none">π</span>
+          <span className="absolute left-1/2 top-1/4 text-7xl opacity-10 select-none">√</span>
+          <span className="absolute right-1/3 bottom-10 text-6xl opacity-15 select-none">∞</span>
+          <span className="absolute left-1/4 bottom-20 text-5xl opacity-10 select-none">∫</span>
+        </div>
+        <div className="max-w-7xl mx-auto relative z-10">
+          {/* Game Header */}
+          <div className="mb-8 text-center flex flex-col md:flex-row md:items-center md:justify-between gap-4 font-cairo">
+            <div>
+              <h1 className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
+                {gameData.title}
+              </h1>
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                {gameData.description}
+              </p>
+            </div>
+            <div className="flex flex-col items-center md:items-end gap-2">
+              <div className="text-lg font-semibold">Player: <span className="text-primary">{userName}</span></div>
+              <div className="text-lg font-semibold">Time: <span className="text-primary">{Math.floor(timer / 60)}:{(timer % 60).toString().padStart(2, '0')}</span></div>
+            </div>
+          </div>
           {/* Game Completion Overlay */}
           {gameCompleted && (
             <Card className="mb-6 bg-card/90 backdrop-blur-sm border-primary">
@@ -160,11 +330,11 @@ const Index = () => {
               </CardContent>
             </Card>
           )}
-
           {/* Game Component */}
           <DragDropGame
             gameData={gameData}
             onComplete={handleGameComplete}
+            userName={userName}
           />
         </div>
       </div>
