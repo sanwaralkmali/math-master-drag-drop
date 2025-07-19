@@ -30,13 +30,14 @@ const Index = () => {
   const [showLeaderboard, setShowLeaderboard] = useState(false);
   const [showInstructions, setShowInstructions] = useState(false);
   const [timer, setTimer] = useState(0);
+  const [numQuestions, setNumQuestions] = useState(12);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     if (skillParam) {
       loadGameData(skillParam);
     }
-  }, [skillParam]);
+  }, [skillParam, numQuestions]);
 
   useEffect(() => {
     if (showGame) {
@@ -62,13 +63,13 @@ const Index = () => {
         throw new Error(`Skill "${skill}" not found`);
       }
       const data = await response.json();
-      // Randomly select 12 questions if more than 12
+      // Randomly select numQuestions questions if more than numQuestions
       let questions = data.questions;
-      if (Array.isArray(questions) && questions.length > 12) {
+      if (Array.isArray(questions) && questions.length > numQuestions) {
         questions = questions
           .map(q => ({ q, sort: Math.random() }))
           .sort((a, b) => a.sort - b.sort)
-          .slice(0, 12)
+          .slice(0, numQuestions)
           .map(({ q }) => q);
       }
       setGameData({ ...data, questions });
@@ -89,13 +90,13 @@ const Index = () => {
     setGameCompleted(false);
     setFinalScore(0);
     setTimer(0);
-    // Re-randomize questions if more than 12
-    if (gameData && Array.isArray(gameData.questions) && gameData.questions.length > 12) {
+    // Re-randomize questions if more than numQuestions
+    if (gameData && Array.isArray(gameData.questions) && gameData.questions.length > numQuestions) {
       const allQuestions = [...gameData.questions];
       const questions = allQuestions
         .map(q => ({ q, sort: Math.random() }))
         .sort((a, b) => a.sort - b.sort)
-        .slice(0, 12)
+        .slice(0, numQuestions)
         .map(({ q }) => q);
       setGameData({ ...gameData, questions });
     }
@@ -133,7 +134,7 @@ const Index = () => {
               <CardContent className="text-sm text-muted-foreground">
                 <p>This app is designed to be accessed with a skill parameter.</p>
                 <p className="mt-2 font-mono text-xs bg-muted p-2 rounded">
-                  ?skill=quadratic-equations
+                  ?skill=classification-numbers
                 </p>
               </CardContent>
             </Card>
@@ -206,6 +207,22 @@ const Index = () => {
                 onChange={e => setUserName(e.target.value)}
                 placeholder="Your name"
               />
+            </div>
+            <div className="mb-4">
+              <label className="block mb-2 font-medium">Choose number of questions:</label>
+              <div className="flex gap-2">
+                {[8, 12, 16, 24].map(n => (
+                  <Button
+                    key={n}
+                    type="button"
+                    variant={numQuestions === n ? "default" : "outline"}
+                    className={numQuestions === n ? "bg-primary text-white" : ""}
+                    onClick={() => setNumQuestions(n)}
+                  >
+                    {n}
+                  </Button>
+                ))}
+              </div>
             </div>
             <div className="flex flex-col gap-3">
               <Button

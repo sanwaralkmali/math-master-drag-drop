@@ -81,7 +81,7 @@ const GamePage = () => {
             </Link>
             <div>
               <h1 className="text-2xl md:text-3xl font-bold text-foreground">
-                {gameData.title}
+                {gameData.title.toUpperCase()}
               </h1>
               <p className="text-muted-foreground">
                 {gameData.description}
