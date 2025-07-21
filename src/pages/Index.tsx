@@ -16,6 +16,7 @@ import {
   DialogClose
 } from "@/components/ui/dialog";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   const [searchParams] = useSearchParams();
@@ -192,111 +193,137 @@ const Index = () => {
       { name: "You", score: finalScore, highlight: gameCompleted },
     ];
     return (
-      <div className="min-h-screen bg-gradient-game flex items-center justify-center">
-        <Card className="w-full max-w-md mx-4 bg-card/80 backdrop-blur-sm">
-          <CardHeader>
-            <CardTitle className="text-center">{gameData.title}</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="mb-4">
-              <label className="block mb-2 font-medium">Enter your name:</label>
-              <input
-                type="text"
-                className="w-full px-3 py-2 border rounded focus:outline-none focus:ring"
-                value={userName}
-                onChange={e => setUserName(e.target.value)}
-                placeholder="Your name"
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block mb-2 font-medium">Choose number of questions:</label>
-              <div className="flex gap-2">
-                {[8, 12, 16, 24].map(n => (
-                  <Button
-                    key={n}
-                    type="button"
-                    variant={numQuestions === n ? "default" : "outline"}
-                    className={numQuestions === n ? "bg-primary text-white" : ""}
-                    onClick={() => setNumQuestions(n)}
-                  >
-                    {n}
-                  </Button>
-                ))}
+      <div className="min-h-screen bg-gradient-game flex flex-col items-center justify-center relative">
+        {/* Back button in top-left corner */}
+        <a
+          href="https://sanwaralkmali.github.io/games.html"
+          className="inline-flex items-center px-3 py-2 rounded bg-muted hover:bg-primary/10 text-primary font-semibold transition absolute left-4 top-4 z-20 font-cairo"
+          style={{ textDecoration: 'none' }}
+        >
+          ← Back
+        </a>
+        <div className="flex-1 flex flex-col justify-center w-full items-center">
+          <Card className="w-full max-w-md mx-4 bg-card/80 backdrop-blur-sm">
+            <CardHeader>
+              <CardTitle className="text-center">{gameData.title}</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="mb-4">
+                <label className="block mb-2 font-medium">Enter your name:</label>
+                <input
+                  type="text"
+                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring"
+                  value={userName}
+                  onChange={e => setUserName(e.target.value)}
+                  placeholder="Your name"
+                />
               </div>
-            </div>
-            <div className="flex flex-col gap-3">
-              <Button
-                className="w-full"
-                disabled={!userName}
-                onClick={() => setShowGame(true)}
-              >
-                Start the Game
-              </Button>
-              {/* Leaderboard Button and Dialog */}
-              <Button className="w-full" variant="outline" onClick={() => setShowLeaderboard(true)}>
-                Leaderboard
-              </Button>
-              <Dialog open={showLeaderboard} onOpenChange={setShowLeaderboard}>
-                <DialogContent>
-                  <DialogHeader>
-                    <DialogTitle>Leaderboard - {gameData.title}</DialogTitle>
-                  </DialogHeader>
-                  <div className="mt-2">
-                    <table className="w-full text-left">
-                      <thead>
-                        <tr>
-                          <th className="py-1">Name</th>
-                          <th className="py-1">Score</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {leaderboard.map((entry, idx) => (
-                          <tr key={idx} className={entry.highlight ? "font-bold text-primary" : ""}>
-                            <td className="py-1">{entry.name}</td>
-                            <td className="py-1">{entry.score}%</td>
+              <div className="mb-4">
+                <label className="block mb-2 font-medium">Choose number of questions:</label>
+                <div className="flex gap-2">
+                  {[8, 12, 16, 24].map(n => (
+                    <Button
+                      key={n}
+                      type="button"
+                      variant={numQuestions === n ? "default" : "outline"}
+                      className={numQuestions === n ? "bg-primary text-white" : ""}
+                      onClick={() => setNumQuestions(n)}
+                    >
+                      {n}
+                    </Button>
+                  ))}
+                </div>
+              </div>
+              <div className="flex flex-col gap-3">
+                <Button
+                  className="w-full"
+                  disabled={!userName}
+                  onClick={() => setShowGame(true)}
+                >
+                  Start the Game
+                </Button>
+                {/* Leaderboard Button and Dialog */}
+                <Button className="w-full" variant="outline" onClick={() => setShowLeaderboard(true)}>
+                  Leaderboard
+                </Button>
+                <Dialog open={showLeaderboard} onOpenChange={setShowLeaderboard}>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>Leaderboard - {gameData.title}</DialogTitle>
+                    </DialogHeader>
+                    <div className="mt-2">
+                      <table className="w-full text-left">
+                        <thead>
+                          <tr>
+                            <th className="py-1">Name</th>
+                            <th className="py-1">Score</th>
                           </tr>
+                        </thead>
+                        <tbody>
+                          {leaderboard.map((entry, idx) => (
+                            <tr key={idx} className={entry.highlight ? "font-bold text-primary" : ""}>
+                              <td className="py-1">{entry.name}</td>
+                              <td className="py-1">{entry.score}%</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                    <DialogClose asChild>
+                      <Button className="mt-4 w-full">Close</Button>
+                    </DialogClose>
+                  </DialogContent>
+                </Dialog>
+                {/* How to Play Button and Dialog */}
+                <Button className="w-full" variant="outline" onClick={() => {
+                  console.log('Opening How to play the game dialog');
+                  setShowInstructions(true);
+                }}>
+                  How to play the game
+                </Button>
+                <Dialog open={showInstructions} onOpenChange={(open) => {
+                  console.log('Dialog onOpenChange', open);
+                  setShowInstructions(open);
+                }}>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle>How to Play</DialogTitle>
+                    </DialogHeader>
+                    <DialogDescription>
+                      <ul className="list-disc pl-5 space-y-2 text-left">
+                        {(gameData && Array.isArray(gameData.instructions) ? gameData.instructions : [
+                          "No instructions available for this skill."
+                        ]).map((line, idx) => (
+                          <li key={idx}>{line}</li>
                         ))}
-                      </tbody>
-                    </table>
-                  </div>
-                  <DialogClose asChild>
-                    <Button className="mt-4 w-full">Close</Button>
-                  </DialogClose>
-                </DialogContent>
-              </Dialog>
-              {/* How to Play Button and Dialog */}
-              <Button className="w-full" variant="outline" onClick={() => {
-                console.log('Opening How to play the game dialog');
-                setShowInstructions(true);
-              }}>
-                How to play the game
-              </Button>
-              <Dialog open={showInstructions} onOpenChange={(open) => {
-                console.log('Dialog onOpenChange', open);
-                setShowInstructions(open);
-              }}>
-                <DialogContent>
-                  <DialogHeader>
-                    <DialogTitle>How to Play</DialogTitle>
-                  </DialogHeader>
-                  <DialogDescription>
-                    <ul className="list-disc pl-5 space-y-2 text-left">
-                      {(gameData && Array.isArray(gameData.instructions) ? gameData.instructions : [
-                        "No instructions available for this skill."
-                      ]).map((line, idx) => (
-                        <li key={idx}>{line}</li>
-                      ))}
-                    </ul>
-                    <div className="mt-4 font-semibold">Good luck and have fun learning!</div>
-                  </DialogDescription>
-                  <DialogClose asChild>
-                    <Button className="mt-4 w-full">Close</Button>
-                  </DialogClose>
-                </DialogContent>
-              </Dialog>
-            </div>
-          </CardContent>
-        </Card>
+                      </ul>
+                      <div className="mt-4 font-semibold">Good luck and have fun learning!</div>
+                    </DialogDescription>
+                    <DialogClose asChild>
+                      <Button className="mt-4 w-full">Close</Button>
+                    </DialogClose>
+                  </DialogContent>
+                </Dialog>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+        {/* Footer at the bottom */}
+        <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t bg-background font-cairo mt-auto absolute bottom-0 left-0">
+          <div className="container mx-auto">
+            <p>
+              Educational Game 2025 | Created for Educational purposes By{" "}
+              <Link
+                to="https://sanwaralkmali.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Salah Alkmali
+              </Link>
+            </p>
+          </div>
+        </footer>
       </div>
     );
   }
@@ -317,13 +344,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           {/* Game Header */}
           <div className="mb-8 text-center flex flex-col md:flex-row md:items-center md:justify-between gap-4 font-cairo">
-            <div>
+            <div className="flex items-center gap-4">
               <h1 className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
                 {gameData.title}
               </h1>
-              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                {gameData.description}
-              </p>
             </div>
             <div className="flex flex-col items-center md:items-end gap-2">
               <div className="text-lg font-semibold">Player: <span className="text-primary">{userName}</span></div>
