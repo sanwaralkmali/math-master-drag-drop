@@ -187,16 +187,12 @@ const Index = () => {
   if (skillParam && gameData && !showGame) {
     // Fake leaderboard data
     const leaderboard = [
-      { name: "Alice", score: 95 },
-      { name: "Bob", score: 90 },
-      { name: "Charlie", score: 85 },
-      { name: "You", score: finalScore, highlight: gameCompleted },
     ];
     return (
       <div className="min-h-screen bg-gradient-game flex flex-col items-center justify-center relative">
         {/* Back button in top-left corner */}
         <a
-          href="https://sanwaralkmali.github.io/games.html"
+          href="https://sanwaralkmali.github.io/mathlogame.html"
           className="inline-flex items-center px-3 py-2 rounded bg-muted hover:bg-primary/10 text-primary font-semibold transition absolute left-4 top-4 z-20 font-cairo"
           style={{ textDecoration: 'none' }}
         >
