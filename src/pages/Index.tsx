@@ -190,14 +190,6 @@ const Index = () => {
     ];
     return (
       <div className="min-h-screen bg-gradient-game flex flex-col items-center justify-center relative">
-        {/* Back button in top-left corner */}
-        <a
-          href="https://sanwaralkmali.github.io/mathlogame.html"
-          className="inline-flex items-center px-3 py-2 rounded bg-muted hover:bg-primary/10 text-primary font-semibold transition absolute left-4 top-4 z-20 font-cairo"
-          style={{ textDecoration: 'none' }}
-        >
-          ← Back
-        </a>
         <div className="flex-1 flex flex-col justify-center w-full items-center">
           <Card className="w-full max-w-md mx-4 bg-card/80 backdrop-blur-sm">
             <CardHeader>
