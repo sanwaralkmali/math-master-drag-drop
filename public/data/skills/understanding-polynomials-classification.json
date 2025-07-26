@@ -1,0 +1,932 @@
+{
+  "title": "Polynomial Terminology Builder",
+  "description": "Drag and drop each polynomial into its correct structure category: Monomial, Binomial, Trinomial, or Other Polynomial.",
+  "categories": [
+    {
+      "id": "monomial",
+      "name": "Monomial",
+      "description": "A polynomial with exactly one term (no plus or minus between unlike terms). Example: 5x², –7, 3a⁴b³.",
+      "color": "#4caf50"
+    },
+    {
+      "id": "binomial",
+      "name": "Binomial",
+      "description": "A polynomial with exactly two unlike terms joined by plus or minus. Example: x + 2, 3y² – 5y.",
+      "color": "#2196f3"
+    },
+    {
+      "id": "trinomial",
+      "name": "Trinomial",
+      "description": "A polynomial with exactly three unlike terms joined by plus or minus. Example: x² + 3x + 2.",
+      "color": "#ff9800"
+    },
+    {
+      "id": "other_polynomial",
+      "name": "Other Polynomial",
+      "description": "A polynomial with four or more unlike terms joined by plus or minus. Example: x³ + 2x² – 5x + 7.",
+      "color": "#9c27b0"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "content": "7x",
+      "correctCategory": "monomial",
+      "explanation": "Single term 7x ⇒ monomial."
+    },
+    {
+      "id": "q2",
+      "content": "x² + 4x",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x² and 4x ⇒ binomial."
+    },
+    {
+      "id": "q3",
+      "content": "3x² – 5x + 1",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 3x², –5x, 1 ⇒ trinomial."
+    },
+    {
+      "id": "q4",
+      "content": "8",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term 8 ⇒ monomial."
+    },
+    {
+      "id": "q5",
+      "content": "a³b²c – 4ab² + 6c – 9",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q6",
+      "content": "2x²y³",
+      "correctCategory": "monomial",
+      "explanation": "Single term 2x²y³ ⇒ monomial."
+    },
+    {
+      "id": "q7",
+      "content": "5p – q",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 5p and –q ⇒ binomial."
+    },
+    {
+      "id": "q8",
+      "content": "x⁴ + 3x³ – 2x² + x – 7",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q9",
+      "content": "–7y",
+      "correctCategory": "monomial",
+      "explanation": "Single term –7y ⇒ monomial."
+    },
+    {
+      "id": "q10",
+      "content": "m² + 2mn + n²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: m², 2mn, n² ⇒ trinomial."
+    },
+    {
+      "id": "q11",
+      "content": "4a²b – 3ab²",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 4a²b and –3ab² ⇒ binomial."
+    },
+    {
+      "id": "q12",
+      "content": "9x²y – 4xy + 3y² – 8",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q13",
+      "content": "t⁵",
+      "correctCategory": "monomial",
+      "explanation": "Single term t⁵ ⇒ monomial."
+    },
+    {
+      "id": "q14",
+      "content": "z² – 9",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: z² and –9 ⇒ binomial."
+    },
+    {
+      "id": "q15",
+      "content": "2x³ + 5x² – 3x + 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q16",
+      "content": "–3a²bc³",
+      "correctCategory": "monomial",
+      "explanation": "Single term –3a²bc³ ⇒ monomial."
+    },
+    {
+      "id": "q17",
+      "content": "x² + 2xy + y² – 4",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q18",
+      "content": "p + q",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: p and q ⇒ binomial."
+    },
+    {
+      "id": "q19",
+      "content": "5x² – 8x + 3",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 5x², –8x, 3 ⇒ trinomial."
+    },
+    {
+      "id": "q20",
+      "content": "4k² – 7k",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 4k² and –7k ⇒ binomial."
+    },
+    {
+      "id": "q21",
+      "content": "9",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term 9 ⇒ monomial."
+    },
+    {
+      "id": "q22",
+      "content": "x² – 4x + 7",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x², –4x, 7 ⇒ trinomial."
+    },
+    {
+      "id": "q23",
+      "content": "a³ + b³ + c³ – 3abc",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q24",
+      "content": "–2xy²z",
+      "correctCategory": "monomial",
+      "explanation": "Single term –2xy²z ⇒ monomial."
+    },
+    {
+      "id": "q25",
+      "content": "m² – n²",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: m² and –n² ⇒ binomial."
+    },
+    {
+      "id": "q26",
+      "content": "2a² + 3ab + b²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 2a², 3ab, b² ⇒ trinomial."
+    },
+    {
+      "id": "q27",
+      "content": "x⁴ – 5x³ + 2x² – x + 6",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q28",
+      "content": "7",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term 7 ⇒ monomial."
+    },
+    {
+      "id": "q29",
+      "content": "p² + 2pq + q²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: p², 2pq, q² ⇒ trinomial."
+    },
+    {
+      "id": "q30",
+      "content": "3x – 4y",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 3x and –4y ⇒ binomial."
+    },
+    {
+      "id": "q31",
+      "content": "5",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term 5 ⇒ monomial."
+    },
+    {
+      "id": "q32",
+      "content": "y² + 6y + 9",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: y², 6y, 9 ⇒ trinomial."
+    },
+    {
+      "id": "q33",
+      "content": "x⁴ – 1",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x⁴ and –1 ⇒ binomial."
+    },
+    {
+      "id": "q34",
+      "content": "a³ + 2a² – a + 4",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q35",
+      "content": "–9m",
+      "correctCategory": "monomial",
+      "explanation": "Single term –9m ⇒ monomial."
+    },
+    {
+      "id": "q36",
+      "content": "2x + 3y – 4z",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 2x, 3y, –4z ⇒ trinomial."
+    },
+    {
+      "id": "q37",
+      "content": "u² – 16",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: u² and –16 ⇒ binomial."
+    },
+    {
+      "id": "q38",
+      "content": "x⁵ – 3x⁴ + 2x³ – x² + x – 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Six unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q39",
+      "content": "6p²q³r",
+      "correctCategory": "monomial",
+      "explanation": "Single term 6p²q³r ⇒ monomial."
+    },
+    {
+      "id": "q40",
+      "content": "x² + y² + z²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x², y², z² ⇒ trinomial."
+    },
+    {
+      "id": "q41",
+      "content": "a² – b²",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: a² and –b² ⇒ binomial."
+    },
+    {
+      "id": "q42",
+      "content": "2x – 3",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 2x and –3 ⇒ binomial."
+    },
+    {
+      "id": "q43",
+      "content": "8mn²",
+      "correctCategory": "monomial",
+      "explanation": "Single term 8mn² ⇒ monomial."
+    },
+    {
+      "id": "q44",
+      "content": "x³ + y³ + z³ – 3xyz",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q45",
+      "content": "4a² – 4ab + b²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 4a², –4ab, b² ⇒ trinomial."
+    },
+    {
+      "id": "q46",
+      "content": "–12",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term –12 ⇒ monomial."
+    },
+    {
+      "id": "q47",
+      "content": "x + y + z + w",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q48",
+      "content": "5k² – 2k + 1",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 5k², –2k, 1 ⇒ trinomial."
+    },
+    {
+      "id": "q49",
+      "content": "7xy²z³",
+      "correctCategory": "monomial",
+      "explanation": "Single term 7xy²z³ ⇒ monomial."
+    },
+    {
+      "id": "q50",
+      "content": "p³ – q³",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: p³ and –q³ ⇒ binomial."
+    },
+    {
+      "id": "q51",
+      "content": "x² + 2x + 1",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x², 2x, 1 ⇒ trinomial."
+    },
+    {
+      "id": "q52",
+      "content": "2a + 3b – 4c + 5d",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q53",
+      "content": "–5x³y⁴",
+      "correctCategory": "monomial",
+      "explanation": "Single term –5x³y⁴ ⇒ monomial."
+    },
+    {
+      "id": "q54",
+      "content": "m² – 2mn + n²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: m², –2mn, n² ⇒ trinomial."
+    },
+    {
+      "id": "q55",
+      "content": "x + 1",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x and 1 ⇒ binomial."
+    },
+    {
+      "id": "q56",
+      "content": "a⁴ – b⁴",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: a⁴ and –b⁴ ⇒ binomial."
+    },
+    {
+      "id": "q57",
+      "content": "3",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term 3 ⇒ monomial."
+    },
+    {
+      "id": "q58",
+      "content": "x³ + x² + x + 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q59",
+      "content": "4x² – 9",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 4x² and –9 ⇒ binomial."
+    },
+    {
+      "id": "q60",
+      "content": "2a² + 5ab – 3b²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 2a², 5ab, –3b² ⇒ trinomial."
+    },
+    {
+      "id": "q61",
+      "content": "–8x²y",
+      "correctCategory": "monomial",
+      "explanation": "Single term –8x²y ⇒ monomial."
+    },
+    {
+      "id": "q62",
+      "content": "x – y – z",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x, –y, –z ⇒ trinomial."
+    },
+    {
+      "id": "q63",
+      "content": "5a⁵ – 4a⁴ + 3a³ – 2a² + a – 6",
+      "correctCategory": "other_polynomial",
+      "explanation": "Six unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q64",
+      "content": "6pq",
+      "correctCategory": "monomial",
+      "explanation": "Single term 6pq ⇒ monomial."
+    },
+    {
+      "id": "q65",
+      "content": "x² + y²",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x² and y² ⇒ binomial."
+    },
+    {
+      "id": "q66",
+      "content": "a + b + c",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: a, b, c ⇒ trinomial."
+    },
+    {
+      "id": "q67",
+      "content": "x⁴ + 2x² + 1",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x⁴, 2x², 1 ⇒ trinomial."
+    },
+    {
+      "id": "q68",
+      "content": "–1",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term –1 ⇒ monomial."
+    },
+    {
+      "id": "q69",
+      "content": "2x – 5y + 3z – 4w",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q70",
+      "content": "9abc²",
+      "correctCategory": "monomial",
+      "explanation": "Single term 9abc² ⇒ monomial."
+    },
+    {
+      "id": "q71",
+      "content": "x³ – 1",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x³ and –1 ⇒ binomial."
+    },
+    {
+      "id": "q72",
+      "content": "3x² – 2xy + y²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 3x², –2xy, y² ⇒ trinomial."
+    },
+    {
+      "id": "q73",
+      "content": "5m – 2n + 4p – 3q + 7r",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q74",
+      "content": "–4x⁴y²",
+      "correctCategory": "monomial",
+      "explanation": "Single term –4x⁴y² ⇒ monomial."
+    },
+    {
+      "id": "q75",
+      "content": "a² + 2ab + b²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: a², 2ab, b² ⇒ trinomial."
+    },
+    {
+      "id": "q76",
+      "content": "p – q",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: p and –q ⇒ binomial."
+    },
+    {
+      "id": "q77",
+      "content": "x² – 10x + 25",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x², –10x, 25 ⇒ trinomial."
+    },
+    {
+      "id": "q78",
+      "content": "2a³ – 3a² + 4a – 5",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q79",
+      "content": "11",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term 11 ⇒ monomial."
+    },
+    {
+      "id": "q80",
+      "content": "x + y + z + w + v",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q81",
+      "content": "3x² – 12",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 3x² and –12 ⇒ binomial."
+    },
+    {
+      "id": "q82",
+      "content": "4m²n",
+      "correctCategory": "monomial",
+      "explanation": "Single term 4m²n ⇒ monomial."
+    },
+    {
+      "id": "q83",
+      "content": "a² + b² + c²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: a², b², c² ⇒ trinomial."
+    },
+    {
+      "id": "q84",
+      "content": "x⁵ – x⁴ + x³ – x² + x – 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Six unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q85",
+      "content": "–6xyz",
+      "correctCategory": "monomial",
+      "explanation": "Single term –6xyz ⇒ monomial."
+    },
+    {
+      "id": "q86",
+      "content": "2a + 3b",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 2a and 3b ⇒ binomial."
+    },
+    {
+      "id": "q87",
+      "content": "x² – 6x + 9",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x², –6x, 9 ⇒ trinomial."
+    },
+    {
+      "id": "q88",
+      "content": "5p⁴ – 4p³ + 3p² – 2p + 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q89",
+      "content": "k",
+      "correctCategory": "monomial",
+      "explanation": "Single variable k ⇒ monomial."
+    },
+    {
+      "id": "q90",
+      "content": "x – 2y + 3z",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x, –2y, 3z ⇒ trinomial."
+    },
+    {
+      "id": "q91",
+      "content": "a⁶ – b⁶",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: a⁶ and –b⁶ ⇒ binomial."
+    },
+    {
+      "id": "q92",
+      "content": "3x²y³z",
+      "correctCategory": "monomial",
+      "explanation": "Single term 3x²y³z ⇒ monomial."
+    },
+    {
+      "id": "q93",
+      "content": "2s + 3t – 4u + 5v – 6w",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q94",
+      "content": "x² + 4xy + 4y²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x², 4xy, 4y² ⇒ trinomial."
+    },
+    {
+      "id": "q95",
+      "content": "7a – 8b",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 7a and –8b ⇒ binomial."
+    },
+    {
+      "id": "q96",
+      "content": "–15",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term –15 ⇒ monomial."
+    },
+    {
+      "id": "q97",
+      "content": "x⁴ – 4x³ + 6x² – 4x + 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q98",
+      "content": "9mn³",
+      "correctCategory": "monomial",
+      "explanation": "Single term 9mn³ ⇒ monomial."
+    },
+    {
+      "id": "q99",
+      "content": "a + b + c + d",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q100",
+      "content": "3x² – 5xy + 2y²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 3x², –5xy, 2y² ⇒ trinomial."
+    },
+    {
+      "id": "q101",
+      "content": "2x + 1",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 2x and 1 ⇒ binomial."
+    },
+    {
+      "id": "q102",
+      "content": "x³y²z",
+      "correctCategory": "monomial",
+      "explanation": "Single term x³y²z ⇒ monomial."
+    },
+    {
+      "id": "q103",
+      "content": "a² + b² + c² + d² + e²",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q104",
+      "content": "4p – 7q + 2r",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 4p, –7q, 2r ⇒ trinomial."
+    },
+    {
+      "id": "q105",
+      "content": "–x⁵y",
+      "correctCategory": "monomial",
+      "explanation": "Single term –x⁵y ⇒ monomial."
+    },
+    {
+      "id": "q106",
+      "content": "x – 9",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x and –9 ⇒ binomial."
+    },
+    {
+      "id": "q107",
+      "content": "2a³ + 3a²b + 3ab² + b³",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q108",
+      "content": "5x² – 4x + 3",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 5x², –4x, 3 ⇒ trinomial."
+    },
+    {
+      "id": "q109",
+      "content": "6",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term 6 ⇒ monomial."
+    },
+    {
+      "id": "q110",
+      "content": "a² – b² + c² – d²",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q111",
+      "content": "x²y – xy²",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x²y and –xy² ⇒ binomial."
+    },
+    {
+      "id": "q112",
+      "content": "3x + 2y – z",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 3x, 2y, –z ⇒ trinomial."
+    },
+    {
+      "id": "q113",
+      "content": "–7a²b³c",
+      "correctCategory": "monomial",
+      "explanation": "Single term –7a²b³c ⇒ monomial."
+    },
+    {
+      "id": "q114",
+      "content": "x⁵ – 1",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x⁵ and –1 ⇒ binomial."
+    },
+    {
+      "id": "q115",
+      "content": "a⁴ – 4a³ + 6a² – 4a + 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q116",
+      "content": "4x²y³z⁴",
+      "correctCategory": "monomial",
+      "explanation": "Single term 4x²y³z⁴ ⇒ monomial."
+    },
+    {
+      "id": "q117",
+      "content": "2p + 3q – 4r + 5s",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q118",
+      "content": "x² + 6x + 8",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x², 6x, 8 ⇒ trinomial."
+    },
+    {
+      "id": "q119",
+      "content": "5a – b",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 5a and –b ⇒ binomial."
+    },
+    {
+      "id": "q120",
+      "content": "–3",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term –3 ⇒ monomial."
+    },
+    {
+      "id": "q121",
+      "content": "x³ + 2x²y + 2xy² + y³",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q122",
+      "content": "7m² – 2mn + n²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 7m², –2mn, n² ⇒ trinomial."
+    },
+    {
+      "id": "q123",
+      "content": "abc",
+      "correctCategory": "monomial",
+      "explanation": "Single term abc ⇒ monomial."
+    },
+    {
+      "id": "q124",
+      "content": "x – y + z – w – v",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q125",
+      "content": "a² – 1",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: a² and –1 ⇒ binomial."
+    },
+    {
+      "id": "q126",
+      "content": "2x² – 3xy + y²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 2x², –3xy, y² ⇒ trinomial."
+    },
+    {
+      "id": "q127",
+      "content": "8x⁴y⁵",
+      "correctCategory": "monomial",
+      "explanation": "Single term 8x⁴y⁵ ⇒ monomial."
+    },
+    {
+      "id": "q128",
+      "content": "p + q + r",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: p, q, r ⇒ trinomial."
+    },
+    {
+      "id": "q129",
+      "content": "x⁶ – y⁶",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: x⁶ and –y⁶ ⇒ binomial."
+    },
+    {
+      "id": "q130",
+      "content": "a³ + 3a² + 3a + 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q131",
+      "content": "–9xy²",
+      "correctCategory": "monomial",
+      "explanation": "Single term –9xy² ⇒ monomial."
+    },
+    {
+      "id": "q132",
+      "content": "2x + 3y – 4",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: 2x, 3y, –4 ⇒ trinomial."
+    },
+    {
+      "id": "q133",
+      "content": "5a – 6b + 7c – 8d + 9e",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q134",
+      "content": "x²yz³",
+      "correctCategory": "monomial",
+      "explanation": "Single term x²yz³ ⇒ monomial."
+    },
+    {
+      "id": "q135",
+      "content": "m – n",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: m and –n ⇒ binomial."
+    },
+    {
+      "id": "q136",
+      "content": "x² + 5x + 6",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: x², 5x, 6 ⇒ trinomial."
+    },
+    {
+      "id": "q137",
+      "content": "4",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term 4 ⇒ monomial."
+    },
+    {
+      "id": "q138",
+      "content": "a² – b² + c²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: a², –b², c² ⇒ trinomial."
+    },
+    {
+      "id": "q139",
+      "content": "x⁴ – 3x³ + 2x² – x + 3",
+      "correctCategory": "other_polynomial",
+      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q140",
+      "content": "–xyz²",
+      "correctCategory": "monomial",
+      "explanation": "Single term –xyz² ⇒ monomial."
+    },
+    {
+      "id": "q141",
+      "content": "2p + 5q",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: 2p and 5q ⇒ binomial."
+    },
+    {
+      "id": "q142",
+      "content": "x³ – x² + x – 1",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q143",
+      "content": "3a²b²c",
+      "correctCategory": "monomial",
+      "explanation": "Single term 3a²b²c ⇒ monomial."
+    },
+    {
+      "id": "q144",
+      "content": "u² – 2uv + v²",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: u², –2uv, v² ⇒ trinomial."
+    },
+    {
+      "id": "q145",
+      "content": "x – 3y + 2z – w",
+      "correctCategory": "other_polynomial",
+      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q146",
+      "content": "7x²y",
+      "correctCategory": "monomial",
+      "explanation": "Single term 7x²y ⇒ monomial."
+    },
+    {
+      "id": "q147",
+      "content": "a + b – c",
+      "correctCategory": "trinomial",
+      "explanation": "Three unlike terms: a, b, –c ⇒ trinomial."
+    },
+    {
+      "id": "q148",
+      "content": "2x⁵ – 3x⁴ + x³ – x² + x – 5",
+      "correctCategory": "other_polynomial",
+      "explanation": "Six unlike terms ⇒ polynomial with more than three terms."
+    },
+    {
+      "id": "q149",
+      "content": "–5",
+      "correctCategory": "monomial",
+      "explanation": "Single constant term –5 ⇒ monomial."
+    },
+    {
+      "id": "q150",
+      "content": "m⁴ – n⁴",
+      "correctCategory": "binomial",
+      "explanation": "Two unlike terms: m⁴ and –n⁴ ⇒ binomial."
+    }
+  ]
+}

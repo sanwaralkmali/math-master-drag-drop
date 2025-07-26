@@ -13,14 +13,14 @@ import {
   DialogHeader,
   DialogTitle,
   DialogDescription,
-  DialogClose
+  DialogClose,
 } from "@/components/ui/dialog";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
   const [searchParams] = useSearchParams();
-  const skillParam = searchParams.get('skill');
+  const skillParam = searchParams.get("skill");
   const [gameData, setGameData] = useState<GameData | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -32,6 +32,9 @@ const Index = () => {
   const [showInstructions, setShowInstructions] = useState(false);
   const [timer, setTimer] = useState(0);
   const [numQuestions, setNumQuestions] = useState(12);
+  const [originalQuestions, setOriginalQuestions] = useState<
+    GameData["questions"]
+  >([]);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
@@ -57,25 +60,27 @@ const Index = () => {
   const loadGameData = async (skill: string) => {
     setLoading(true);
     setError(null);
-    
+
     try {
       const response = await fetch(`/data/skills/${skill}.json`);
       if (!response.ok) {
         throw new Error(`Skill "${skill}" not found`);
       }
       const data = await response.json();
+      // Store original questions for re-randomization
+      setOriginalQuestions(data.questions);
       // Randomly select numQuestions questions if more than numQuestions
       let questions = data.questions;
       if (Array.isArray(questions) && questions.length > numQuestions) {
         questions = questions
-          .map(q => ({ q, sort: Math.random() }))
+          .map((q) => ({ q, sort: Math.random() }))
           .sort((a, b) => a.sort - b.sort)
           .slice(0, numQuestions)
           .map(({ q }) => q);
       }
       setGameData({ ...data, questions });
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to load game data');
+      setError(err instanceof Error ? err.message : "Failed to load game data");
     } finally {
       setLoading(false);
     }
@@ -91,15 +96,17 @@ const Index = () => {
     setGameCompleted(false);
     setFinalScore(0);
     setTimer(0);
-    // Re-randomize questions if more than numQuestions
-    if (gameData && Array.isArray(gameData.questions) && gameData.questions.length > numQuestions) {
-      const allQuestions = [...gameData.questions];
-      const questions = allQuestions
-        .map(q => ({ q, sort: Math.random() }))
+    // Re-randomize questions from the original full list
+    if (
+      originalQuestions.length > 0 &&
+      originalQuestions.length > numQuestions
+    ) {
+      const questions = originalQuestions
+        .map((q) => ({ q, sort: Math.random() }))
         .sort((a, b) => a.sort - b.sort)
         .slice(0, numQuestions)
         .map(({ q }) => q);
-      setGameData({ ...gameData, questions });
+      setGameData((prev) => (prev ? { ...prev, questions } : null));
     }
     setShowGame(false);
     setTimeout(() => setShowGame(true), 0); // Restart game
@@ -110,18 +117,19 @@ const Index = () => {
     return (
       <div className="min-h-screen bg-gradient-game">
         <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-          <div 
+          <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
             style={{ backgroundImage: `url(${heroImage})` }}
           />
-          
+
           <div className="relative z-10 text-center animate-fade-in px-4">
             <div className="mb-8">
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-6 leading-tight">
                 MathMaster
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
-                Master high school mathematics through interactive drag-and-drop games
+                Master high school mathematics through interactive drag-and-drop
+                games
               </p>
             </div>
 
@@ -133,7 +141,9 @@ const Index = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground">
-                <p>This app is designed to be accessed with a skill parameter.</p>
+                <p>
+                  This app is designed to be accessed with a skill parameter.
+                </p>
                 <p className="mt-2 font-mono text-xs bg-muted p-2 rounded">
                   ?skill=classification-numbers
                 </p>
@@ -174,7 +184,11 @@ const Index = () => {
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground mb-4">{error}</p>
-            <Button onClick={() => window.history.back()} variant="outline" className="w-full">
+            <Button
+              onClick={() => window.history.back()}
+              variant="outline"
+              className="w-full"
+            >
               Go Back
             </Button>
           </CardContent>
@@ -186,8 +200,7 @@ const Index = () => {
   // Pre-interface before game starts
   if (skillParam && gameData && !showGame) {
     // Fake leaderboard data
-    const leaderboard = [
-    ];
+    const leaderboard = [];
     return (
       <div className="min-h-screen bg-gradient-game flex flex-col items-center justify-center relative">
         <div className="flex-1 flex flex-col justify-center w-full items-center">
@@ -197,24 +210,30 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <div className="mb-4">
-                <label className="block mb-2 font-medium">Enter your name:</label>
+                <label className="block mb-2 font-medium">
+                  Enter your name:
+                </label>
                 <input
                   type="text"
                   className="w-full px-3 py-2 border rounded focus:outline-none focus:ring"
                   value={userName}
-                  onChange={e => setUserName(e.target.value)}
+                  onChange={(e) => setUserName(e.target.value)}
                   placeholder="Your name"
                 />
               </div>
               <div className="mb-4">
-                <label className="block mb-2 font-medium">Choose number of questions:</label>
+                <label className="block mb-2 font-medium">
+                  Choose number of questions:
+                </label>
                 <div className="flex gap-2">
-                  {[8, 12, 16, 24].map(n => (
+                  {[8, 12, 16, 24].map((n) => (
                     <Button
                       key={n}
                       type="button"
                       variant={numQuestions === n ? "default" : "outline"}
-                      className={numQuestions === n ? "bg-primary text-white" : ""}
+                      className={
+                        numQuestions === n ? "bg-primary text-white" : ""
+                      }
                       onClick={() => setNumQuestions(n)}
                     >
                       {n}
@@ -231,10 +250,17 @@ const Index = () => {
                   Start the Game
                 </Button>
                 {/* Leaderboard Button and Dialog */}
-                <Button className="w-full" variant="outline" onClick={() => setShowLeaderboard(true)}>
+                <Button
+                  className="w-full"
+                  variant="outline"
+                  onClick={() => setShowLeaderboard(true)}
+                >
                   Leaderboard
                 </Button>
-                <Dialog open={showLeaderboard} onOpenChange={setShowLeaderboard}>
+                <Dialog
+                  open={showLeaderboard}
+                  onOpenChange={setShowLeaderboard}
+                >
                   <DialogContent>
                     <DialogHeader>
                       <DialogTitle>Leaderboard - {gameData.title}</DialogTitle>
@@ -249,7 +275,12 @@ const Index = () => {
                         </thead>
                         <tbody>
                           {leaderboard.map((entry, idx) => (
-                            <tr key={idx} className={entry.highlight ? "font-bold text-primary" : ""}>
+                            <tr
+                              key={idx}
+                              className={
+                                entry.highlight ? "font-bold text-primary" : ""
+                              }
+                            >
                               <td className="py-1">{entry.name}</td>
                               <td className="py-1">{entry.score}%</td>
                             </tr>
@@ -263,29 +294,39 @@ const Index = () => {
                   </DialogContent>
                 </Dialog>
                 {/* How to Play Button and Dialog */}
-                <Button className="w-full" variant="outline" onClick={() => {
-                  console.log('Opening How to play the game dialog');
-                  setShowInstructions(true);
-                }}>
+                <Button
+                  className="w-full"
+                  variant="outline"
+                  onClick={() => {
+                    console.log("Opening How to play the game dialog");
+                    setShowInstructions(true);
+                  }}
+                >
                   How to play the game
                 </Button>
-                <Dialog open={showInstructions} onOpenChange={(open) => {
-                  console.log('Dialog onOpenChange', open);
-                  setShowInstructions(open);
-                }}>
+                <Dialog
+                  open={showInstructions}
+                  onOpenChange={(open) => {
+                    console.log("Dialog onOpenChange", open);
+                    setShowInstructions(open);
+                  }}
+                >
                   <DialogContent>
                     <DialogHeader>
                       <DialogTitle>How to Play</DialogTitle>
                     </DialogHeader>
                     <DialogDescription>
                       <ul className="list-disc pl-5 space-y-2 text-left">
-                        {(gameData && Array.isArray(gameData.instructions) ? gameData.instructions : [
-                          "No instructions available for this skill."
-                        ]).map((line, idx) => (
+                        {(gameData && Array.isArray(gameData.instructions)
+                          ? gameData.instructions
+                          : ["No instructions available for this skill."]
+                        ).map((line, idx) => (
                           <li key={idx}>{line}</li>
                         ))}
                       </ul>
-                      <div className="mt-4 font-semibold">Good luck and have fun learning!</div>
+                      <div className="mt-4 font-semibold">
+                        Good luck and have fun learning!
+                      </div>
                     </DialogDescription>
                     <DialogClose asChild>
                       <Button className="mt-4 w-full">Close</Button>
@@ -323,11 +364,21 @@ const Index = () => {
         {/* Math symbols background */}
         <div className="absolute inset-0 pointer-events-none z-0 animate-float-math">
           {/* Example math symbols, you can add more or use SVGs for better visuals */}
-          <span className="absolute left-10 top-10 text-6xl opacity-20 select-none">∑</span>
-          <span className="absolute right-20 top-32 text-5xl opacity-20 select-none">π</span>
-          <span className="absolute left-1/2 top-1/4 text-7xl opacity-10 select-none">√</span>
-          <span className="absolute right-1/3 bottom-10 text-6xl opacity-15 select-none">∞</span>
-          <span className="absolute left-1/4 bottom-20 text-5xl opacity-10 select-none">∫</span>
+          <span className="absolute left-10 top-10 text-6xl opacity-20 select-none">
+            ∑
+          </span>
+          <span className="absolute right-20 top-32 text-5xl opacity-20 select-none">
+            π
+          </span>
+          <span className="absolute left-1/2 top-1/4 text-7xl opacity-10 select-none">
+            √
+          </span>
+          <span className="absolute right-1/3 bottom-10 text-6xl opacity-15 select-none">
+            ∞
+          </span>
+          <span className="absolute left-1/4 bottom-20 text-5xl opacity-10 select-none">
+            ∫
+          </span>
         </div>
         <div className="max-w-7xl mx-auto relative z-10">
           {/* Game Header */}
@@ -338,9 +389,27 @@ const Index = () => {
               </h1>
             </div>
             <div className="flex flex-col items-center md:items-end gap-2">
-              <div className="text-lg font-semibold">Player: <span className="text-primary">{userName}</span></div>
-              <div className="text-lg font-semibold">Time: <span className="text-primary">{Math.floor(timer / 60)}:{(timer % 60).toString().padStart(2, '0')}</span></div>
+              <div className="text-lg font-semibold">
+                Player: <span className="text-primary">{userName}</span>
+              </div>
+              <div className="text-lg font-semibold">
+                Time:{" "}
+                <span className="text-primary">
+                  {Math.floor(timer / 60)}:
+                  {(timer % 60).toString().padStart(2, "0")}
+                </span>
+              </div>
             </div>
+          </div>
+          {/* Back to Dashboard Button */}
+          <div className="mb-4">
+            <Button
+              variant="outline"
+              onClick={() => setShowGame(false)}
+              className="font-cairo"
+            >
+              ← Back to Dashboard
+            </Button>
           </div>
           {/* Game Completion Overlay */}
           {gameCompleted && (
@@ -351,7 +420,10 @@ const Index = () => {
                     Game Complete! 🎉
                   </h2>
                   <p className="text-3xl font-bold mb-4">{finalScore}%</p>
-                  <Button onClick={handlePlayAgain} className="bg-gradient-primary">
+                  <Button
+                    onClick={handlePlayAgain}
+                    className="bg-gradient-primary"
+                  >
                     <RotateCcw className="w-4 h-4 mr-2" />
                     Play Again
                   </Button>
