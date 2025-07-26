@@ -1,659 +1,659 @@
 {
-    "title": "Classification of Numbers",
-    "description": "Classify numbers into categories such as rational, irrational, imaginary, etc.",
-    "categories": [
-      {
-        "id": "complex",
-        "name": "Complex Numbers",
-        "description": "Numbers in the form a + bi, where a and b are real numbers and i is the imaginary unit",
-        "color": "purple"
-      },
-      {
-        "id": "imaginary",
-        "name": "Imaginary Numbers",
-        "description": "Numbers in the form bi, where b is a real number and i is the imaginary unit",
-        "color": "blue"
-      },
-      {
-        "id": "irrational",
-        "name": "Irrational Numbers",
-        "description": "Numbers that cannot be expressed as a ratio of two integers",
-        "color": "red"
-      },
-      {
-        "id": "rational",
-        "name": "Rational Numbers",
-        "description": "Numbers that can be expressed as a ratio of two integers",
-        "color": "green"
-      },
-      {
-        "id": "integer",
-        "name": "Integers",
-        "description": "Whole numbers and their negatives (...-2, -1, 0, 1, 2...)",
-        "color": "orange"
-      },
-      {
-        "id": "whole",
-        "name": "Whole Numbers",
-        "description": "Non-negative integers (0, 1, 2, 3, ...)",
-        "color": "yellow"
-      },
-      {
-        "id": "natural",
-        "name": "Natural Numbers",
-        "description": "Positive integers (1, 2, 3, ...)",
-        "color": "teal"
-      }
-    ],
-    "questions": [
-        {
-          "id": "q1",
-          "content": "1 - 4i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q2",
-          "content": "2i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q3",
-          "content": "π",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q4",
-          "content": "7.25",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (can be expressed as 29/4)"
-        },
-        {
-          "id": "q5",
-          "content": "12",
-          "correctCategory": "integer",
-          "explanation": "This is an integer"
-        },
-        {
-          "id": "q6",
-          "content": "-5",
-          "correctCategory": "integer",
-          "explanation": "This is a negative integer"
-        },
-        {
-          "id": "q7",
-          "content": "0",
-          "correctCategory": "whole",
-          "explanation": "This is a whole number"
-        },
-        {
-          "id": "q8",
-          "content": "√2",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q9",
-          "content": "3 + 7i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q10",
-          "content": "1/3",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (fraction)"
-        },
-        {
-          "id": "q11",
-          "content": "25",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q12",
-          "content": "-8i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q13",
-          "content": "√16",
-          "correctCategory": "natural",
-          "explanation": "This equals 4, which is a natural number"
-        },
-        {
-          "id": "q14",
-          "content": "e",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number (Euler's number)"
-        },
-        {
-          "id": "q15",
-          "content": "-12.5",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (can be expressed as -25/2)"
-        },
-        {
-          "id": "q16",
-          "content": "0.375",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 3/8)"
-        },
-        {
-          "id": "q17",
-          "content": "√-9",
-          "correctCategory": "imaginary",
-          "explanation": "This equals 3i, which is a pure imaginary number"
-        },
-        {
-          "id": "q18",
-          "content": "4 - 2i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q19",
-          "content": "100",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q20",
-          "content": "√3",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q21",
-          "content": "-7",
-          "correctCategory": "integer",
-          "explanation": "This is a negative integer"
-        },
-        {
-          "id": "q22",
-          "content": "2/5",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (fraction)"
-        },
-        {
-          "id": "q23",
-          "content": "i",
-          "correctCategory": "imaginary",
-          "explanation": "This is the imaginary unit"
-        },
-        {
-          "id": "q24",
-          "content": "0.666...",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 2/3)"
-        },
-        {
-          "id": "q25",
-          "content": "√5",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q26",
-          "content": "8",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q27",
-          "content": "-1 + 3i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q28",
-          "content": "15.0",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number (the decimal doesn't change its classification)"
-        },
-        {
-          "id": "q29",
-          "content": "√7",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q30",
-          "content": "-6i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q31",
-          "content": "9/4",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 2.25)"
-        },
-        {
-          "id": "q32",
-          "content": "0.5",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 1/2)"
-        },
-        {
-          "id": "q33",
-          "content": "√-16",
-          "correctCategory": "imaginary",
-          "explanation": "This equals 4i, which is a pure imaginary number"
-        },
-        {
-          "id": "q34",
-          "content": "42",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q35",
-          "content": "π/2",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q36",
-          "content": "-100",
-          "correctCategory": "integer",
-          "explanation": "This is a negative integer"
-        },
-        {
-          "id": "q37",
-          "content": "5 + 0i",
-          "correctCategory": "real",
-          "explanation": "This is a real number (imaginary part is zero)"
-        },
-        {
-          "id": "q38",
-          "content": "√36",
-          "correctCategory": "natural",
-          "explanation": "This equals 6, which is a natural number"
-        },
-        {
-          "id": "q39",
-          "content": "0.125",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 1/8)"
-        },
-        {
-          "id": "q40",
-          "content": "2√2",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q41",
-          "content": "7i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q42",
-          "content": "-3/7",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (negative fraction)"
-        },
-        {
-          "id": "q43",
-          "content": "6 - 4i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q44",
-          "content": "√11",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q45",
-          "content": "1",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q46",
-          "content": "0.2",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 1/5)"
-        },
-        {
-          "id": "q47",
-          "content": "√-25",
-          "correctCategory": "imaginary",
-          "explanation": "This equals 5i, which is a pure imaginary number"
-        },
-        {
-          "id": "q48",
-          "content": "-15",
-          "correctCategory": "integer",
-          "explanation": "This is a negative integer"
-        },
-        {
-          "id": "q49",
-          "content": "3π",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q50",
-          "content": "8/3",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (fraction)"
-        },
-        {
-          "id": "q51",
-          "content": "√81",
-          "correctCategory": "natural",
-          "explanation": "This equals 9, which is a natural number"
-        },
-        {
-          "id": "q52",
-          "content": "-2 - 5i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q53",
-          "content": "√13",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q54",
-          "content": "0.75",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 3/4)"
-        },
-        {
-          "id": "q55",
-          "content": "9i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q56",
-          "content": "33",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q57",
-          "content": "√-4",
-          "correctCategory": "imaginary",
-          "explanation": "This equals 2i, which is a pure imaginary number"
-        },
-        {
-          "id": "q58",
-          "content": "-0.5",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals -1/2)"
-        },
-        {
-          "id": "q59",
-          "content": "√17",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q60",
-          "content": "10 + 8i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q61",
-          "content": "5/6",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (fraction)"
-        },
-        {
-          "id": "q62",
-          "content": "√64",
-          "correctCategory": "natural",
-          "explanation": "This equals 8, which is a natural number"
-        },
-        {
-          "id": "q63",
-          "content": "-20",
-          "correctCategory": "integer",
-          "explanation": "This is a negative integer"
-        },
-        {
-          "id": "q64",
-          "content": "√6",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q65",
-          "content": "-10i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q66",
-          "content": "0.1",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 1/10)"
-        },
-        {
-          "id": "q67",
-          "content": "4 + 9i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q68",
-          "content": "77",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q69",
-          "content": "√19",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q70",
-          "content": "7/8",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (fraction)"
-        },
-        {
-          "id": "q71",
-          "content": "√-36",
-          "correctCategory": "imaginary",
-          "explanation": "This equals 6i, which is a pure imaginary number"
-        },
-        {
-          "id": "q72",
-          "content": "-1",
-          "correctCategory": "integer",
-          "explanation": "This is a negative integer"
-        },
-        {
-          "id": "q73",
-          "content": "2e",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q74",
-          "content": "0.6",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 3/5)"
-        },
-        {
-          "id": "q75",
-          "content": "√100",
-          "correctCategory": "natural",
-          "explanation": "This equals 10, which is a natural number"
-        },
-        {
-          "id": "q76",
-          "content": "-7 + 2i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q77",
-          "content": "√23",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q78",
-          "content": "11i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q79",
-          "content": "4/9",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (fraction)"
-        },
-        {
-          "id": "q80",
-          "content": "55",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q81",
-          "content": "√-49",
-          "correctCategory": "imaginary",
-          "explanation": "This equals 7i, which is a pure imaginary number"
-        },
-        {
-          "id": "q82",
-          "content": "-3.25",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals -13/4)"
-        },
-        {
-          "id": "q83",
-          "content": "√29",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q84",
-          "content": "5 - 3i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q85",
-          "content": "0.4",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 2/5)"
-        },
-        {
-          "id": "q86",
-          "content": "√121",
-          "correctCategory": "natural",
-          "explanation": "This equals 11, which is a natural number"
-        },
-        {
-          "id": "q87",
-          "content": "-50",
-          "correctCategory": "integer",
-          "explanation": "This is a negative integer"
-        },
-        {
-          "id": "q88",
-          "content": "√31",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q89",
-          "content": "12i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q90",
-          "content": "6/7",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (fraction)"
-        },
-        {
-          "id": "q91",
-          "content": "√-64",
-          "correctCategory": "imaginary",
-          "explanation": "This equals 8i, which is a pure imaginary number"
-        },
-        {
-          "id": "q92",
-          "content": "99",
-          "correctCategory": "natural",
-          "explanation": "This is a natural number"
-        },
-        {
-          "id": "q93",
-          "content": "√37",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q94",
-          "content": "8 + 5i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        },
-        {
-          "id": "q95",
-          "content": "0.8",
-          "correctCategory": "rational",
-          "explanation": "This is a rational number (equals 4/5)"
-        },
-        {
-          "id": "q96",
-          "content": "√144",
-          "correctCategory": "natural",
-          "explanation": "This equals 12, which is a natural number"
-        },
-        {
-          "id": "q97",
-          "content": "-25",
-          "correctCategory": "integer",
-          "explanation": "This is a negative integer"
-        },
-        {
-          "id": "q98",
-          "content": "√41",
-          "correctCategory": "irrational",
-          "explanation": "This is an irrational number"
-        },
-        {
-          "id": "q99",
-          "content": "-4i",
-          "correctCategory": "imaginary",
-          "explanation": "This is a pure imaginary number"
-        },
-        {
-          "id": "q100",
-          "content": "9 - 7i",
-          "correctCategory": "complex",
-          "explanation": "This is a complex number with both real and imaginary parts"
-        }
-      ],
-    "instructions": [
-      "Enter your name and start the game.",
-      "You will see 100 numbers. Your task is to classify each number into the correct category (e.g., Rational, Irrational, Integer, etc.).",
-      "Click a number to select it, then click the category where it belongs.",
-      "If you make a mistake, you can move numbers between categories.",
-      "When you finish, click the Submit button to see your results and score.",
-      "Try to get as many correct as possible and see your name on the leaderboard!"
-    ]
-  }
-  
+  "title": "Classification of Numbers",
+  "description": "Classify numbers into categories such as rational, irrational, imaginary, etc.",
+  "categories": [
+    {
+      "id": "complex",
+      "name": "Complex Numbers",
+      "description": "Numbers in the form a + bi, where a and b are real numbers and i is the imaginary unit",
+      "color": "purple"
+    },
+    {
+      "id": "imaginary",
+      "name": "Imaginary Numbers",
+      "description": "Numbers in the form bi, where b is a real number and i is the imaginary unit",
+      "color": "blue"
+    },
+    {
+      "id": "irrational",
+      "name": "Irrational Numbers",
+      "description": "Numbers that cannot be expressed as a ratio of two integers",
+      "color": "red"
+    },
+    {
+      "id": "rational",
+      "name": "Rational Numbers",
+      "description": "Numbers that can be expressed as a ratio of two integers",
+      "color": "green"
+    },
+    {
+      "id": "integer",
+      "name": "Integers",
+      "description": "Whole numbers and their negatives (...-2, -1, 0, 1, 2...)",
+      "color": "orange"
+    },
+    {
+      "id": "whole",
+      "name": "Whole Numbers",
+      "description": "Non-negative integers (0, 1, 2, 3, ...)",
+      "color": "yellow"
+    },
+    {
+      "id": "natural",
+      "name": "Natural Numbers",
+      "description": "Positive integers (1, 2, 3, ...)",
+      "color": "teal"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "content": "1 - 4i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q2",
+      "content": "2i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q3",
+      "content": "π",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q4",
+      "content": "7.25",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (can be expressed as 29/4)"
+    },
+    {
+      "id": "q5",
+      "content": "12",
+      "correctCategory": "integer",
+      "explanation": "This is an integer"
+    },
+    {
+      "id": "q6",
+      "content": "-5",
+      "correctCategory": "integer",
+      "explanation": "This is a negative integer"
+    },
+    {
+      "id": "q7",
+      "content": "0",
+      "correctCategory": "whole",
+      "explanation": "This is a whole number"
+    },
+    {
+      "id": "q8",
+      "content": "√2",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q9",
+      "content": "3 + 7i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q10",
+      "content": "1/3",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (fraction)"
+    },
+    {
+      "id": "q11",
+      "content": "25",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q12",
+      "content": "-8i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q13",
+      "content": "√16",
+      "correctCategory": "natural",
+      "explanation": "This equals 4, which is a natural number"
+    },
+    {
+      "id": "q14",
+      "content": "e",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number (Euler's number)"
+    },
+    {
+      "id": "q15",
+      "content": "-12.5",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (can be expressed as -25/2)"
+    },
+    {
+      "id": "q16",
+      "content": "0.375",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 3/8)"
+    },
+    {
+      "id": "q17",
+      "content": "√-9",
+      "correctCategory": "imaginary",
+      "explanation": "This equals 3i, which is a pure imaginary number"
+    },
+    {
+      "id": "q18",
+      "content": "4 - 2i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q19",
+      "content": "100",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q20",
+      "content": "√3",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q21",
+      "content": "-7",
+      "correctCategory": "integer",
+      "explanation": "This is a negative integer"
+    },
+    {
+      "id": "q22",
+      "content": "2/5",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (fraction)"
+    },
+    {
+      "id": "q23",
+      "content": "i",
+      "correctCategory": "imaginary",
+      "explanation": "This is the imaginary unit"
+    },
+    {
+      "id": "q24",
+      "content": "0.666...",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 2/3)"
+    },
+    {
+      "id": "q25",
+      "content": "√5",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q26",
+      "content": "8",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q27",
+      "content": "-1 + 3i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q28",
+      "content": "15.0",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number (the decimal doesn't change its classification)"
+    },
+    {
+      "id": "q29",
+      "content": "√7",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q30",
+      "content": "-6i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q31",
+      "content": "9/4",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 2.25)"
+    },
+    {
+      "id": "q32",
+      "content": "0.5",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 1/2)"
+    },
+    {
+      "id": "q33",
+      "content": "√-16",
+      "correctCategory": "imaginary",
+      "explanation": "This equals 4i, which is a pure imaginary number"
+    },
+    {
+      "id": "q34",
+      "content": "42",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q35",
+      "content": "π/2",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q36",
+      "content": "-100",
+      "correctCategory": "integer",
+      "explanation": "This is a negative integer"
+    },
+    {
+      "id": "q37",
+      "content": "5 + 0i",
+      "correctCategory": "real",
+      "explanation": "This is a real number (imaginary part is zero)"
+    },
+    {
+      "id": "q38",
+      "content": "√36",
+      "correctCategory": "natural",
+      "explanation": "This equals 6, which is a natural number"
+    },
+    {
+      "id": "q39",
+      "content": "0.125",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 1/8)"
+    },
+    {
+      "id": "q40",
+      "content": "2√2",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q41",
+      "content": "7i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q42",
+      "content": "-3/7",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (negative fraction)"
+    },
+    {
+      "id": "q43",
+      "content": "6 - 4i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q44",
+      "content": "√11",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q45",
+      "content": "1",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q46",
+      "content": "0.2",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 1/5)"
+    },
+    {
+      "id": "q47",
+      "content": "√-25",
+      "correctCategory": "imaginary",
+      "explanation": "This equals 5i, which is a pure imaginary number"
+    },
+    {
+      "id": "q48",
+      "content": "-15",
+      "correctCategory": "integer",
+      "explanation": "This is a negative integer"
+    },
+    {
+      "id": "q49",
+      "content": "3π",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q50",
+      "content": "8/3",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (fraction)"
+    },
+    {
+      "id": "q51",
+      "content": "√81",
+      "correctCategory": "natural",
+      "explanation": "This equals 9, which is a natural number"
+    },
+    {
+      "id": "q52",
+      "content": "-2 - 5i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q53",
+      "content": "√13",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q54",
+      "content": "0.75",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 3/4)"
+    },
+    {
+      "id": "q55",
+      "content": "9i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q56",
+      "content": "33",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q57",
+      "content": "√-4",
+      "correctCategory": "imaginary",
+      "explanation": "This equals 2i, which is a pure imaginary number"
+    },
+    {
+      "id": "q58",
+      "content": "-0.5",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals -1/2)"
+    },
+    {
+      "id": "q59",
+      "content": "√17",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q60",
+      "content": "10 + 8i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q61",
+      "content": "5/6",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (fraction)"
+    },
+    {
+      "id": "q62",
+      "content": "√64",
+      "correctCategory": "natural",
+      "explanation": "This equals 8, which is a natural number"
+    },
+    {
+      "id": "q63",
+      "content": "-20",
+      "correctCategory": "integer",
+      "explanation": "This is a negative integer"
+    },
+    {
+      "id": "q64",
+      "content": "√6",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q65",
+      "content": "-10i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q66",
+      "content": "0.1",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 1/10)"
+    },
+    {
+      "id": "q67",
+      "content": "4 + 9i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q68",
+      "content": "77",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q69",
+      "content": "√19",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q70",
+      "content": "7/8",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (fraction)"
+    },
+    {
+      "id": "q71",
+      "content": "√-36",
+      "correctCategory": "imaginary",
+      "explanation": "This equals 6i, which is a pure imaginary number"
+    },
+    {
+      "id": "q72",
+      "content": "-1",
+      "correctCategory": "integer",
+      "explanation": "This is a negative integer"
+    },
+    {
+      "id": "q73",
+      "content": "2e",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q74",
+      "content": "0.6",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 3/5)"
+    },
+    {
+      "id": "q75",
+      "content": "√100",
+      "correctCategory": "natural",
+      "explanation": "This equals 10, which is a natural number"
+    },
+    {
+      "id": "q76",
+      "content": "-7 + 2i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q77",
+      "content": "√23",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q78",
+      "content": "11i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q79",
+      "content": "4/9",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (fraction)"
+    },
+    {
+      "id": "q80",
+      "content": "55",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q81",
+      "content": "√-49",
+      "correctCategory": "imaginary",
+      "explanation": "This equals 7i, which is a pure imaginary number"
+    },
+    {
+      "id": "q82",
+      "content": "-3.25",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals -13/4)"
+    },
+    {
+      "id": "q83",
+      "content": "√29",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q84",
+      "content": "5 - 3i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q85",
+      "content": "0.4",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 2/5)"
+    },
+    {
+      "id": "q86",
+      "content": "√121",
+      "correctCategory": "natural",
+      "explanation": "This equals 11, which is a natural number"
+    },
+    {
+      "id": "q87",
+      "content": "-50",
+      "correctCategory": "integer",
+      "explanation": "This is a negative integer"
+    },
+    {
+      "id": "q88",
+      "content": "√31",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q89",
+      "content": "12i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q90",
+      "content": "6/7",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (fraction)"
+    },
+    {
+      "id": "q91",
+      "content": "√-64",
+      "correctCategory": "imaginary",
+      "explanation": "This equals 8i, which is a pure imaginary number"
+    },
+    {
+      "id": "q92",
+      "content": "99",
+      "correctCategory": "natural",
+      "explanation": "This is a natural number"
+    },
+    {
+      "id": "q93",
+      "content": "√37",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q94",
+      "content": "8 + 5i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    },
+    {
+      "id": "q95",
+      "content": "0.8",
+      "correctCategory": "rational",
+      "explanation": "This is a rational number (equals 4/5)"
+    },
+    {
+      "id": "q96",
+      "content": "√144",
+      "correctCategory": "natural",
+      "explanation": "This equals 12, which is a natural number"
+    },
+    {
+      "id": "q97",
+      "content": "-25",
+      "correctCategory": "integer",
+      "explanation": "This is a negative integer"
+    },
+    {
+      "id": "q98",
+      "content": "√41",
+      "correctCategory": "irrational",
+      "explanation": "This is an irrational number"
+    },
+    {
+      "id": "q99",
+      "content": "-4i",
+      "correctCategory": "imaginary",
+      "explanation": "This is a pure imaginary number"
+    },
+    {
+      "id": "q100",
+      "content": "9 - 7i",
+      "correctCategory": "complex",
+      "explanation": "This is a complex number with both real and imaginary parts"
+    }
+  ],
+  "instructions": [
+    "Enter your name and start the game.",
+    "Choose the number of numbers you want to solve.",
+    "Your task is to classify each number into the correct category (e.g., Rational, Irrational, Integer, etc.).",
+    "Drag a number to the category where it belongs.",
+    "If you make a mistake, you can move numbers between categories.",
+    "When you finish, click the Submit button to see your results and score.",
+    "Try to get as many correct as possible and see your name on the leaderboard!"
+  ]
+}

@@ -928,5 +928,14 @@
       "correctCategory": "binomial",
       "explanation": "Two unlike terms: m⁴ and –n⁴ ⇒ binomial."
     }
+  ],
+  "instructions": [
+    "Enter your name and start the game.",
+    "Choose the number of polynomials you want to solve.",
+    "Your task is to classify each polynomial into the correct category (e.g., monomial, binomial, trinomial, other polynomial).",
+    "Click a polynomial to select it, then click the category where it belongs.",
+    "If you make a mistake, you can move polynomials between categories.",
+    "When you finish, click the Submit button to see your results and score.",
+    "Try to get as many correct as possible and see your name on the leaderboard!"
   ]
 }
