@@ -202,173 +202,7 @@ const Index = () => {
     // Fake leaderboard data
     const leaderboard = [];
     return (
-      <div className="min-h-screen bg-gradient-game flex flex-col items-center justify-center relative">
-        <div className="flex-1 flex flex-col justify-center w-full items-center">
-          <Card className="w-full max-w-md mx-4 bg-card/80 backdrop-blur-sm">
-            <CardHeader>
-              <CardTitle className="text-center text-xl">
-                {gameData.title}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div>
-                <label className="block mb-2 font-medium text-base">
-                  Enter your name:
-                </label>
-                <input
-                  type="text"
-                  className="w-full px-3 py-2 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-base"
-                  value={userName}
-                  onChange={(e) => setUserName(e.target.value)}
-                  placeholder="Your name"
-                />
-              </div>
-              <div>
-                <label className="block mb-2 font-medium text-base">
-                  Choose number of questions:
-                </label>
-                <div className="grid grid-cols-2 gap-2">
-                  {[8, 12, 16, 24].map((n) => (
-                    <Button
-                      key={n}
-                      type="button"
-                      variant={numQuestions === n ? "default" : "outline"}
-                      className={`py-2 text-sm ${
-                        numQuestions === n ? "bg-primary text-white" : ""
-                      }`}
-                      onClick={() => setNumQuestions(n)}
-                    >
-                      {n}
-                    </Button>
-                  ))}
-                </div>
-              </div>
-              <div className="flex flex-col gap-3">
-                <Button
-                  className="w-full py-3 text-base"
-                  disabled={!userName}
-                  onClick={() => setShowGame(true)}
-                >
-                  Start the Game
-                </Button>
-                {/* Leaderboard Button and Dialog */}
-                <Button
-                  className="w-full py-3 text-base"
-                  variant="outline"
-                  onClick={() => setShowLeaderboard(true)}
-                >
-                  Leaderboard
-                </Button>
-                <Dialog
-                  open={showLeaderboard}
-                  onOpenChange={setShowLeaderboard}
-                >
-                  <DialogContent className="max-w-md mx-4">
-                    <DialogHeader>
-                      <DialogTitle className="text-xl">
-                        Leaderboard - {gameData.title}
-                      </DialogTitle>
-                    </DialogHeader>
-                    <div className="mt-4">
-                      <table className="w-full text-left">
-                        <thead>
-                          <tr>
-                            <th className="py-2 text-lg">Name</th>
-                            <th className="py-2 text-lg">Score</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {leaderboard.map((entry, idx) => (
-                            <tr
-                              key={idx}
-                              className={
-                                entry.highlight ? "font-bold text-primary" : ""
-                              }
-                            >
-                              <td className="py-2 text-base">{entry.name}</td>
-                              <td className="py-2 text-base">{entry.score}%</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                    <DialogClose asChild>
-                      <Button className="mt-4 w-full py-3 text-lg">
-                        Close
-                      </Button>
-                    </DialogClose>
-                  </DialogContent>
-                </Dialog>
-                {/* How to Play Button and Dialog */}
-                <Button
-                  className="w-full py-3 text-base"
-                  variant="outline"
-                  onClick={() => {
-                    console.log("Opening How to play the game dialog");
-                    setShowInstructions(true);
-                  }}
-                >
-                  How to play the game
-                </Button>
-                <Dialog
-                  open={showInstructions}
-                  onOpenChange={(open) => {
-                    console.log("Dialog onOpenChange", open);
-                    setShowInstructions(open);
-                  }}
-                >
-                  <DialogContent className="max-w-md mx-4">
-                    <DialogHeader>
-                      <DialogTitle className="text-xl">How to Play</DialogTitle>
-                    </DialogHeader>
-                    <DialogDescription className="text-base">
-                      <ul className="list-disc pl-5 space-y-3 text-left">
-                        {(gameData && Array.isArray(gameData.instructions)
-                          ? gameData.instructions
-                          : ["No instructions available for this skill."]
-                        ).map((line, idx) => (
-                          <li key={idx}>{line}</li>
-                        ))}
-                      </ul>
-                      <div className="mt-4 font-semibold text-lg">
-                        Good luck and have fun learning!
-                      </div>
-                    </DialogDescription>
-                    <DialogClose asChild>
-                      <Button className="mt-4 w-full py-3 text-lg">
-                        Close
-                      </Button>
-                    </DialogClose>
-                  </DialogContent>
-                </Dialog>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-        {/* Footer at the bottom */}
-        <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t bg-background font-cairo mt-auto absolute bottom-0 left-0">
-          <div className="container mx-auto">
-            <p>
-              Educational Game 2025 | Created for Educational purposes By{" "}
-              <Link
-                to="https://sanwaralkmali.github.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                Salah Alkmali
-              </Link>
-            </p>
-          </div>
-        </footer>
-      </div>
-    );
-  }
-
-  // Game interface
-  if (gameData && showGame) {
-    return (
-      <div className="min-h-screen bg-gradient-game p-2 sm:p-4 font-cairo relative overflow-hidden">
+      <div className="min-h-screen bg-gradient-game flex flex-col items-center justify-center relative overflow-hidden">
         {/* Fun math game background elements */}
         <div className="absolute inset-0 pointer-events-none z-0">
           {/* Colorful geometric shapes */}
@@ -413,7 +247,276 @@ const Index = () => {
             =
           </div>
         </div>
-        <div className="max-w-7xl mx-auto relative z-10">
+
+        <div className="flex-1 flex flex-col justify-center w-full items-center relative z-10">
+          {/* Game Title with Fun Styling */}
+          <div className="text-center mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-2 animate-pulse">
+              🎮 {gameData.title} 🎮
+            </h1>
+            <p className="text-sm sm:text-base text-muted-foreground max-w-md mx-auto">
+              Ready to become a math master? Let's have some fun! 🚀
+            </p>
+          </div>
+
+          <Card className="w-full max-w-md mx-4 bg-card/90 backdrop-blur-sm border-2 border-blue-200 shadow-xl">
+            <CardHeader className="text-center pb-4">
+              <div className="flex items-center justify-center gap-2 mb-2">
+                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                <div
+                  className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"
+                  style={{ animationDelay: "0.2s" }}
+                ></div>
+                <div
+                  className="w-3 h-3 bg-red-500 rounded-full animate-pulse"
+                  style={{ animationDelay: "0.4s" }}
+                ></div>
+              </div>
+              <CardTitle className="text-xl text-blue-700">
+                Game Setup
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              {/* Player Name Input */}
+              <div className="space-y-2">
+                <label className="block text-sm font-semibold text-gray-700">
+                  👤 Enter your name:
+                </label>
+                <input
+                  type="text"
+                  className="w-full px-4 py-3 border-2 border-blue-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-base transition-all bg-white/80 backdrop-blur-sm"
+                  value={userName}
+                  onChange={(e) => setUserName(e.target.value)}
+                  placeholder="Your awesome name"
+                />
+              </div>
+
+              {/* Question Count Selection */}
+              <div className="space-y-2">
+                <label className="block text-sm font-semibold text-gray-700">
+                  🎯 Choose challenge level:
+                </label>
+                <div className="grid grid-cols-2 gap-3">
+                  {[8, 12, 16, 24].map((n) => (
+                    <Button
+                      key={n}
+                      type="button"
+                      variant={numQuestions === n ? "default" : "outline"}
+                      className={`py-3 text-sm font-medium transition-all transform hover:scale-105 ${
+                        numQuestions === n
+                          ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg"
+                          : "border-2 border-blue-200 hover:border-blue-300 bg-white/80"
+                      }`}
+                      onClick={() => setNumQuestions(n)}
+                    >
+                      {n} Questions
+                    </Button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Action Buttons */}
+              <div className="space-y-3 pt-2">
+                <Button
+                  className="w-full py-4 text-base font-bold bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+                  disabled={!userName}
+                  onClick={() => setShowGame(true)}
+                >
+                  🚀 Start Adventure!
+                </Button>
+
+                {/* Game Info Buttons */}
+                <div className="grid grid-cols-2 gap-3">
+                  <Button
+                    className="py-3 text-sm bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-md hover:shadow-lg"
+                    onClick={() => setShowLeaderboard(true)}
+                  >
+                    🏆 Leaderboard
+                  </Button>
+                  <Button
+                    className="py-3 text-sm bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white shadow-md hover:shadow-lg"
+                    onClick={() => setShowInstructions(true)}
+                  >
+                    📖 How to Play
+                  </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Leaderboard Dialog */}
+          <Dialog open={showLeaderboard} onOpenChange={setShowLeaderboard}>
+            <DialogContent className="max-w-md mx-4 bg-card/95 backdrop-blur-sm border-2 border-purple-200">
+              <DialogHeader>
+                <DialogTitle className="text-xl text-purple-700 flex items-center gap-2">
+                  🏆 Leaderboard - {gameData.title}
+                </DialogTitle>
+              </DialogHeader>
+              <div className="mt-4">
+                <table className="w-full text-left">
+                  <thead>
+                    <tr className="border-b-2 border-purple-200">
+                      <th className="py-3 text-lg font-bold text-purple-700">
+                        Player
+                      </th>
+                      <th className="py-3 text-lg font-bold text-purple-700">
+                        Score
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {leaderboard.map((entry, idx) => (
+                      <tr
+                        key={idx}
+                        className={`${
+                          entry.highlight
+                            ? "font-bold text-purple-600 bg-purple-50"
+                            : ""
+                        } border-b border-purple-100`}
+                      >
+                        <td className="py-3 text-base">{entry.name}</td>
+                        <td className="py-3 text-base font-semibold">
+                          {entry.score}%
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                {leaderboard.length === 0 && (
+                  <div className="text-center py-8 text-muted-foreground">
+                    <p className="text-lg">No scores yet!</p>
+                    <p className="text-sm">Be the first to set a record! 🎯</p>
+                  </div>
+                )}
+              </div>
+              <DialogClose asChild>
+                <Button className="mt-4 w-full py-3 text-lg bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
+                  Close
+                </Button>
+              </DialogClose>
+            </DialogContent>
+          </Dialog>
+
+          {/* How to Play Dialog */}
+          <Dialog open={showInstructions} onOpenChange={setShowInstructions}>
+            <DialogContent className="max-w-md mx-4 bg-card/95 backdrop-blur-sm border-2 border-orange-200">
+              <DialogHeader>
+                <DialogTitle className="text-xl text-orange-700 flex items-center gap-2">
+                  📖 How to Play
+                </DialogTitle>
+              </DialogHeader>
+              <DialogDescription className="text-base">
+                <div className="space-y-4">
+                  <div className="bg-orange-50 p-4 rounded-lg border border-orange-200">
+                    <h3 className="font-bold text-orange-800 mb-2">
+                      🎯 Your Mission:
+                    </h3>
+                    <p className="text-orange-700 text-sm">
+                      Sort all the questions into their correct categories!
+                    </p>
+                  </div>
+
+                  <ul className="list-disc pl-5 space-y-3 text-left text-gray-700">
+                    {(gameData && Array.isArray(gameData.instructions)
+                      ? gameData.instructions
+                      : ["No instructions available for this skill."]
+                    ).map((line, idx) => (
+                      <li key={idx} className="text-sm">
+                        {line}
+                      </li>
+                    ))}
+                  </ul>
+
+                  <div className="bg-green-50 p-4 rounded-lg border border-green-200 text-center">
+                    <div className="text-lg font-bold text-green-700 mb-1">
+                      🎉 Good luck and have fun learning!
+                    </div>
+                    <div className="text-sm text-green-600">
+                      You're going to do amazing! 🌟
+                    </div>
+                  </div>
+                </div>
+              </DialogDescription>
+              <DialogClose asChild>
+                <Button className="mt-4 w-full py-3 text-lg bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white">
+                  Let's Play! 🚀
+                </Button>
+              </DialogClose>
+            </DialogContent>
+          </Dialog>
+        </div>
+
+        {/* Footer at the bottom */}
+        <footer className="w-full py-2 text-center text-sm text-muted-foreground border-t bg-background/80 backdrop-blur-sm font-cairo mt-8 relative z-10">
+          <div className="container mx-auto">
+            <p>
+              Educational Game 2025 | Created for Educational purposes By{" "}
+              <Link
+                to="https://sanwaralkmali.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline font-semibold"
+              >
+                Salah Alkmali
+              </Link>
+            </p>
+          </div>
+        </footer>
+      </div>
+    );
+  }
+
+  // Game interface
+  if (gameData && showGame) {
+    return (
+      <div className="min-h-screen bg-gradient-game p-2 sm:p-4 font-cairo relative overflow-hidden flex flex-col">
+        {/* Fun math game background elements */}
+        <div className="absolute inset-0 pointer-events-none z-0">
+          {/* Colorful geometric shapes */}
+          <div className="absolute left-8 top-8 w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full opacity-20 animate-bounce"></div>
+          <div className="absolute right-12 top-24 w-12 h-12 bg-gradient-to-br from-green-400 to-blue-500 rounded-lg opacity-20 animate-pulse"></div>
+          <div
+            className="absolute left-1/3 top-1/3 w-20 h-20 bg-gradient-to-br from-pink-400 to-red-500 rounded-full opacity-15 animate-bounce"
+            style={{ animationDelay: "1s" }}
+          ></div>
+          <div
+            className="absolute right-1/4 bottom-16 w-14 h-14 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-lg opacity-20 animate-pulse"
+            style={{ animationDelay: "0.5s" }}
+          ></div>
+          <div
+            className="absolute left-1/4 bottom-24 w-18 h-18 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full opacity-15 animate-bounce"
+            style={{ animationDelay: "1.5s" }}
+          ></div>
+
+          {/* Fun math symbols with colors */}
+          <div
+            className="absolute left-16 top-32 text-4xl opacity-25 select-none animate-pulse"
+            style={{ color: "#3B82F6" }}
+          >
+            +
+          </div>
+          <div
+            className="absolute right-24 top-16 text-3xl opacity-25 select-none animate-bounce"
+            style={{ color: "#10B981" }}
+          >
+            ×
+          </div>
+          <div
+            className="absolute left-1/2 top-1/2 text-5xl opacity-20 select-none animate-pulse"
+            style={{ color: "#F59E0B" }}
+          >
+            ÷
+          </div>
+          <div
+            className="absolute right-1/3 bottom-8 text-4xl opacity-25 select-none animate-bounce"
+            style={{ color: "#EF4444" }}
+          >
+            =
+          </div>
+        </div>
+
+        {/* Main Game Content */}
+        <div className="flex-1 max-w-7xl mx-auto relative z-10 w-full">
           {/* Game Header - Clean mobile layout */}
           <div className="mb-4 font-cairo">
             {/* Top row: Back button and title */}
@@ -446,6 +549,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+
           {/* Game Completion Overlay */}
           {gameCompleted && (
             <Card className="mb-6 bg-card/90 backdrop-blur-sm border-primary">
@@ -466,6 +570,7 @@ const Index = () => {
               </CardContent>
             </Card>
           )}
+
           {/* Game Component */}
           <DragDropGame
             gameData={gameData}
@@ -473,6 +578,23 @@ const Index = () => {
             userName={userName}
           />
         </div>
+
+        {/* Footer at the bottom */}
+        <footer className="w-full py-2 text-center text-sm text-muted-foreground border-t bg-background/80 backdrop-blur-sm font-cairo mt-8 relative z-10">
+          <div className="container mx-auto">
+            <p>
+              Educational Game 2025 | Created for Educational purposes By{" "}
+              <Link
+                to="https://sanwaralkmali.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline font-semibold"
+              >
+                Salah Alkmali
+              </Link>
+            </p>
+          </div>
+        </footer>
       </div>
     );
   }
