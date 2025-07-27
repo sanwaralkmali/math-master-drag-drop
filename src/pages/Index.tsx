@@ -4,7 +4,7 @@ import { DragDropGame } from "@/components/game/DragDropGame";
 import { GameData } from "@/types/game";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { AlertCircle, RotateCcw } from "lucide-react";
+import { AlertCircle, RotateCcw, ArrowLeft } from "lucide-react";
 import heroImage from "@/assets/math-hero.jpg";
 import {
   Dialog,
@@ -124,10 +124,10 @@ const Index = () => {
 
           <div className="relative z-10 text-center animate-fade-in px-4">
             <div className="mb-8">
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-6 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-6 leading-tight">
                 MathMaster
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
+              <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed px-4">
                 Master high school mathematics through interactive drag-and-drop
                 games
               </p>
@@ -186,9 +186,9 @@ const Index = () => {
             <p className="text-muted-foreground mb-4">{error}</p>
             <Button
               onClick={() => window.history.back()}
-              variant="outline"
-              className="w-full"
+              className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white shadow-md hover:shadow-lg border-0 transition-all duration-200 transform hover:scale-105"
             >
+              <ArrowLeft className="w-4 h-4 mr-2" />
               Go Back
             </Button>
           </CardContent>
@@ -206,34 +206,36 @@ const Index = () => {
         <div className="flex-1 flex flex-col justify-center w-full items-center">
           <Card className="w-full max-w-md mx-4 bg-card/80 backdrop-blur-sm">
             <CardHeader>
-              <CardTitle className="text-center">{gameData.title}</CardTitle>
+              <CardTitle className="text-center text-xl">
+                {gameData.title}
+              </CardTitle>
             </CardHeader>
-            <CardContent>
-              <div className="mb-4">
-                <label className="block mb-2 font-medium">
+            <CardContent className="space-y-4">
+              <div>
+                <label className="block mb-2 font-medium text-base">
                   Enter your name:
                 </label>
                 <input
                   type="text"
-                  className="w-full px-3 py-2 border rounded focus:outline-none focus:ring"
+                  className="w-full px-3 py-2 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-base"
                   value={userName}
                   onChange={(e) => setUserName(e.target.value)}
                   placeholder="Your name"
                 />
               </div>
-              <div className="mb-4">
-                <label className="block mb-2 font-medium">
+              <div>
+                <label className="block mb-2 font-medium text-base">
                   Choose number of questions:
                 </label>
-                <div className="flex gap-2">
+                <div className="grid grid-cols-2 gap-2">
                   {[8, 12, 16, 24].map((n) => (
                     <Button
                       key={n}
                       type="button"
                       variant={numQuestions === n ? "default" : "outline"}
-                      className={
+                      className={`py-2 text-sm ${
                         numQuestions === n ? "bg-primary text-white" : ""
-                      }
+                      }`}
                       onClick={() => setNumQuestions(n)}
                     >
                       {n}
@@ -243,7 +245,7 @@ const Index = () => {
               </div>
               <div className="flex flex-col gap-3">
                 <Button
-                  className="w-full"
+                  className="w-full py-3 text-base"
                   disabled={!userName}
                   onClick={() => setShowGame(true)}
                 >
@@ -251,7 +253,7 @@ const Index = () => {
                 </Button>
                 {/* Leaderboard Button and Dialog */}
                 <Button
-                  className="w-full"
+                  className="w-full py-3 text-base"
                   variant="outline"
                   onClick={() => setShowLeaderboard(true)}
                 >
@@ -261,16 +263,18 @@ const Index = () => {
                   open={showLeaderboard}
                   onOpenChange={setShowLeaderboard}
                 >
-                  <DialogContent>
+                  <DialogContent className="max-w-md mx-4">
                     <DialogHeader>
-                      <DialogTitle>Leaderboard - {gameData.title}</DialogTitle>
+                      <DialogTitle className="text-xl">
+                        Leaderboard - {gameData.title}
+                      </DialogTitle>
                     </DialogHeader>
-                    <div className="mt-2">
+                    <div className="mt-4">
                       <table className="w-full text-left">
                         <thead>
                           <tr>
-                            <th className="py-1">Name</th>
-                            <th className="py-1">Score</th>
+                            <th className="py-2 text-lg">Name</th>
+                            <th className="py-2 text-lg">Score</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -281,21 +285,23 @@ const Index = () => {
                                 entry.highlight ? "font-bold text-primary" : ""
                               }
                             >
-                              <td className="py-1">{entry.name}</td>
-                              <td className="py-1">{entry.score}%</td>
+                              <td className="py-2 text-base">{entry.name}</td>
+                              <td className="py-2 text-base">{entry.score}%</td>
                             </tr>
                           ))}
                         </tbody>
                       </table>
                     </div>
                     <DialogClose asChild>
-                      <Button className="mt-4 w-full">Close</Button>
+                      <Button className="mt-4 w-full py-3 text-lg">
+                        Close
+                      </Button>
                     </DialogClose>
                   </DialogContent>
                 </Dialog>
                 {/* How to Play Button and Dialog */}
                 <Button
-                  className="w-full"
+                  className="w-full py-3 text-base"
                   variant="outline"
                   onClick={() => {
                     console.log("Opening How to play the game dialog");
@@ -311,12 +317,12 @@ const Index = () => {
                     setShowInstructions(open);
                   }}
                 >
-                  <DialogContent>
+                  <DialogContent className="max-w-md mx-4">
                     <DialogHeader>
-                      <DialogTitle>How to Play</DialogTitle>
+                      <DialogTitle className="text-xl">How to Play</DialogTitle>
                     </DialogHeader>
-                    <DialogDescription>
-                      <ul className="list-disc pl-5 space-y-2 text-left">
+                    <DialogDescription className="text-base">
+                      <ul className="list-disc pl-5 space-y-3 text-left">
                         {(gameData && Array.isArray(gameData.instructions)
                           ? gameData.instructions
                           : ["No instructions available for this skill."]
@@ -324,12 +330,14 @@ const Index = () => {
                           <li key={idx}>{line}</li>
                         ))}
                       </ul>
-                      <div className="mt-4 font-semibold">
+                      <div className="mt-4 font-semibold text-lg">
                         Good luck and have fun learning!
                       </div>
                     </DialogDescription>
                     <DialogClose asChild>
-                      <Button className="mt-4 w-full">Close</Button>
+                      <Button className="mt-4 w-full py-3 text-lg">
+                        Close
+                      </Button>
                     </DialogClose>
                   </DialogContent>
                 </Dialog>
@@ -360,56 +368,83 @@ const Index = () => {
   // Game interface
   if (gameData && showGame) {
     return (
-      <div className="min-h-screen bg-gradient-game p-4 font-cairo relative overflow-hidden">
-        {/* Math symbols background */}
-        <div className="absolute inset-0 pointer-events-none z-0 animate-float-math">
-          {/* Example math symbols, you can add more or use SVGs for better visuals */}
-          <span className="absolute left-10 top-10 text-6xl opacity-20 select-none">
-            ∑
-          </span>
-          <span className="absolute right-20 top-32 text-5xl opacity-20 select-none">
-            π
-          </span>
-          <span className="absolute left-1/2 top-1/4 text-7xl opacity-10 select-none">
-            √
-          </span>
-          <span className="absolute right-1/3 bottom-10 text-6xl opacity-15 select-none">
-            ∞
-          </span>
-          <span className="absolute left-1/4 bottom-20 text-5xl opacity-10 select-none">
-            ∫
-          </span>
+      <div className="min-h-screen bg-gradient-game p-2 sm:p-4 font-cairo relative overflow-hidden">
+        {/* Fun math game background elements */}
+        <div className="absolute inset-0 pointer-events-none z-0">
+          {/* Colorful geometric shapes */}
+          <div className="absolute left-8 top-8 w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full opacity-20 animate-bounce"></div>
+          <div className="absolute right-12 top-24 w-12 h-12 bg-gradient-to-br from-green-400 to-blue-500 rounded-lg opacity-20 animate-pulse"></div>
+          <div
+            className="absolute left-1/3 top-1/3 w-20 h-20 bg-gradient-to-br from-pink-400 to-red-500 rounded-full opacity-15 animate-bounce"
+            style={{ animationDelay: "1s" }}
+          ></div>
+          <div
+            className="absolute right-1/4 bottom-16 w-14 h-14 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-lg opacity-20 animate-pulse"
+            style={{ animationDelay: "0.5s" }}
+          ></div>
+          <div
+            className="absolute left-1/4 bottom-24 w-18 h-18 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full opacity-15 animate-bounce"
+            style={{ animationDelay: "1.5s" }}
+          ></div>
+
+          {/* Fun math symbols with colors */}
+          <div
+            className="absolute left-16 top-32 text-4xl opacity-25 select-none animate-pulse"
+            style={{ color: "#3B82F6" }}
+          >
+            +
+          </div>
+          <div
+            className="absolute right-24 top-16 text-3xl opacity-25 select-none animate-bounce"
+            style={{ color: "#10B981" }}
+          >
+            ×
+          </div>
+          <div
+            className="absolute left-1/2 top-1/2 text-5xl opacity-20 select-none animate-pulse"
+            style={{ color: "#F59E0B" }}
+          >
+            ÷
+          </div>
+          <div
+            className="absolute right-1/3 bottom-8 text-4xl opacity-25 select-none animate-bounce"
+            style={{ color: "#EF4444" }}
+          >
+            =
+          </div>
         </div>
         <div className="max-w-7xl mx-auto relative z-10">
-          {/* Game Header */}
-          <div className="mb-8 text-center flex flex-col md:flex-row md:items-center md:justify-between gap-4 font-cairo">
-            <div className="flex items-center gap-4">
-              <h1 className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
+          {/* Game Header - Clean mobile layout */}
+          <div className="mb-4 font-cairo">
+            {/* Top row: Back button and title */}
+            <div className="flex items-center justify-between mb-3">
+              <Button
+                onClick={() => setShowGame(false)}
+                className="font-cairo text-xs px-3 py-1 h-7 bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white shadow-md hover:shadow-lg border-0 rounded-md transition-all duration-200 transform hover:scale-105 flex items-center gap-1"
+              >
+                <ArrowLeft className="w-3 h-3" />
+                Back
+              </Button>
+              <h1 className="text-lg sm:text-xl md:text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent text-center flex-1">
                 {gameData.title}
               </h1>
+              <div className="w-16"></div> {/* Spacer for balance */}
             </div>
-            <div className="flex flex-col items-center md:items-end gap-2">
-              <div className="text-lg font-semibold">
-                Player: <span className="text-primary">{userName}</span>
+
+            {/* Bottom row: Player info and timer */}
+            <div className="flex items-center justify-between text-xs sm:text-sm">
+              <div className="font-medium">
+                Player:{" "}
+                <span className="text-primary font-semibold">{userName}</span>
               </div>
-              <div className="text-lg font-semibold">
+              <div className="font-medium">
                 Time:{" "}
-                <span className="text-primary">
+                <span className="text-primary font-semibold">
                   {Math.floor(timer / 60)}:
                   {(timer % 60).toString().padStart(2, "0")}
                 </span>
               </div>
             </div>
-          </div>
-          {/* Back to Dashboard Button */}
-          <div className="mb-4">
-            <Button
-              variant="outline"
-              onClick={() => setShowGame(false)}
-              className="font-cairo"
-            >
-              ← Back to Dashboard
-            </Button>
           </div>
           {/* Game Completion Overlay */}
           {gameCompleted && (

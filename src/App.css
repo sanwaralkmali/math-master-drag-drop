@@ -2,13 +2,24 @@
 
 html, body {
   font-family: 'Cairo', sans-serif !important;
+  /* Ensure proper viewport handling on mobile */
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
+}
+
+/* Mobile-first responsive design */
+@media (min-width: 768px) {
+  #root {
+    padding: 2rem;
+  }
 }
 
 .logo {
@@ -50,11 +61,127 @@ html, body {
 .font-cairo {
   font-family: 'Cairo', sans-serif;
 }
+
 @keyframes float-math {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0); }
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(5deg); }
+  100% { transform: translateY(0) rotate(0deg); }
 }
+
+@keyframes fun-bounce {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-10px) scale(1.05); }
+}
+
+@keyframes color-shift {
+  0% { filter: hue-rotate(0deg); }
+  50% { filter: hue-rotate(180deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
 .animate-float-math span {
   animation: float-math 4s ease-in-out infinite;
+}
+
+.animate-fun-bounce {
+  animation: fun-bounce 2s ease-in-out infinite;
+}
+
+.animate-color-shift {
+  animation: color-shift 8s linear infinite;
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 768px) {
+  /* Compact touch targets for mobile */
+  button, 
+  [role="button"],
+  .cursor-pointer {
+    min-height: 36px;
+    min-width: 36px;
+  }
+  
+  /* Smaller text for compact layout */
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.3 !important;
+  }
+  
+  /* Tighter spacing for mobile */
+  .space-y-4 > * + * {
+    margin-top: 1rem;
+  }
+  
+  .space-y-6 > * + * {
+    margin-top: 1.25rem;
+  }
+  
+  /* Compact card padding on mobile */
+  .card {
+    padding: 0.75rem;
+  }
+  
+  /* Smaller draggable items for compact layout */
+  [data-rbd-draggable-id] {
+    min-height: 40px;
+    min-width: 40px;
+  }
+  
+  /* Improve drag feedback on mobile */
+  [data-rbd-draggable-id]:active {
+    transform: scale(1.1);
+    z-index: 1000;
+  }
+  
+  /* Compact spacing */
+  .p-4 {
+    padding: 0.75rem;
+  }
+  
+  .p-6 {
+    padding: 1rem;
+  }
+  
+  .gap-3 {
+    gap: 0.5rem;
+  }
+  
+  .gap-4 {
+    gap: 0.75rem;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  /* Larger hover states for touch devices */
+  .hover\:shadow-md:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Better focus states for touch */
+  button:focus,
+  [role="button"]:focus {
+    outline: 2px solid hsl(var(--primary));
+    outline-offset: 2px;
+  }
+}
+
+/* Prevent text selection during drag */
+[data-rbd-draggable-id] {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Smooth transitions for better UX */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }

@@ -57,7 +57,7 @@ const GamePage = () => {
           <h2 className="text-2xl font-bold mb-2">Game Not Found</h2>
           <p className="text-muted-foreground mb-6">{error}</p>
           <Link to="/games">
-            <Button>
+            <Button className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white shadow-md hover:shadow-lg border-0 transition-all duration-200 transform hover:scale-105">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Games
             </Button>
@@ -74,7 +74,7 @@ const GamePage = () => {
         <div className="flex items-center justify-between mb-8 animate-fade-in">
           <div className="flex items-center gap-4">
             <Link to="/games">
-              <Button variant="outline" size="sm">
+              <Button className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white shadow-md hover:shadow-lg border-0 transition-all duration-200 transform hover:scale-105">
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Back
               </Button>
