@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { InlineLatex } from "@/components/ui/latex";
 
 interface DragDropGameProps {
   gameData: GameData;
@@ -209,7 +210,7 @@ export const DragDropGame = ({
                       : "border-blue-200 hover:border-blue-300"
                   }`}
                 >
-                  {item.content}
+                  <InlineLatex>{item.content}</InlineLatex>
                 </button>
               ))}
 
@@ -299,7 +300,7 @@ export const DragDropGame = ({
                         }`}
                       >
                         <div className="flex items-center gap-1">
-                          <span>{item.content}</span>
+                          <InlineLatex>{item.content}</InlineLatex>
                           {gameCompleted && (
                             <div>
                               {feedback[item.id] ? (
@@ -429,7 +430,7 @@ export const DragDropGame = ({
                               }`}
                             >
                               <div className="font-medium text-center">
-                                {item.content}
+                                <InlineLatex>{item.content}</InlineLatex>
                               </div>
                             </div>
                           )}
@@ -537,7 +538,9 @@ export const DragDropGame = ({
                                   >
                                     <div className="flex items-center justify-between">
                                       <div className="font-medium flex-1">
-                                        {item.content}
+                                        <InlineLatex>
+                                          {item.content}
+                                        </InlineLatex>
                                       </div>
                                       {gameCompleted && (
                                         <div className="ml-1">

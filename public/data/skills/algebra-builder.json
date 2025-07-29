@@ -30,34 +30,3005 @@
   "questions": [
     {
       "id": "q1",
-      "content": "x",
+      "content": "$z$",
       "correctCategory": "variable",
       "explanation": "Single letter representing an unknown quantity"
     },
     {
       "id": "q2",
-      "content": "7",
+      "content": "$\\frac{1}{2}$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
     {
       "id": "q3",
-      "content": "3x + 5",
+      "content": "$4(d + 8)$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
     {
       "id": "q4",
-      "content": "2x = 10",
+      "content": "$c^2 - 9 = 0$",
       "correctCategory": "equation",
       "explanation": "Contains an equal sign with expressions on both sides"
     },
     {
       "id": "q5",
-      "content": "y",
+      "content": "$x$",
       "correctCategory": "variable",
-      "explanation": "Single letter representing a quantity"
+      "explanation": "Single letter representing an unknown quantity"
     },
+    {
+      "id": "q6",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q7",
+      "content": "$d^2 + 4$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q8",
+      "content": "$4y = 9$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q9",
+      "content": "$t$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q10",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q11",
+      "content": "$3b - 6$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q12",
+      "content": "$b^2 - 25 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q13",
+      "content": "$a$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q14",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q15",
+      "content": "$6a - 9$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q16",
+      "content": "$x^2 + 7x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q17",
+      "content": "$p$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q18",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q19",
+      "content": "$2a + 3b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q20",
+      "content": "$2(a + 5) = 10$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q21",
+      "content": "$d$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q22",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q23",
+      "content": "$c + d$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q24",
+      "content": "$x^2 - 16 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q25",
+      "content": "$w$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q26",
+      "content": "$\\pi$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q27",
+      "content": "$a^2 + 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q28",
+      "content": "$3y = 7$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q29",
+      "content": "$m$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q30",
+      "content": "10",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q31",
+      "content": "$5(x + 9)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q32",
+      "content": "$x^2 + 5x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q33",
+      "content": "$k$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q34",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q35",
+      "content": "$b^2 + 8$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q36",
+      "content": "$x + 6 = 9$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q37",
+      "content": "$y$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q38",
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q39",
+      "content": "$2b + 3c$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q40",
+      "content": "$2x = 8$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q41",
+      "content": "$s$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q42",
+      "content": "0.5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q43",
+      "content": "$a - b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q44",
+      "content": "$x^2 - 4 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q45",
+      "content": "$v$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q46",
+      "content": "1",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q47",
+      "content": "$7x - 2$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q48",
+      "content": "$x = 5$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q49",
+      "content": "$u$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q50",
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q51",
+      "content": "$x^2 + 5$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q52",
+      "content": "$x^2 - 16 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q53",
+      "content": "$r$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q54",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q55",
+      "content": "$4x + 6$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q56",
+      "content": "$3x + 2 = x - 4$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q57",
+      "content": "$n$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q58",
+      "content": "10",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q59",
+      "content": "$y / 5$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q60",
+      "content": "$x^2 - 9 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q61",
+      "content": "$c$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q62",
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q63",
+      "content": "$2x + 3y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q64",
+      "content": "$x / 4 = 2$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q65",
+      "content": "$b$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q66",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q67",
+      "content": "$a - 6$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q68",
+      "content": "$2(x + 1) = 8$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q69",
+      "content": "$z$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q70",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q71",
+      "content": "$3x^2 + 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q72",
+      "content": "$x^2 + 5x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q73",
+      "content": "$x$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q74",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q75",
+      "content": "$9(c + 7)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q76",
+      "content": "$a = 8$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q77",
+      "content": "$q$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q78",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q79",
+      "content": "$4x + 5y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q80",
+      "content": "$2(x + 3) = 9$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q81",
+      "content": "$d$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q82",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q83",
+      "content": "$b + c$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q84",
+      "content": "$x^2 - 25 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q85",
+      "content": "$w$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q86",
+      "content": "$\\pi$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q87",
+      "content": "$x^2 + 2$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q88",
+      "content": "$5y = 10$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q89",
+      "content": "$m$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q90",
+      "content": "2",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q91",
+      "content": "$7(a + 6)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q92",
+      "content": "$x^2 + 6x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q93",
+      "content": "$k$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q94",
+      "content": "50",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q95",
+      "content": "$c^2 + 5$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q96",
+      "content": "$y + 2 = 7$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q97",
+      "content": "$y$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q98",
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q99",
+      "content": "$3a + 4b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q100",
+      "content": "$3x = 12$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q101",
+      "content": "$s$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q102",
+      "content": "0.5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q103",
+      "content": "$x - y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q104",
+      "content": "$x^2 - 36 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q105",
+      "content": "$v$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q106",
+      "content": "1",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q107",
+      "content": "$8y - 3$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q108",
+      "content": "$x = 7$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q109",
+      "content": "$u$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q110",
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q111",
+      "content": "$y^2 + 6$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q112",
+      "content": "$x^2 - 49 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q113",
+      "content": "$r$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q114",
+      "content": "200",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q115",
+      "content": "$5x + 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q116",
+      "content": "$4x + 3 = x - 5$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q117",
+      "content": "$n$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q118",
+      "content": "5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q119",
+      "content": "$z / 6$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q120",
+      "content": "$x^2 - 100 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q121",
+      "content": "$c$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q122",
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q123",
+      "content": "$4(y + 2)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q124",
+      "content": "$\\frac{a}{5} = 3$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q125",
+      "content": "$b$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q126",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q127",
+      "content": "$b - 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q128",
+      "content": "$3(y + 2) = 12$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q129",
+      "content": "$z$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q130",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q131",
+      "content": "$4x^2 + 9$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q132",
+      "content": "$x^2 + 7x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q133",
+      "content": "$x$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q134",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q135",
+      "content": "$2(a + 8)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q136",
+      "content": "$y = 6$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q137",
+      "content": "$q$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q138",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q139",
+      "content": "$5a + 6b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q140",
+      "content": "$3(y + 4) = 15$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q141",
+      "content": "$d$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q142",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q143",
+      "content": "$c + d$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q144",
+      "content": "$y^2 - 36 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q145",
+      "content": "$w$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q146",
+      "content": "$\\pi$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q147",
+      "content": "$x^2 + 3$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q148",
+      "content": "$6y = 12$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q149",
+      "content": "$m$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q150",
+      "content": "2",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q151",
+      "content": "$8(a + 7)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q152",
+      "content": "$x^2 + 6x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q153",
+      "content": "$k$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q154",
+      "content": "50",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q155",
+      "content": "$c^2 + 6$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q156",
+      "content": "$y + 3 = 8$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q157",
+      "content": "$y$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q158",
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q159",
+      "content": "$4a + 5b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q160",
+      "content": "$4x = 16$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q161",
+      "content": "$s$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q162",
+      "content": "0.5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q163",
+      "content": "$x - y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q164",
+      "content": "$x^2 - 64 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q165",
+      "content": "$v$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q166",
+      "content": "1",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q167",
+      "content": "$9y - 4$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q168",
+      "content": "$x = 9$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q169",
+      "content": "$u$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q170",
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q171",
+      "content": "$y^2 + 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q172",
+      "content": "$x^2 - 81 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q173",
+      "content": "$r$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q174",
+      "content": "200",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q175",
+      "content": "$6x + 8$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q176",
+      "content": "$5x + 4 = x - 6$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q177",
+      "content": "$n$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q178",
+      "content": "5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q179",
+      "content": "$z / 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q180",
+      "content": "$x^2 - 121 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q181",
+      "content": "$c$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q182",
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q183",
+      "content": "$5(y + 3)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q184",
+      "content": "$\\frac{a}{6} = 4$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q185",
+      "content": "$b$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q186",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q187",
+      "content": "$c - 8$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q188",
+      "content": "$4(y + 3) = 16$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q189",
+      "content": "$z$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q190",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q191",
+      "content": "$5x^2 + 10$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q192",
+      "content": "$x^2 + 8x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q193",
+      "content": "$x$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q194",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q195",
+      "content": "$3(a + 9)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q196",
+      "content": "$y = 7$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q197",
+      "content": "$q$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q198",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q199",
+      "content": "$6a + 7b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q200",
+      "content": "$4(x + 4) = 20$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q201",
+      "content": "$d$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q202",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q203",
+      "content": "$c + d$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q204",
+      "content": "$y^2 - 49 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q205",
+      "content": "$w$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q206",
+      "content": "$\\pi$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q207",
+      "content": "$x^2 + 4$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q208",
+      "content": "$7y = 14$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q209",
+      "content": "$m$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q210",
+      "content": "2",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q211",
+      "content": "$9(a + 8)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q212",
+      "content": "$x^2 + 8x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q213",
+      "content": "$k$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q214",
+      "content": "50",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q215",
+      "content": "$c^2 + 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q216",
+      "content": "$y + 4 = 9$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q217",
+      "content": "$y$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q218",
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q219",
+      "content": "$5a + 6b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q220",
+      "content": "$5x = 20$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q221",
+      "content": "$s$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q222",
+      "content": "0.5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q223",
+      "content": "$x - y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q224",
+      "content": "$x^2 - 81 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q225",
+      "content": "$v$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q226",
+      "content": "1",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q227",
+      "content": "$10y - 5$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q228",
+      "content": "$x = 10$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q229",
+      "content": "$u$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q230",
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q231",
+      "content": "$y^2 + 8$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q232",
+      "content": "$x^2 - 100 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q233",
+      "content": "$r$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q234",
+      "content": "200",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q235",
+      "content": "$7x + 9$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q236",
+      "content": "$6x + 5 = x - 7$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q237",
+      "content": "$n$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q238",
+      "content": "5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q239",
+      "content": "$z / 8$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q240",
+      "content": "$x^2 - 144 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q241",
+      "content": "$c$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q242",
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q243",
+      "content": "$6(y + 4)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q244",
+      "content": "$\\frac{a}{7} = 5$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q245",
+      "content": "$b$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q246",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q247",
+      "content": "$c - 9$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q248",
+      "content": "$5(y + 4) = 25$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q249",
+      "content": "$z$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q250",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q251",
+      "content": "$6x^2 + 11$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q252",
+      "content": "$x^2 + 9x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q253",
+      "content": "$x$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q254",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q255",
+      "content": "$4(a + 10)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q256",
+      "content": "$y = 8$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q257",
+      "content": "$q$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q258",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q259",
+      "content": "$7a + 8b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q260",
+      "content": "$5(x + 5) = 30$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q261",
+      "content": "$d$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q262",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q263",
+      "content": "$c + d$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q264",
+      "content": "$y^2 - 64 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q265",
+      "content": "$w$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q266",
+      "content": "$\\pi$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q267",
+      "content": "$x^2 + 5$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q268",
+      "content": "$8y = 16$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q269",
+      "content": "$m$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q270",
+      "content": "2",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q271",
+      "content": "$10(a + 9)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q272",
+      "content": "$x^2 + 9x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q273",
+      "content": "$k$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q274",
+      "content": "50",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q275",
+      "content": "$c^2 + 8$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q276",
+      "content": "$y + 5 = 10$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q277",
+      "content": "$y$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q278",
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q279",
+      "content": "$6a + 7b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q280",
+      "content": "$6x = 24$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q281",
+      "content": "$s$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q282",
+      "content": "0.5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q283",
+      "content": "$x - y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q284",
+      "content": "$x^2 - 100 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q285",
+      "content": "$v$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q286",
+      "content": "1",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q287",
+      "content": "$11y - 6$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q288",
+      "content": "$x = 11$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q289",
+      "content": "$u$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q290",
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q291",
+      "content": "$y^2 + 9$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q292",
+      "content": "$x^2 - 121 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q293",
+      "content": "$r$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q294",
+      "content": "200",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q295",
+      "content": "$8x + 10$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q296",
+      "content": "$7x + 6 = x - 8$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q297",
+      "content": "$n$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q298",
+      "content": "5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q299",
+      "content": "$z / 9$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q300",
+      "content": "$x^2 - 169 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q301",
+      "content": "$c$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q302",
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q303",
+      "content": "$7(y + 5)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q304",
+      "content": "$\\frac{a}{8} = 6$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q305",
+      "content": "$b$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q306",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q307",
+      "content": "$c - 10$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q308",
+      "content": "$6(y + 5) = 36$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q309",
+      "content": "$z$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q310",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q311",
+      "content": "$7x^2 + 12$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q312",
+      "content": "$x^2 + 10x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q313",
+      "content": "$x$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q314",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q315",
+      "content": "$5(a + 10)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q316",
+      "content": "$y = 9$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q317",
+      "content": "$q$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q318",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q319",
+      "content": "$8a + 9b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q320",
+      "content": "$6(x + 6) = 42$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q321",
+      "content": "$d$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q322",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q323",
+      "content": "$c + d$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q324",
+      "content": "$y^2 - 81 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q325",
+      "content": "$w$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q326",
+      "content": "$\\pi$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q327",
+      "content": "$x^2 + 6$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q328",
+      "content": "$9y = 18$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q329",
+      "content": "$m$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q330",
+      "content": "2",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q331",
+      "content": "$10(a + 10)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q332",
+      "content": "$x^2 + 10x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q333",
+      "content": "$k$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q334",
+      "content": "50",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q335",
+      "content": "$c^2 + 9$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q336",
+      "content": "$y + 6 = 11$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q337",
+      "content": "$y$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q338",
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q339",
+      "content": "$7a + 8b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q340",
+      "content": "$7x = 28$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q341",
+      "content": "$s$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q342",
+      "content": "0.5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q343",
+      "content": "$x - y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q344",
+      "content": "$x^2 - 121 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q345",
+      "content": "$v$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q346",
+      "content": "1",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q347",
+      "content": "$12y - 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q348",
+      "content": "$x = 12$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q349",
+      "content": "$u$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q350",
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q351",
+      "content": "$y^2 + 10$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q352",
+      "content": "$x^2 - 144 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q353",
+      "content": "$r$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q354",
+      "content": "200",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q355",
+      "content": "$9x + 11$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q356",
+      "content": "$8x + 7 = x - 9$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q357",
+      "content": "$n$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q358",
+      "content": "5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q359",
+      "content": "$z / 10$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q360",
+      "content": "$x^2 - 169 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q361",
+      "content": "$c$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q362",
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q363",
+      "content": "$8(y + 6)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q364",
+      "content": "$\\frac{a}{9} = 7$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q365",
+      "content": "$b$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q366",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q367",
+      "content": "$c - 11$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q368",
+      "content": "$7(y + 6) = 49$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q369",
+      "content": "$z$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q370",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q371",
+      "content": "$8x^2 + 13$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q372",
+      "content": "$x^2 + 11x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q373",
+      "content": "$x$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q374",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q375",
+      "content": "$6(a + 11)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q376",
+      "content": "$y = 10$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q377",
+      "content": "$q$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q378",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q379",
+      "content": "$9a + 10b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q380",
+      "content": "$7(x + 7) = 56$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q381",
+      "content": "$d$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q382",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q383",
+      "content": "$c + d$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q384",
+      "content": "$y^2 - 100 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q385",
+      "content": "$w$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q386",
+      "content": "$\\pi$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q387",
+      "content": "$x^2 + 7$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q388",
+      "content": "$10y = 20$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q389",
+      "content": "$m$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q390",
+      "content": "2",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q391",
+      "content": "$11(a + 11)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q392",
+      "content": "$x^2 + 11x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q393",
+      "content": "$k$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q394",
+      "content": "50",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q395",
+      "content": "$c^2 + 10$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q396",
+      "content": "$y + 7 = 12$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q397",
+      "content": "$y$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q398",
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q399",
+      "content": "$8a + 9b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q400",
+      "content": "$8x = 32$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q401",
+      "content": "$s$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q402",
+      "content": "0.5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q403",
+      "content": "$x - y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q404",
+      "content": "$x^2 - 121 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q405",
+      "content": "$v$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q406",
+      "content": "1",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q407",
+      "content": "$13y - 8$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q408",
+      "content": "$x = 13$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q409",
+      "content": "$u$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q410",
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q411",
+      "content": "$y^2 + 11$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q412",
+      "content": "$x^2 - 144 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q413",
+      "content": "$r$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q414",
+      "content": "200",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q415",
+      "content": "$10x + 12$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q416",
+      "content": "$9x + 8 = x - 10$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q417",
+      "content": "$n$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q418",
+      "content": "5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q419",
+      "content": "$z / 11$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q420",
+      "content": "$x^2 - 196 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q421",
+      "content": "$c$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q422",
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q423",
+      "content": "$9(y + 7)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q424",
+      "content": "$\\frac{a}{10} = 8$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q425",
+      "content": "$b$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q426",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q427",
+      "content": "$c - 12$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q428",
+      "content": "$8(y + 7) = 64$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q429",
+      "content": "$z$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q430",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q431",
+      "content": "$9x^2 + 14$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q432",
+      "content": "$x^2 + 12x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q433",
+      "content": "$x$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q434",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q435",
+      "content": "$7(a + 12)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q436",
+      "content": "$y = 11$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q437",
+      "content": "$q$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q438",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q439",
+      "content": "$10a + 11b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q440",
+      "content": "$8(x + 8) = 72$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q441",
+      "content": "$d$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q442",
+      "content": "100",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q443",
+      "content": "$c + d$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q444",
+      "content": "$y^2 - 121 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q445",
+      "content": "$w$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q446",
+      "content": "$\\pi$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q447",
+      "content": "$x^2 + 8$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q448",
+      "content": "$11y = 22$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q449",
+      "content": "$m$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q450",
+      "content": "2",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q451",
+      "content": "$12(a + 12)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q452",
+      "content": "$x^2 + 12x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q453",
+      "content": "$k$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q454",
+      "content": "50",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q455",
+      "content": "$c^2 + 11$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q456",
+      "content": "$y + 8 = 13$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q457",
+      "content": "$y$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q458",
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q459",
+      "content": "$9a + 10b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q460",
+      "content": "$9x = 36$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q461",
+      "content": "$s$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q462",
+      "content": "0.5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q463",
+      "content": "$x - y$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q464",
+      "content": "$x^2 - 144 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q465",
+      "content": "$v$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q466",
+      "content": "1",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q467",
+      "content": "$14y - 9$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q468",
+      "content": "$x = 14$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q469",
+      "content": "$u$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q470",
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q471",
+      "content": "$y^2 + 12$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q472",
+      "content": "$x^2 - 169 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q473",
+      "content": "$r$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q474",
+      "content": "200",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q475",
+      "content": "$11x + 13$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q476",
+      "content": "$10x + 9 = x - 11$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q477",
+      "content": "$n$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q478",
+      "content": "5",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q479",
+      "content": "$z / 12$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q480",
+      "content": "$x^2 - 225 = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q481",
+      "content": "$c$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q482",
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q483",
+      "content": "$10(y + 8)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q484",
+      "content": "$\\frac{a}{11} = 9$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q485",
+      "content": "$b$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q486",
+      "content": "150",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q487",
+      "content": "$c - 13$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q488",
+      "content": "$9(y + 8) = 81$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q489",
+      "content": "$z$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q490",
+      "content": "e",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q491",
+      "content": "$10x^2 + 15$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q492",
+      "content": "$x^2 + 13x = 0$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q493",
+      "content": "$x$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q494",
+      "content": "0.01",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q495",
+      "content": "$8(a + 13)$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q496",
+      "content": "$y = 12$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+    {
+      "id": "q497",
+      "content": "$q$",
+      "correctCategory": "variable",
+      "explanation": "Single letter representing an unknown quantity"
+    },
+    {
+      "id": "q498",
+      "content": "1.25",
+      "correctCategory": "constant",
+      "explanation": "Fixed numerical value"
+    },
+    {
+      "id": "q499",
+      "content": "$11a + 12b$",
+      "correctCategory": "expression",
+      "explanation": "Contains variables and operations but no equal sign"
+    },
+    {
+      "id": "q500",
+      "content": "$9(x + 9) = 90$",
+      "correctCategory": "equation",
+      "explanation": "Contains an equal sign with expressions on both sides"
+    },
+
     {
       "id": "q6",
       "content": "-4",

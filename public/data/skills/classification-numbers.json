@@ -48,603 +48,1575 @@
   "questions": [
     {
       "id": "q1",
-      "content": "1 - 4i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "5",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q2",
-      "content": "2i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
     },
     {
       "id": "q3",
-      "content": "π",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "-3",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q4",
-      "content": "7.25",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (can be expressed as 29/4)"
+      "content": "$\\frac{3}{4}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
     },
     {
       "id": "q5",
-      "content": "12",
-      "correctCategory": "integer",
-      "explanation": "This is an integer"
+      "content": "$\\sqrt{2}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q6",
-      "content": "-5",
-      "correctCategory": "integer",
-      "explanation": "This is a negative integer"
+      "content": "$7i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q7",
-      "content": "0",
-      "correctCategory": "whole",
-      "explanation": "This is a whole number"
+      "content": "$2 + 5i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q8",
-      "content": "√2",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "12",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q9",
-      "content": "3 + 7i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "$-1$",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q10",
-      "content": "1/3",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (fraction)"
+      "content": "0.75",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
     },
     {
       "id": "q11",
-      "content": "25",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "$\\pi$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q12",
-      "content": "-8i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "$-4i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q13",
-      "content": "√16",
-      "correctCategory": "natural",
-      "explanation": "This equals 4, which is a natural number"
+      "content": "$6 - i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q14",
-      "content": "e",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number (Euler's number)"
+      "content": "1",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q15",
-      "content": "-12.5",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (can be expressed as -25/2)"
+      "content": "-10",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q16",
-      "content": "0.375",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 3/8)"
+      "content": "$0.333...$",
+      "correctCategory": "rational numbers",
+      "explanation": "A repeating decimal that can be expressed as a fraction (e.g., $\\frac{1}{3}$)."
     },
     {
       "id": "q17",
-      "content": "√-9",
-      "correctCategory": "imaginary",
-      "explanation": "This equals 3i, which is a pure imaginary number"
+      "content": "$\\sqrt{7}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q18",
-      "content": "4 - 2i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "$i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "The imaginary unit, $i = \\sqrt{-1}$."
     },
     {
       "id": "q19",
-      "content": "100",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "$1 + i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q20",
-      "content": "√3",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "20",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q21",
-      "content": "-7",
-      "correctCategory": "integer",
-      "explanation": "This is a negative integer"
+      "content": "$-15$",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q22",
-      "content": "2/5",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (fraction)"
+      "content": "$\\frac{1}{3}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
     },
     {
       "id": "q23",
-      "content": "i",
-      "correctCategory": "imaginary",
-      "explanation": "This is the imaginary unit"
+      "content": "$\\sqrt{11}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q24",
-      "content": "0.666...",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 2/3)"
+      "content": "$10i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q25",
-      "content": "√5",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$3 - 2i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q26",
-      "content": "8",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "4",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q27",
-      "content": "-1 + 3i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
     },
     {
       "id": "q28",
-      "content": "15.0",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number (the decimal doesn't change its classification)"
+      "content": "-8",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q29",
-      "content": "√7",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$\\frac{1}{2}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
     },
     {
       "id": "q30",
-      "content": "-6i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "$\\sqrt{3}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q31",
-      "content": "9/4",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 2.25)"
+      "content": "$2i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q32",
-      "content": "0.5",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 1/2)"
+      "content": "$4 + 6i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q33",
-      "content": "√-16",
-      "correctCategory": "imaginary",
-      "explanation": "This equals 4i, which is a pure imaginary number"
+      "content": "9",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q34",
-      "content": "42",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "-2",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q35",
-      "content": "π/2",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "0.25",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
     },
     {
       "id": "q36",
-      "content": "-100",
-      "correctCategory": "integer",
-      "explanation": "This is a negative integer"
+      "content": "$\\sqrt{5}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q37",
-      "content": "5 + 0i",
-      "correctCategory": "real",
-      "explanation": "This is a real number (imaginary part is zero)"
+      "content": "$-i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q38",
-      "content": "√36",
-      "correctCategory": "natural",
-      "explanation": "This equals 6, which is a natural number"
+      "content": "$5 - 3i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q39",
-      "content": "0.125",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 1/8)"
+      "content": "15",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q40",
-      "content": "2√2",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "-7",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q41",
-      "content": "7i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "$\\frac{2}{3}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
     },
     {
       "id": "q42",
-      "content": "-3/7",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (negative fraction)"
+      "content": "$\\sqrt{13}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q43",
-      "content": "6 - 4i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "$12i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q44",
-      "content": "√11",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$7 + 4i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q45",
-      "content": "1",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "3",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q46",
-      "content": "0.2",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 1/5)"
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
     },
     {
       "id": "q47",
-      "content": "√-25",
-      "correctCategory": "imaginary",
-      "explanation": "This equals 5i, which is a pure imaginary number"
+      "content": "-6",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q48",
-      "content": "-15",
-      "correctCategory": "integer",
-      "explanation": "This is a negative integer"
+      "content": "$\\frac{1}{4}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
     },
     {
       "id": "q49",
-      "content": "3π",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$\\sqrt{17}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q50",
-      "content": "8/3",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (fraction)"
+      "content": "$5i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q51",
-      "content": "√81",
-      "correctCategory": "natural",
-      "explanation": "This equals 9, which is a natural number"
+      "content": "$8 - 5i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q52",
-      "content": "-2 - 5i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "10",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q53",
-      "content": "√13",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "-11",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q54",
-      "content": "0.75",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 3/4)"
+      "content": "$0.666...$",
+      "correctCategory": "rational numbers",
+      "explanation": "A repeating decimal that can be expressed as a fraction (e.g., $\\frac{2}{3}$)."
     },
     {
       "id": "q55",
-      "content": "9i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "$\\sqrt{19}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q56",
-      "content": "33",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "$15i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q57",
-      "content": "√-4",
-      "correctCategory": "imaginary",
-      "explanation": "This equals 2i, which is a pure imaginary number"
+      "content": "$9 + 2i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q58",
-      "content": "-0.5",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals -1/2)"
+      "content": "7",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q59",
-      "content": "√17",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
     },
     {
       "id": "q60",
-      "content": "10 + 8i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "-13",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q61",
-      "content": "5/6",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (fraction)"
+      "content": "$\\frac{3}{5}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
     },
     {
       "id": "q62",
-      "content": "√64",
-      "correctCategory": "natural",
-      "explanation": "This equals 8, which is a natural number"
+      "content": "$\\sqrt{23}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q63",
-      "content": "-20",
-      "correctCategory": "integer",
-      "explanation": "This is a negative integer"
+      "content": "$6i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q64",
-      "content": "√6",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$10 - 7i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q65",
-      "content": "-10i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "18",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q66",
-      "content": "0.1",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 1/10)"
+      "content": "-4",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q67",
-      "content": "4 + 9i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "0.1",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
     },
     {
       "id": "q68",
-      "content": "77",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "$\\sqrt{29}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q69",
-      "content": "√19",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$18i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q70",
-      "content": "7/8",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (fraction)"
+      "content": "$11 + 8i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q71",
-      "content": "√-36",
-      "correctCategory": "imaginary",
-      "explanation": "This equals 6i, which is a pure imaginary number"
+      "content": "2",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q72",
-      "content": "-1",
-      "correctCategory": "integer",
-      "explanation": "This is a negative integer"
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
     },
     {
       "id": "q73",
-      "content": "2e",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "-9",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q74",
-      "content": "0.6",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 3/5)"
+      "content": "$\\frac{1}{5}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
     },
     {
       "id": "q75",
-      "content": "√100",
-      "correctCategory": "natural",
-      "explanation": "This equals 10, which is a natural number"
+      "content": "$\\sqrt{31}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q76",
-      "content": "-7 + 2i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "$20i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q77",
-      "content": "√23",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$12 - 9i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q78",
-      "content": "11i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "25",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q79",
-      "content": "4/9",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (fraction)"
+      "content": "-16",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q80",
-      "content": "55",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "0.2",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
     },
     {
       "id": "q81",
-      "content": "√-49",
-      "correctCategory": "imaginary",
-      "explanation": "This equals 7i, which is a pure imaginary number"
+      "content": "$\\sqrt{37}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q82",
-      "content": "-3.25",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals -13/4)"
+      "content": "$22i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q83",
-      "content": "√29",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$13 + 10i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q84",
-      "content": "5 - 3i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "6",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q85",
-      "content": "0.4",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 2/5)"
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
     },
     {
       "id": "q86",
-      "content": "√121",
-      "correctCategory": "natural",
-      "explanation": "This equals 11, which is a natural number"
+      "content": "-19",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q87",
-      "content": "-50",
-      "correctCategory": "integer",
-      "explanation": "This is a negative integer"
+      "content": "$\\frac{4}{5}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
     },
     {
       "id": "q88",
-      "content": "√31",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "$\\sqrt{41}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q89",
-      "content": "12i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "$25i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q90",
-      "content": "6/7",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (fraction)"
+      "content": "$14 - 11i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q91",
-      "content": "√-64",
-      "correctCategory": "imaginary",
-      "explanation": "This equals 8i, which is a pure imaginary number"
+      "content": "30",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q92",
-      "content": "99",
-      "correctCategory": "natural",
-      "explanation": "This is a natural number"
+      "content": "-21",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q93",
-      "content": "√37",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "0.4",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
     },
     {
       "id": "q94",
-      "content": "8 + 5i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "$\\sqrt{43}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
     },
     {
       "id": "q95",
-      "content": "0.8",
-      "correctCategory": "rational",
-      "explanation": "This is a rational number (equals 4/5)"
+      "content": "$28i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
     },
     {
       "id": "q96",
-      "content": "√144",
-      "correctCategory": "natural",
-      "explanation": "This equals 12, which is a natural number"
+      "content": "$15 + 12i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
     },
     {
       "id": "q97",
-      "content": "-25",
-      "correctCategory": "integer",
-      "explanation": "This is a negative integer"
+      "content": "8",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
     },
     {
       "id": "q98",
-      "content": "√41",
-      "correctCategory": "irrational",
-      "explanation": "This is an irrational number"
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
     },
     {
       "id": "q99",
-      "content": "-4i",
-      "correctCategory": "imaginary",
-      "explanation": "This is a pure imaginary number"
+      "content": "-23",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
     },
     {
       "id": "q100",
-      "content": "9 - 7i",
-      "correctCategory": "complex",
-      "explanation": "This is a complex number with both real and imaginary parts"
+      "content": "$\\frac{1}{8}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q101",
+      "content": "$\\sqrt{47}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q102",
+      "content": "$30i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q103",
+      "content": "$16 - 13i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q104",
+      "content": "35",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q105",
+      "content": "-26",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q106",
+      "content": "0.125",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q107",
+      "content": "$\\sqrt{53}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q108",
+      "content": "$33i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q109",
+      "content": "$17 + 14i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q110",
+      "content": "11",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q111",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q112",
+      "content": "-28",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q113",
+      "content": "$\\frac{3}{8}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q114",
+      "content": "$\\sqrt{59}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q115",
+      "content": "$36i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q116",
+      "content": "$18 - 15i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q117",
+      "content": "40",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q118",
+      "content": "-31",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q119",
+      "content": "0.375",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q120",
+      "content": "$\\sqrt{61}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q121",
+      "content": "$39i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q122",
+      "content": "$19 + 16i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q123",
+      "content": "14",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q124",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q125",
+      "content": "-34",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q126",
+      "content": "$\\frac{5}{8}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q127",
+      "content": "$\\sqrt{67}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q128",
+      "content": "$42i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q129",
+      "content": "$20 - 17i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q130",
+      "content": "45",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q131",
+      "content": "-37",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q132",
+      "content": "0.625",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q133",
+      "content": "$\\sqrt{71}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q134",
+      "content": "$45i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q135",
+      "content": "$21 + 18i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q136",
+      "content": "17",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q137",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q138",
+      "content": "-40",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q139",
+      "content": "$\\frac{7}{8}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q140",
+      "content": "$\\sqrt{73}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q141",
+      "content": "$48i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q142",
+      "content": "$22 - 19i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q143",
+      "content": "50",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q144",
+      "content": "-42",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q145",
+      "content": "0.875",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q146",
+      "content": "$\\sqrt{79}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q147",
+      "content": "$50i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q148",
+      "content": "$23 + 20i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q149",
+      "content": "21",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q150",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q151",
+      "content": "-45",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q152",
+      "content": "$\\frac{1}{10}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q153",
+      "content": "$\\sqrt{83}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q154",
+      "content": "$53i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q155",
+      "content": "$24 - 21i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q156",
+      "content": "55",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q157",
+      "content": "-48",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q158",
+      "content": "0.1",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q159",
+      "content": "$\\sqrt{89}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q160",
+      "content": "$56i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q161",
+      "content": "$25 + 22i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q162",
+      "content": "24",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q163",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q164",
+      "content": "-50",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q165",
+      "content": "$\\frac{3}{10}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q166",
+      "content": "$\\sqrt{97}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q167",
+      "content": "$59i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q168",
+      "content": "$26 - 23i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q169",
+      "content": "60",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q170",
+      "content": "-53",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q171",
+      "content": "0.3",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q172",
+      "content": "$\\sqrt{101}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q173",
+      "content": "$62i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q174",
+      "content": "$27 + 24i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q175",
+      "content": "28",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q176",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q177",
+      "content": "-56",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q178",
+      "content": "$\\frac{7}{10}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q179",
+      "content": "$\\sqrt{103}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q180",
+      "content": "$65i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q181",
+      "content": "$28 - 25i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q182",
+      "content": "65",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q183",
+      "content": "-59",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q184",
+      "content": "0.7",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q185",
+      "content": "$\\sqrt{107}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q186",
+      "content": "$68i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q187",
+      "content": "$29 + 26i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q188",
+      "content": "32",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q189",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q190",
+      "content": "-62",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q191",
+      "content": "$\\frac{9}{10}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q192",
+      "content": "$\\sqrt{109}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q193",
+      "content": "$71i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q194",
+      "content": "$30 - 27i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q195",
+      "content": "70",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q196",
+      "content": "-65",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q197",
+      "content": "0.9",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q198",
+      "content": "$\\sqrt{113}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q199",
+      "content": "$74i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q200",
+      "content": "$31 + 28i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q201",
+      "content": "36",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q202",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q203",
+      "content": "-68",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q204",
+      "content": "$\\frac{1}{20}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q205",
+      "content": "$\\sqrt{127}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q206",
+      "content": "$77i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q207",
+      "content": "$32 - 29i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q208",
+      "content": "75",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q209",
+      "content": "-70",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q210",
+      "content": "0.05",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q211",
+      "content": "$\\sqrt{131}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q212",
+      "content": "$80i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q213",
+      "content": "$33 + 30i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q214",
+      "content": "40",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q215",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q216",
+      "content": "-73",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q217",
+      "content": "$\\frac{3}{20}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q218",
+      "content": "$\\sqrt{137}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q219",
+      "content": "$83i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q220",
+      "content": "$34 - 31i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q221",
+      "content": "80",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q222",
+      "content": "-76",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q223",
+      "content": "0.15",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q224",
+      "content": "$\\sqrt{139}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q225",
+      "content": "$86i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q226",
+      "content": "$35 + 32i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q227",
+      "content": "44",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q228",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q229",
+      "content": "-79",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q230",
+      "content": "$\\frac{7}{20}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q231",
+      "content": "$\\sqrt{149}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q232",
+      "content": "$89i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q233",
+      "content": "$36 - 33i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q234",
+      "content": "85",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q235",
+      "content": "-82",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q236",
+      "content": "0.35",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q237",
+      "content": "$\\sqrt{151}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q238",
+      "content": "$92i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q239",
+      "content": "$37 + 34i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q240",
+      "content": "48",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q241",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q242",
+      "content": "-85",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q243",
+      "content": "$\\frac{9}{20}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q244",
+      "content": "$\\sqrt{157}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q245",
+      "content": "$95i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q246",
+      "content": "$38 - 35i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q247",
+      "content": "90",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q248",
+      "content": "-88",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q249",
+      "content": "0.45",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
+    },
+    {
+      "id": "q250",
+      "content": "$\\sqrt{163}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q251",
+      "content": "$98i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q252",
+      "content": "$39 + 36i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q253",
+      "content": "52",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q254",
+      "content": "0",
+      "correctCategory": "whole numbers",
+      "explanation": "A natural number or zero."
+    },
+    {
+      "id": "q255",
+      "content": "-91",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q256",
+      "content": "$\\frac{11}{20}$",
+      "correctCategory": "rational numbers",
+      "explanation": "Can be expressed as a fraction of two integers."
+    },
+    {
+      "id": "q257",
+      "content": "$\\sqrt{167}$",
+      "correctCategory": "irrational numbers",
+      "explanation": "Cannot be expressed as a simple fraction; non-repeating, non-terminating decimal."
+    },
+    {
+      "id": "q258",
+      "content": "$101i$",
+      "correctCategory": "imaginary numbers",
+      "explanation": "A number of the form $bi$ where $b$ is a real number and $i = \\sqrt{-1}$."
+    },
+    {
+      "id": "q259",
+      "content": "$40 - 37i$",
+      "correctCategory": "complex numbers",
+      "explanation": "A number with both a real and a non-zero imaginary part."
+    },
+    {
+      "id": "q260",
+      "content": "95",
+      "correctCategory": "natural numbers",
+      "explanation": "A positive counting number."
+    },
+    {
+      "id": "q261",
+      "content": "-94",
+      "correctCategory": "integers",
+      "explanation": "A whole number or its negative."
+    },
+    {
+      "id": "q262",
+      "content": "0.55",
+      "correctCategory": "rational numbers",
+      "explanation": "A terminating decimal that can be expressed as a fraction."
     }
   ],
   "instructions": [

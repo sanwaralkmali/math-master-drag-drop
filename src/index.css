@@ -1,6 +1,43 @@
+@import 'katex/dist/katex.min.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* LaTeX rendering styles for the game */
+.katex {
+  font-size: 1em !important;
+  line-height: 1.2 !important;
+  font-family: 'KaTeX_Main', 'Times New Roman', serif !important;
+}
+
+.katex-display {
+  margin: 0.5em 0 !important;
+}
+
+/* Ensure LaTeX renders properly in buttons and cards */
+button .katex,
+.card .katex {
+  font-size: 0.9em !important;
+}
+
+/* Mobile-specific LaTeX sizing */
+@media (max-width: 768px) {
+  button .katex,
+  .card .katex {
+    font-size: 0.8em !important;
+  }
+}
+
+/* Ensure LaTeX elements don't break the layout */
+.katex-html {
+  white-space: nowrap !important;
+}
+
+/* Better alignment for LaTeX in buttons */
+button .katex {
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
 
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
 All colors MUST be HSL.

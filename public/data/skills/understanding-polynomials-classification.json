@@ -5,7 +5,7 @@
     {
       "id": "monomial",
       "name": "Monomial",
-      "description": "A polynomial with exactly one term (no plus or minus between unlike terms). Example: 5x², –7, 3a⁴b³.",
+      "description": "A polynomial with exactly one term (no plus or minus been unlike terms). Example: 5x², –7, 3a⁴b³.",
       "color": "#4caf50"
     },
     {
@@ -29,904 +29,1856 @@
   ],
   "questions": [
     {
-      "id": "q1",
-      "content": "7x",
-      "correctCategory": "monomial",
-      "explanation": "Single term 7x ⇒ monomial."
+      "id": "p1",
+      "content": "$7x$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $7x$ ⇒ monomial."
     },
     {
-      "id": "q2",
-      "content": "x² + 4x",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x² and 4x ⇒ binomial."
+      "id": "p2",
+      "content": "$x + 5$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $x$ and $5$ ⇒ binomial."
     },
     {
-      "id": "q3",
-      "content": "3x² – 5x + 1",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 3x², –5x, 1 ⇒ trinomial."
+      "id": "p3",
+      "content": "$y^2 - 3y + 2$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-3y$, and $2$ ⇒ trinomial."
     },
     {
-      "id": "q4",
-      "content": "8",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term 8 ⇒ monomial."
+      "id": "p4",
+      "content": "$x^3 + 2x^2 - x + 1$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Four terms ⇒ other polynomial."
     },
     {
-      "id": "q5",
-      "content": "a³b²c – 4ab² + 6c – 9",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p5",
+      "content": "$-12$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q6",
-      "content": "2x²y³",
-      "correctCategory": "monomial",
-      "explanation": "Single term 2x²y³ ⇒ monomial."
+      "id": "p6",
+      "content": "$a^2 - 16$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $a^2$ and $-16$ ⇒ binomial."
     },
     {
-      "id": "q7",
-      "content": "5p – q",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 5p and –q ⇒ binomial."
+      "id": "p7",
+      "content": "$5m^3$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $5m^3$ ⇒ monomial."
     },
     {
-      "id": "q8",
-      "content": "x⁴ + 3x³ – 2x² + x – 7",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p8",
+      "content": "$c^4 + 2c^2 - 3c + 5 - 8c^3$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Five terms ⇒ other polynomial."
     },
     {
-      "id": "q9",
-      "content": "–7y",
-      "correctCategory": "monomial",
-      "explanation": "Single term –7y ⇒ monomial."
+      "id": "p9",
+      "content": "$z^2 + 4z + 4$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $z^2$, $4z$, and $4$ ⇒ trinomial."
     },
     {
-      "id": "q10",
-      "content": "m² + 2mn + n²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: m², 2mn, n² ⇒ trinomial."
+      "id": "p10",
+      "content": "$2x - 7$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $2x$ and $-7$ ⇒ binomial."
     },
     {
-      "id": "q11",
-      "content": "4a²b – 3ab²",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 4a²b and –3ab² ⇒ binomial."
+      "id": "p11",
+      "content": "$10y^5$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $10y^5$ ⇒ monomial."
     },
     {
-      "id": "q12",
-      "content": "9x²y – 4xy + 3y² – 8",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p12",
+      "content": "$3x^2 + 5x - 1$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $3x^2$, $5x$, and $-1$ ⇒ trinomial."
     },
     {
-      "id": "q13",
-      "content": "t⁵",
-      "correctCategory": "monomial",
-      "explanation": "Single term t⁵ ⇒ monomial."
+      "id": "p13",
+      "content": "$a^4 - 2a^3 + 3a^2 - 4a + 5$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Five terms ⇒ other polynomial."
     },
     {
-      "id": "q14",
-      "content": "z² – 9",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: z² and –9 ⇒ binomial."
+      "id": "p14",
+      "content": "$p + q$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $p$ and $q$ ⇒ binomial."
     },
     {
-      "id": "q15",
-      "content": "2x³ + 5x² – 3x + 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p15",
+      "content": "$8$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q16",
-      "content": "–3a²bc³",
-      "correctCategory": "monomial",
-      "explanation": "Single term –3a²bc³ ⇒ monomial."
+      "id": "p16",
+      "content": "$x^2$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $x^2$ ⇒ monomial."
     },
     {
-      "id": "q17",
-      "content": "x² + 2xy + y² – 4",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p17",
+      "content": "$y^3 - 7$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $y^3$ and $-7$ ⇒ binomial."
     },
     {
-      "id": "q18",
-      "content": "p + q",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: p and q ⇒ binomial."
+      "id": "p18",
+      "content": "$m^2 + 2mn + n^2$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $m^2$, $2mn$, and $n^2$ ⇒ trinomial."
     },
     {
-      "id": "q19",
-      "content": "5x² – 8x + 3",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 5x², –8x, 3 ⇒ trinomial."
+      "id": "p19",
+      "content": "$2x^4 - 3x^3 + x^2 - 5x + 9$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Five terms ⇒ other polynomial."
     },
     {
-      "id": "q20",
-      "content": "4k² – 7k",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 4k² and –7k ⇒ binomial."
+      "id": "p20",
+      "content": "$4$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q21",
-      "content": "9",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term 9 ⇒ monomial."
+      "id": "p21",
+      "content": "$6x^2y$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $6x^2y$ ⇒ monomial."
     },
     {
-      "id": "q22",
-      "content": "x² – 4x + 7",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x², –4x, 7 ⇒ trinomial."
+      "id": "p22",
+      "content": "$a^3 + b^3$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $a^3$ and $b^3$ ⇒ binomial."
     },
     {
-      "id": "q23",
-      "content": "a³ + b³ + c³ – 3abc",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p23",
+      "content": "$x^2 - x - 1$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $x^2$, $-x$, and $-1$ ⇒ trinomial."
     },
+
     {
-      "id": "q24",
-      "content": "–2xy²z",
-      "correctCategory": "monomial",
-      "explanation": "Single term –2xy²z ⇒ monomial."
+      "id": "p25",
+      "content": "$0$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q25",
-      "content": "m² – n²",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: m² and –n² ⇒ binomial."
+      "id": "p26",
+      "content": "$-9z$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $-9z$ ⇒ monomial."
     },
     {
-      "id": "q26",
-      "content": "2a² + 3ab + b²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 2a², 3ab, b² ⇒ trinomial."
+      "id": "p27",
+      "content": "$x^2 + 1$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $x^2$ and $1$ ⇒ binomial."
     },
     {
-      "id": "q27",
-      "content": "x⁴ – 5x³ + 2x² – x + 6",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p28",
+      "content": "$3y^2 - 7y + 4$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $3y^2$, $-7y$, and $4$ ⇒ trinomial."
     },
     {
-      "id": "q28",
-      "content": "7",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term 7 ⇒ monomial."
+      "id": "p29",
+      "content": "$a^3 - a^2 + a - 1$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Four terms ⇒ other polynomial."
     },
     {
-      "id": "q29",
-      "content": "p² + 2pq + q²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: p², 2pq, q² ⇒ trinomial."
+      "id": "p30",
+      "content": "$2.5$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q30",
-      "content": "3x – 4y",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 3x and –4y ⇒ binomial."
+      "id": "p31",
+      "content": "$15x^4$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $15x^4$ ⇒ monomial."
     },
     {
-      "id": "q31",
-      "content": "5",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term 5 ⇒ monomial."
+      "id": "p32",
+      "content": "$m - n$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $m$ and $-n$ ⇒ binomial."
     },
     {
-      "id": "q32",
-      "content": "y² + 6y + 9",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: y², 6y, 9 ⇒ trinomial."
+      "id": "p33",
+      "content": "$p^2 + 6p + 9$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $6p$, and $9$ ⇒ trinomial."
     },
     {
-      "id": "q33",
-      "content": "x⁴ – 1",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x⁴ and –1 ⇒ binomial."
+      "id": "p35",
+      "content": "$-1$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q34",
-      "content": "a³ + 2a² – a + 4",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p36",
+      "content": "$18$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q35",
-      "content": "–9m",
-      "correctCategory": "monomial",
-      "explanation": "Single term –9m ⇒ monomial."
+      "id": "p37",
+      "content": "$x^2 - 2x + 1$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $x^2$, $-2x$, and $1$ ⇒ trinomial."
     },
     {
-      "id": "q36",
-      "content": "2x + 3y – 4z",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 2x, 3y, –4z ⇒ trinomial."
+      "id": "p38",
+      "content": "$y^2 - 49$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $y^2$ and $-49$ ⇒ binomial."
     },
     {
-      "id": "q37",
-      "content": "u² – 16",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: u² and –16 ⇒ binomial."
+      "id": "p39",
+      "content": "$3x^2y^3$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $3x^2y^3$ ⇒ monomial."
     },
     {
-      "id": "q38",
-      "content": "x⁵ – 3x⁴ + 2x³ – x² + x – 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Six unlike terms ⇒ polynomial with more than three terms."
+      "id": "p40",
+      "content": "$a^4 + 2a^3 - a^2 + 5a - 7$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Five terms ⇒ other polynomial."
     },
     {
-      "id": "q39",
-      "content": "6p²q³r",
-      "correctCategory": "monomial",
-      "explanation": "Single term 6p²q³r ⇒ monomial."
+      "id": "p41",
+      "content": "$z + 10$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z$ and $10$ ⇒ binomial."
     },
     {
-      "id": "q40",
-      "content": "x² + y² + z²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x², y², z² ⇒ trinomial."
+      "id": "p42",
+      "content": "$20$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q41",
-      "content": "a² – b²",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: a² and –b² ⇒ binomial."
+      "id": "p43",
+      "content": "$5x^2 - 8x + 3$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $5x^2$, $-8x$, and $3$ ⇒ trinomial."
     },
     {
-      "id": "q42",
-      "content": "2x – 3",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 2x and –3 ⇒ binomial."
+      "id": "p44",
+      "content": "$11y^6$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $11y^6$ ⇒ monomial."
     },
     {
-      "id": "q43",
-      "content": "8mn²",
-      "correctCategory": "monomial",
-      "explanation": "Single term 8mn² ⇒ monomial."
+      "id": "p45",
+      "content": "$b^3 - 2b^2 + b - 5$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Four terms ⇒ other polynomial."
     },
     {
-      "id": "q44",
-      "content": "x³ + y³ + z³ – 3xyz",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p46",
+      "content": "$c - 1$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c$ and $-1$ ⇒ binomial."
     },
     {
-      "id": "q45",
-      "content": "4a² – 4ab + b²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 4a², –4ab, b² ⇒ trinomial."
+      "id": "p47",
+      "content": "$2$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q46",
-      "content": "–12",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term –12 ⇒ monomial."
+      "id": "p48",
+      "content": "$x^3$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $x^3$ ⇒ monomial."
     },
     {
-      "id": "q47",
-      "content": "x + y + z + w",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p49",
+      "content": "$y^2 + y + 1$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $y$, and $1$ ⇒ trinomial."
     },
     {
-      "id": "q48",
-      "content": "5k² – 2k + 1",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 5k², –2k, 1 ⇒ trinomial."
+      "id": "p50",
+      "content": "$m^4 + 3m^3 - 2m^2 + m - 10$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Five terms ⇒ other polynomial."
     },
     {
-      "id": "q49",
-      "content": "7xy²z³",
-      "correctCategory": "monomial",
-      "explanation": "Single term 7xy²z³ ⇒ monomial."
+      "id": "p51",
+      "content": "$100$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q50",
-      "content": "p³ – q³",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: p³ and –q³ ⇒ binomial."
+      "id": "p52",
+      "content": "$13x^7$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $13x^7$ ⇒ monomial."
     },
     {
-      "id": "q51",
-      "content": "x² + 2x + 1",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x², 2x, 1 ⇒ trinomial."
+      "id": "p53",
+      "content": "$a + b + c$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $a$, $b$, and $c$ ⇒ trinomial."
     },
     {
-      "id": "q52",
-      "content": "2a + 3b – 4c + 5d",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p54",
+      "content": "$z^2 - 1$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^2$ and $-1$ ⇒ binomial."
     },
     {
-      "id": "q53",
-      "content": "–5x³y⁴",
-      "correctCategory": "monomial",
-      "explanation": "Single term –5x³y⁴ ⇒ monomial."
+      "id": "p56",
+      "content": "$1$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q54",
-      "content": "m² – 2mn + n²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: m², –2mn, n² ⇒ trinomial."
+      "id": "p57",
+      "content": "$4y^2z$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $4y^2z$ ⇒ monomial."
     },
     {
-      "id": "q55",
-      "content": "x + 1",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x and 1 ⇒ binomial."
+      "id": "p58",
+      "content": "$3a^2 - 5b$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $3a^2$ and $-5b$ ⇒ binomial."
     },
     {
-      "id": "q56",
-      "content": "a⁴ – b⁴",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: a⁴ and –b⁴ ⇒ binomial."
+      "id": "p59",
+      "content": "$2x^2 + 5x - 7$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $2x^2$, $5x$, and $-7$ ⇒ trinomial."
     },
     {
-      "id": "q57",
-      "content": "3",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term 3 ⇒ monomial."
+      "id": "p60",
+      "content": "$p^4 + p^3 + p^2 + p + 1$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Five terms ⇒ other polynomial."
     },
     {
-      "id": "q58",
-      "content": "x³ + x² + x + 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p61",
+      "content": "$-5$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q59",
-      "content": "4x² – 9",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 4x² and –9 ⇒ binomial."
+      "id": "p62",
+      "content": "$16x^8$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $16x^8$ ⇒ monomial."
     },
     {
-      "id": "q60",
-      "content": "2a² + 5ab – 3b²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 2a², 5ab, –3b² ⇒ trinomial."
+      "id": "p63",
+      "content": "$a^2 + b^2 - c^2$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $a^2$, $b^2$, and $-c^2$ ⇒ trinomial."
     },
     {
-      "id": "q61",
-      "content": "–8x²y",
-      "correctCategory": "monomial",
-      "explanation": "Single term –8x²y ⇒ monomial."
+      "id": "p64",
+      "content": "$m^2 - 81$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $m^2$ and $-81$ ⇒ binomial."
     },
     {
-      "id": "q62",
-      "content": "x – y – z",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x, –y, –z ⇒ trinomial."
+      "id": "p66",
+      "content": "$0.5$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q63",
-      "content": "5a⁵ – 4a⁴ + 3a³ – 2a² + a – 6",
-      "correctCategory": "other_polynomial",
-      "explanation": "Six unlike terms ⇒ polynomial with more than three terms."
+      "id": "p67",
+      "content": "$21z^9$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $21z^9$ ⇒ monomial."
     },
     {
-      "id": "q64",
-      "content": "6pq",
-      "correctCategory": "monomial",
-      "explanation": "Single term 6pq ⇒ monomial."
+      "id": "p68",
+      "content": "$x + y + z$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $x$, $y$, and $z$ ⇒ trinomial."
     },
     {
-      "id": "q65",
-      "content": "x² + y²",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x² and y² ⇒ binomial."
+      "id": "p69",
+      "content": "$a^4 - 1$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $a^4$ and $-1$ ⇒ binomial."
     },
+
     {
-      "id": "q66",
-      "content": "a + b + c",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: a, b, c ⇒ trinomial."
+      "id": "p71",
+      "content": "$1.5$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q67",
-      "content": "x⁴ + 2x² + 1",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x⁴, 2x², 1 ⇒ trinomial."
+      "id": "p72",
+      "content": "$2x^2y^2z$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $2x^2y^2z$ ⇒ monomial."
     },
     {
-      "id": "q68",
-      "content": "–1",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term –1 ⇒ monomial."
+      "id": "p73",
+      "content": "$x^2 - 10x + 25$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $x^2$, $-10x$, and $25$ ⇒ trinomial."
     },
     {
-      "id": "q69",
-      "content": "2x – 5y + 3z – 4w",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p74",
+      "content": "$y^5 + 1$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $y^5$ and $1$ ⇒ binomial."
     },
+
     {
-      "id": "q70",
-      "content": "9abc²",
-      "correctCategory": "monomial",
-      "explanation": "Single term 9abc² ⇒ monomial."
+      "id": "p76",
+      "content": "$-10$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q71",
-      "content": "x³ – 1",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x³ and –1 ⇒ binomial."
+      "id": "p77",
+      "content": "$25a^{10}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $25a^{10}$ ⇒ monomial."
     },
     {
-      "id": "q72",
-      "content": "3x² – 2xy + y²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 3x², –2xy, y² ⇒ trinomial."
+      "id": "p78",
+      "content": "$c^2 - 6c + 9$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $c^2$, $-6c$, and $9$ ⇒ trinomial."
     },
     {
-      "id": "q73",
-      "content": "5m – 2n + 4p – 3q + 7r",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p79",
+      "content": "$p^3 + 8$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $p^3$ and $8$ ⇒ binomial."
     },
     {
-      "id": "q74",
-      "content": "–4x⁴y²",
-      "correctCategory": "monomial",
-      "explanation": "Single term –4x⁴y² ⇒ monomial."
+      "id": "p80",
+      "content": "$x^4 + 2x^3 - 3x^2 + 4x - 5 + 6x^5$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Six terms ⇒ other polynomial."
     },
     {
-      "id": "q75",
-      "content": "a² + 2ab + b²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: a², 2ab, b² ⇒ trinomial."
+      "id": "p81",
+      "content": "$30$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q76",
-      "content": "p – q",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: p and –q ⇒ binomial."
+      "id": "p82",
+      "content": "$30x^{11}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $30x^{11}$ ⇒ monomial."
     },
     {
-      "id": "q77",
-      "content": "x² – 10x + 25",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x², –10x, 25 ⇒ trinomial."
+      "id": "p83",
+      "content": "$y^2 + 12y + 36$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $12y$, and $36$ ⇒ trinomial."
     },
     {
-      "id": "q78",
-      "content": "2a³ – 3a² + 4a – 5",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p84",
+      "content": "$z^6 - 64$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^6$ and $-64$ ⇒ binomial."
     },
+
     {
-      "id": "q79",
-      "content": "11",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term 11 ⇒ monomial."
+      "id": "p86",
+      "content": "$-0.75$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q80",
-      "content": "x + y + z + w + v",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p87",
+      "content": "$35b^{12}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $35b^{12}$ ⇒ monomial."
     },
     {
-      "id": "q81",
-      "content": "3x² – 12",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 3x² and –12 ⇒ binomial."
+      "id": "p88",
+      "content": "$x^2 - 14x + 49$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $x^2$, $-14x$, and $49$ ⇒ trinomial."
     },
     {
-      "id": "q82",
-      "content": "4m²n",
-      "correctCategory": "monomial",
-      "explanation": "Single term 4m²n ⇒ monomial."
+      "id": "p89",
+      "content": "$c^7 + 128$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^7$ and $128$ ⇒ binomial."
     },
+
     {
-      "id": "q83",
-      "content": "a² + b² + c²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: a², b², c² ⇒ trinomial."
+      "id": "p91",
+      "content": "$\\frac{5}{2}$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q84",
-      "content": "x⁵ – x⁴ + x³ – x² + x – 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Six unlike terms ⇒ polynomial with more than three terms."
+      "id": "p92",
+      "content": "$40y^{13}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $40y^{13}$ ⇒ monomial."
     },
     {
-      "id": "q85",
-      "content": "–6xyz",
-      "correctCategory": "monomial",
-      "explanation": "Single term –6xyz ⇒ monomial."
+      "id": "p93",
+      "content": "$m^2 + 16m + 64$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $m^2$, $16m$, and $64$ ⇒ trinomial."
     },
     {
-      "id": "q86",
-      "content": "2a + 3b",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 2a and 3b ⇒ binomial."
+      "id": "p94",
+      "content": "$n^8 - 256$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $n^8$ and $-256$ ⇒ binomial."
     },
+
     {
-      "id": "q87",
-      "content": "x² – 6x + 9",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x², –6x, 9 ⇒ trinomial."
+      "id": "p96",
+      "content": "$1000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q88",
-      "content": "5p⁴ – 4p³ + 3p² – 2p + 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p97",
+      "content": "$45z^{14}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $45z^{14}$ ⇒ monomial."
     },
     {
-      "id": "q89",
-      "content": "k",
-      "correctCategory": "monomial",
-      "explanation": "Single variable k ⇒ monomial."
+      "id": "p98",
+      "content": "$x^2 - 18x + 81$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $x^2$, $-18x$, and $81$ ⇒ trinomial."
     },
     {
-      "id": "q90",
-      "content": "x – 2y + 3z",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x, –2y, 3z ⇒ trinomial."
+      "id": "p99",
+      "content": "$y^9 + 512$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $y^9$ and $512$ ⇒ binomial."
     },
+
     {
-      "id": "q91",
-      "content": "a⁶ – b⁶",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: a⁶ and –b⁶ ⇒ binomial."
+      "id": "p101",
+      "content": "$-100$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q92",
-      "content": "3x²y³z",
-      "correctCategory": "monomial",
-      "explanation": "Single term 3x²y³z ⇒ monomial."
+      "id": "p102",
+      "content": "$50x^{15}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $50x^{15}$ ⇒ monomial."
     },
     {
-      "id": "q93",
-      "content": "2s + 3t – 4u + 5v – 6w",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p103",
+      "content": "$b^2 + 20b + 100$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $20b$, and $100$ ⇒ trinomial."
     },
     {
-      "id": "q94",
-      "content": "x² + 4xy + 4y²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x², 4xy, 4y² ⇒ trinomial."
+      "id": "p104",
+      "content": "$c^{10} - 1024$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{10}$ and $-1024$ ⇒ binomial."
     },
+
     {
-      "id": "q95",
-      "content": "7a – 8b",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 7a and –8b ⇒ binomial."
+      "id": "p106",
+      "content": "$3.14$",
+      "correctCategory": "Constant",
+      "explanation": "Fixed numerical value ⇒ constant (also a monomial)."
     },
     {
-      "id": "q96",
-      "content": "–15",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term –15 ⇒ monomial."
+      "id": "p107",
+      "content": "$60y^{16}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $60y^{16}$ ⇒ monomial."
     },
     {
-      "id": "q97",
-      "content": "x⁴ – 4x³ + 6x² – 4x + 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p108",
+      "content": "$x^2 - 22x + 121$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $x^2$, $-22x$, and $121$ ⇒ trinomial."
     },
     {
-      "id": "q98",
-      "content": "9mn³",
-      "correctCategory": "monomial",
-      "explanation": "Single term 9mn³ ⇒ monomial."
+      "id": "p109",
+      "content": "$z^{11} + 2048$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{11}$ and $2048$ ⇒ binomial."
     },
+
     {
-      "id": "q99",
-      "content": "a + b + c + d",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p111",
+      "content": "$-200$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q100",
-      "content": "3x² – 5xy + 2y²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 3x², –5xy, 2y² ⇒ trinomial."
+      "id": "p112",
+      "content": "$65m^{17}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $65m^{17}$ ⇒ monomial."
     },
     {
-      "id": "q101",
-      "content": "2x + 1",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 2x and 1 ⇒ binomial."
+      "id": "p113",
+      "content": "$p^2 + 24p + 144$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $24p$, and $144$ ⇒ trinomial."
     },
     {
-      "id": "q102",
-      "content": "x³y²z",
-      "correctCategory": "monomial",
-      "explanation": "Single term x³y²z ⇒ monomial."
+      "id": "p114",
+      "content": "$q^{12} - 4096$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $q^{12}$ and $-4096$ ⇒ binomial."
     },
+
     {
-      "id": "q103",
-      "content": "a² + b² + c² + d² + e²",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p116",
+      "content": "$10000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q104",
-      "content": "4p – 7q + 2r",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 4p, –7q, 2r ⇒ trinomial."
+      "id": "p117",
+      "content": "$70n^{18}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $70n^{18}$ ⇒ monomial."
     },
     {
-      "id": "q105",
-      "content": "–x⁵y",
-      "correctCategory": "monomial",
-      "explanation": "Single term –x⁵y ⇒ monomial."
+      "id": "p118",
+      "content": "$y^2 - 26y + 169$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-26y$, and $169$ ⇒ trinomial."
     },
     {
-      "id": "q106",
-      "content": "x – 9",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x and –9 ⇒ binomial."
+      "id": "p119",
+      "content": "$r^{13} + 8192$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $r^{13}$ and $8192$ ⇒ binomial."
     },
+
     {
-      "id": "q107",
-      "content": "2a³ + 3a²b + 3ab² + b³",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p121",
+      "content": "$-500$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q108",
-      "content": "5x² – 4x + 3",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 5x², –4x, 3 ⇒ trinomial."
+      "id": "p122",
+      "content": "$75a^{19}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $75a^{19}$ ⇒ monomial."
     },
     {
-      "id": "q109",
-      "content": "6",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term 6 ⇒ monomial."
+      "id": "p123",
+      "content": "$b^2 + 28b + 196$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $28b$, and $196$ ⇒ trinomial."
     },
     {
-      "id": "q110",
-      "content": "a² – b² + c² – d²",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p124",
+      "content": "$c^{14} - 16384$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{14}$ and $-16384$ ⇒ binomial."
     },
+
     {
-      "id": "q111",
-      "content": "x²y – xy²",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x²y and –xy² ⇒ binomial."
+      "id": "p126",
+      "content": "$0.01$",
+      "correctCategory": "Constant",
+      "explanation": "Fixed numerical value ⇒ constant (also a monomial)."
     },
     {
-      "id": "q112",
-      "content": "3x + 2y – z",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 3x, 2y, –z ⇒ trinomial."
+      "id": "p127",
+      "content": "$80x^{20}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $80x^{20}$ ⇒ monomial."
     },
     {
-      "id": "q113",
-      "content": "–7a²b³c",
-      "correctCategory": "monomial",
-      "explanation": "Single term –7a²b³c ⇒ monomial."
+      "id": "p128",
+      "content": "$y^2 - 30y + 225$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-30y$, and $225$ ⇒ trinomial."
     },
     {
-      "id": "q114",
-      "content": "x⁵ – 1",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x⁵ and –1 ⇒ binomial."
+      "id": "p129",
+      "content": "$z^{15} + 32768$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{15}$ and $32768$ ⇒ binomial."
     },
+
     {
-      "id": "q115",
-      "content": "a⁴ – 4a³ + 6a² – 4a + 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p131",
+      "content": "$12345$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q116",
-      "content": "4x²y³z⁴",
-      "correctCategory": "monomial",
-      "explanation": "Single term 4x²y³z⁴ ⇒ monomial."
+      "id": "p132",
+      "content": "$85m^{21}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $85m^{21}$ ⇒ monomial."
     },
     {
-      "id": "q117",
-      "content": "2p + 3q – 4r + 5s",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p133",
+      "content": "$p^2 + 32p + 256$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $32p$, and $256$ ⇒ trinomial."
     },
     {
-      "id": "q118",
-      "content": "x² + 6x + 8",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x², 6x, 8 ⇒ trinomial."
+      "id": "p134",
+      "content": "$q^{16} - 65536$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $q^{16}$ and $-65536$ ⇒ binomial."
     },
+
     {
-      "id": "q119",
-      "content": "5a – b",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 5a and –b ⇒ binomial."
+      "id": "p136",
+      "content": "$-0.1$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q120",
-      "content": "–3",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term –3 ⇒ monomial."
+      "id": "p137",
+      "content": "$90n^{22}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $90n^{22}$ ⇒ monomial."
     },
     {
-      "id": "q121",
-      "content": "x³ + 2x²y + 2xy² + y³",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p138",
+      "content": "$y^2 - 34y + 289$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-34y$, and $289$ ⇒ trinomial."
     },
     {
-      "id": "q122",
-      "content": "7m² – 2mn + n²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 7m², –2mn, n² ⇒ trinomial."
+      "id": "p139",
+      "content": "$r^{17} + 131072$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $r^{17}$ and $131072$ ⇒ binomial."
     },
+
     {
-      "id": "q123",
-      "content": "abc",
-      "correctCategory": "monomial",
-      "explanation": "Single term abc ⇒ monomial."
+      "id": "p141",
+      "content": "$54321$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q124",
-      "content": "x – y + z – w – v",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p142",
+      "content": "$95a^{23}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $95a^{23}$ ⇒ monomial."
     },
     {
-      "id": "q125",
-      "content": "a² – 1",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: a² and –1 ⇒ binomial."
+      "id": "p143",
+      "content": "$b^2 + 36b + 324$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $36b$, and $324$ ⇒ trinomial."
     },
     {
-      "id": "q126",
-      "content": "2x² – 3xy + y²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 2x², –3xy, y² ⇒ trinomial."
+      "id": "p144",
+      "content": "$c^{18} - 262144$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{18}$ and $-262144$ ⇒ binomial."
     },
+
     {
-      "id": "q127",
-      "content": "8x⁴y⁵",
-      "correctCategory": "monomial",
-      "explanation": "Single term 8x⁴y⁵ ⇒ monomial."
+      "id": "p146",
+      "content": "$0.001$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q128",
-      "content": "p + q + r",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: p, q, r ⇒ trinomial."
+      "id": "p147",
+      "content": "$100x^{24}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $100x^{24}$ ⇒ monomial."
     },
     {
-      "id": "q129",
-      "content": "x⁶ – y⁶",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: x⁶ and –y⁶ ⇒ binomial."
+      "id": "p148",
+      "content": "$y^2 - 38y + 361$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-38y$, and $361$ ⇒ trinomial."
     },
     {
-      "id": "q130",
-      "content": "a³ + 3a² + 3a + 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p149",
+      "content": "$z^{19} + 524288$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{19}$ and $524288$ ⇒ binomial."
     },
     {
-      "id": "q131",
-      "content": "–9xy²",
-      "correctCategory": "monomial",
-      "explanation": "Single term –9xy² ⇒ monomial."
+      "id": "p151",
+      "content": "$2.718$",
+      "correctCategory": "Constant",
+      "explanation": "Fixed numerical value ⇒ constant (also a monomial)."
     },
     {
-      "id": "q132",
-      "content": "2x + 3y – 4",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: 2x, 3y, –4 ⇒ trinomial."
+      "id": "p152",
+      "content": "$105x^{25}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $105x^{25}$ ⇒ monomial."
     },
     {
-      "id": "q133",
-      "content": "5a – 6b + 7c – 8d + 9e",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p153",
+      "content": "$b^2 + 40b + 400$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $40b$, and $400$ ⇒ trinomial."
     },
     {
-      "id": "q134",
-      "content": "x²yz³",
-      "correctCategory": "monomial",
-      "explanation": "Single term x²yz³ ⇒ monomial."
+      "id": "p154",
+      "content": "$c^{20} - 1048576$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{20}$ and $-1048576$ ⇒ binomial."
     },
+
     {
-      "id": "q135",
-      "content": "m – n",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: m and –n ⇒ binomial."
+      "id": "p156",
+      "content": "$-3.14$",
+      "correctCategory": "Constant",
+      "explanation": "Fixed numerical value ⇒ constant (also a monomial)."
     },
     {
-      "id": "q136",
-      "content": "x² + 5x + 6",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: x², 5x, 6 ⇒ trinomial."
+      "id": "p157",
+      "content": "$110y^{26}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $110y^{26}$ ⇒ monomial."
     },
     {
-      "id": "q137",
-      "content": "4",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term 4 ⇒ monomial."
+      "id": "p158",
+      "content": "$x^2 - 42x + 441$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $x^2$, $-42x$, and $441$ ⇒ trinomial."
     },
     {
-      "id": "q138",
-      "content": "a² – b² + c²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: a², –b², c² ⇒ trinomial."
+      "id": "p159",
+      "content": "$z^{21} + 2097152$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{21}$ and $2097152$ ⇒ binomial."
     },
+
     {
-      "id": "q139",
-      "content": "x⁴ – 3x³ + 2x² – x + 3",
-      "correctCategory": "other_polynomial",
-      "explanation": "Five unlike terms ⇒ polynomial with more than three terms."
+      "id": "p161",
+      "content": "$543210$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q140",
-      "content": "–xyz²",
-      "correctCategory": "monomial",
-      "explanation": "Single term –xyz² ⇒ monomial."
+      "id": "p162",
+      "content": "$115m^{27}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $115m^{27}$ ⇒ monomial."
     },
     {
-      "id": "q141",
-      "content": "2p + 5q",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: 2p and 5q ⇒ binomial."
+      "id": "p163",
+      "content": "$p^2 + 44p + 484$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $44p$, and $484$ ⇒ trinomial."
     },
     {
-      "id": "q142",
-      "content": "x³ – x² + x – 1",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p164",
+      "content": "$q^{22} - 4194304$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $q^{22}$ and $-4194304$ ⇒ binomial."
     },
+
     {
-      "id": "q143",
-      "content": "3a²b²c",
-      "correctCategory": "monomial",
-      "explanation": "Single term 3a²b²c ⇒ monomial."
+      "id": "p166",
+      "content": "$-0.0001$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q144",
-      "content": "u² – 2uv + v²",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: u², –2uv, v² ⇒ trinomial."
+      "id": "p167",
+      "content": "$120n^{28}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $120n^{28}$ ⇒ monomial."
     },
     {
-      "id": "q145",
-      "content": "x – 3y + 2z – w",
-      "correctCategory": "other_polynomial",
-      "explanation": "Four unlike terms ⇒ polynomial with more than three terms."
+      "id": "p168",
+      "content": "$y^2 - 46y + 529$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-46y$, and $529$ ⇒ trinomial."
     },
     {
-      "id": "q146",
-      "content": "7x²y",
-      "correctCategory": "monomial",
-      "explanation": "Single term 7x²y ⇒ monomial."
+      "id": "p169",
+      "content": "$r^{23} + 8388608$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $r^{23}$ and $8388608$ ⇒ binomial."
     },
+
     {
-      "id": "q147",
-      "content": "a + b – c",
-      "correctCategory": "trinomial",
-      "explanation": "Three unlike terms: a, b, –c ⇒ trinomial."
+      "id": "p171",
+      "content": "$987654$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
     },
     {
-      "id": "q148",
-      "content": "2x⁵ – 3x⁴ + x³ – x² + x – 5",
-      "correctCategory": "other_polynomial",
-      "explanation": "Six unlike terms ⇒ polynomial with more than three terms."
+      "id": "p172",
+      "content": "$125a^{29}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $125a^{29}$ ⇒ monomial."
     },
     {
-      "id": "q149",
-      "content": "–5",
-      "correctCategory": "monomial",
-      "explanation": "Single constant term –5 ⇒ monomial."
+      "id": "p173",
+      "content": "$b^2 + 48b + 576$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $48b$, and $576$ ⇒ trinomial."
     },
     {
-      "id": "q150",
-      "content": "m⁴ – n⁴",
-      "correctCategory": "binomial",
-      "explanation": "Two unlike terms: m⁴ and –n⁴ ⇒ binomial."
+      "id": "p174",
+      "content": "$c^{24} - 16777216$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{24}$ and $-16777216$ ⇒ binomial."
+    },
+    {
+      "id": "p176",
+      "content": "$0.00001$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p177",
+      "content": "$130x^{30}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $130x^{30}$ ⇒ monomial."
+    },
+    {
+      "id": "p178",
+      "content": "$y^2 - 50y + 625$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-50y$, and $625$ ⇒ trinomial."
+    },
+    {
+      "id": "p179",
+      "content": "$z^{25} + 33554432$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{25}$ and $33554432$ ⇒ binomial."
+    },
+
+    {
+      "id": "p181",
+      "content": "$1000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p182",
+      "content": "$135m^{31}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $135m^{31}$ ⇒ monomial."
+    },
+    {
+      "id": "p183",
+      "content": "$p^2 + 52p + 676$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $52p$, and $676$ ⇒ trinomial."
+    },
+    {
+      "id": "p184",
+      "content": "$q^{26} - 67108864$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $q^{26}$ and $-67108864$ ⇒ binomial."
+    },
+
+    {
+      "id": "p186",
+      "content": "$-1.0$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p187",
+      "content": "$140n^{32}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $140n^{32}$ ⇒ monomial."
+    },
+    {
+      "id": "p188",
+      "content": "$y^2 - 54y + 729$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-54y$, and $729$ ⇒ trinomial."
+    },
+    {
+      "id": "p189",
+      "content": "$r^{27} + 134217728$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $r^{27}$ and $134217728$ ⇒ binomial."
+    },
+
+    {
+      "id": "p191",
+      "content": "$2000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p192",
+      "content": "$145a^{33}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $145a^{33}$ ⇒ monomial."
+    },
+    {
+      "id": "p193",
+      "content": "$b^2 + 56b + 784$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $56b$, and $784$ ⇒ trinomial."
+    },
+    {
+      "id": "p194",
+      "content": "$c^{28} - 268435456$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{28}$ and $-268435456$ ⇒ binomial."
+    },
+
+    {
+      "id": "p196",
+      "content": "$0.000001$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p197",
+      "content": "$150x^{34}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $150x^{34}$ ⇒ monomial."
+    },
+    {
+      "id": "p198",
+      "content": "$y^2 - 58y + 841$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-58y$, and $841$ ⇒ trinomial."
+    },
+    {
+      "id": "p199",
+      "content": "$z^{29} + 536870912$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{29}$ and $536870912$ ⇒ binomial."
+    },
+
+    {
+      "id": "p201",
+      "content": "$3000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p202",
+      "content": "$155m^{35}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $155m^{35}$ ⇒ monomial."
+    },
+    {
+      "id": "p203",
+      "content": "$p^2 + 60p + 900$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $60p$, and $900$ ⇒ trinomial."
+    },
+    {
+      "id": "p204",
+      "content": "$q^{30} - 1073741824$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $q^{30}$ and $-1073741824$ ⇒ binomial."
+    },
+
+    {
+      "id": "p206",
+      "content": "$-0.0000001$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p207",
+      "content": "$160n^{36}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $160n^{36}$ ⇒ monomial."
+    },
+    {
+      "id": "p208",
+      "content": "$y^2 - 62y + 961$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-62y$, and $961$ ⇒ trinomial."
+    },
+    {
+      "id": "p209",
+      "content": "$r^{31} + 52$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $r^{31}$ and $52$ ⇒ binomial."
+    },
+
+    {
+      "id": "p211",
+      "content": "$4000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p212",
+      "content": "$165a^{37}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $165a^{37}$ ⇒ monomial."
+    },
+    {
+      "id": "p213",
+      "content": "$b^2 + 64b + 1024$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $64b$, and $1024$ ⇒ trinomial."
+    },
+    {
+      "id": "p214",
+      "content": "$c^{32} - 176$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{32}$ and $-176$ ⇒ binomial."
+    },
+
+    {
+      "id": "p216",
+      "content": "$-0.00000001$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p217",
+      "content": "$170x^{38}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $170x^{38}$ ⇒ monomial."
+    },
+    {
+      "id": "p218",
+      "content": "$y^2 - 66y + 1089$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-66y$, and $1089$ ⇒ trinomial."
+    },
+    {
+      "id": "p219",
+      "content": "$z^{33} + 56$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{33}$ and $52$ ⇒ binomial."
+    },
+
+    {
+      "id": "p221",
+      "content": "$5000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p222",
+      "content": "$175m^{39}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $175m^{39}$ ⇒ monomial."
+    },
+    {
+      "id": "p223",
+      "content": "$p^2 + 68p + 1156$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $68p$, and $1156$ ⇒ trinomial."
+    },
+    {
+      "id": "p224",
+      "content": "$q^{34} - 17179869184$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $q^{34}$ and $-17179869184$ ⇒ binomial."
+    },
+
+    {
+      "id": "p226",
+      "content": "$-0.01$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p227",
+      "content": "$180n^{40}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $180n^{40}$ ⇒ monomial."
+    },
+    {
+      "id": "p228",
+      "content": "$y^2 - 70y + 1225$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-70y$, and $1225$ ⇒ trinomial."
+    },
+    {
+      "id": "p229",
+      "content": "$r^{35} + 96$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $r^{35}$ and $52$ ⇒ binomial."
+    },
+
+    {
+      "id": "p231",
+      "content": "$6000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p232",
+      "content": "$185a^{41}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $185a^{41}$ ⇒ monomial."
+    },
+    {
+      "id": "p233",
+      "content": "$b^2 + 72b + 1296$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $72b$, and $1296$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p237",
+      "content": "$190x^{42}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $190x^{42}$ ⇒ monomial."
+    },
+    {
+      "id": "p238",
+      "content": "$y^2 - 74y + 1369$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-74y$, and $1369$ ⇒ trinomial."
+    },
+    {
+      "id": "p239",
+      "content": "$z^{37} + 2$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{37}$ and $52$ ⇒ binomial."
+    },
+
+    {
+      "id": "p241",
+      "content": "$7000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p242",
+      "content": "$195m^{43}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $195m^{43}$ ⇒ monomial."
+    },
+    {
+      "id": "p243",
+      "content": "$p^2 + 76p + 1444$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $76p$, and $1444$ ⇒ trinomial."
+    },
+    {
+      "id": "p244",
+      "content": "$q^{38} - 4856$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $q^{38}$ and $-1756$ ⇒ binomial."
+    },
+
+    {
+      "id": "p247",
+      "content": "$200n^{44}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $200n^{44}$ ⇒ monomial."
+    },
+    {
+      "id": "p248",
+      "content": "$y^2 - 78y + 1521$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-78y$, and $1521$ ⇒ trinomial."
+    },
+    {
+      "id": "p249",
+      "content": "$r^{39} + 52$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $r^{39}$ and $52$ ⇒ binomial."
+    },
+
+    {
+      "id": "p251",
+      "content": "$8000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p252",
+      "content": "$205a^{45}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $205a^{45}$ ⇒ monomial."
+    },
+    {
+      "id": "p253",
+      "content": "$b^2 + 80b + 1600$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $80b$, and $1600$ ⇒ trinomial."
+    },
+    {
+      "id": "p254",
+      "content": "$c^{40} - 176$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{40}$ and $-176$ ⇒ binomial."
+    },
+
+    {
+      "id": "p257",
+      "content": "$210x^{46}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $210x^{46}$ ⇒ monomial."
+    },
+    {
+      "id": "p258",
+      "content": "$y^2 - 82y + 1681$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-82y$, and $1681$ ⇒ trinomial."
+    },
+    {
+      "id": "p259",
+      "content": "$z^{41} + 52$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{41}$ and $52$ ⇒ binomial."
+    },
+    {
+      "id": "p260",
+      "content": "$a^{42} - 2a^{41} + 3a^{40} - 4a^{39} + 5a^{38} - 6a^{37} + 7a^{36} - 8a^{35} + 9a^{34} - 10a^{33} + 11a^{32} - 12a^{31} + 13a^{30} - 14a^{29} + 15a^{28} - 16a^{27} + 17a^{26} - 18a^{25} + 19a^{24} - 20a^{23} + 21a^{22} - 22a^{21} + 23a^{20} - 24a^{19} + 25a^{18} - 26a^{17} + 27a^{16} - 28a^{15} + 29a^{14} - 30a^{13} + 31a^{12} - 32a^{11} + 33a^{10} - 34a^9 + 35a^8 - 36a^7 + 37a^6 - 38a^5 + 39a^4 - 40a^3 + 41a^2 - 42a + 43$",
+      "correctCategory": "Other Polynomial",
+      "explanation": "Forty-three terms ⇒ other polynomial."
+    },
+    {
+      "id": "p261",
+      "content": "$9000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p262",
+      "content": "$215m^{47}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $215m^{47}$ ⇒ monomial."
+    },
+    {
+      "id": "p263",
+      "content": "$p^2 + 84p + 1764$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $84p$, and $1764$ ⇒ trinomial."
+    },
+    {
+      "id": "p267",
+      "content": "$220n^{48}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $220n^{48}$ ⇒ monomial."
+    },
+    {
+      "id": "p268",
+      "content": "$y^2 - 86y + 1849$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-86y$, and $1849$ ⇒ trinomial."
+    },
+    {
+      "id": "p272",
+      "content": "$225a^{49}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $225a^{49}$ ⇒ monomial."
+    },
+    {
+      "id": "p273",
+      "content": "$b^2 + 88b + 1936$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $88b$, and $1936$ ⇒ trinomial."
+    },
+    {
+      "id": "p274",
+      "content": "$c^{44} - 17592186044416$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $c^{44}$ and $-17592186044416$ ⇒ binomial."
+    },
+    {
+      "id": "p277",
+      "content": "$230x^{50}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $230x^{50}$ ⇒ monomial."
+    },
+    {
+      "id": "p278",
+      "content": "$y^2 - 90y + 2025$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-90y$, and $2025$ ⇒ trinomial."
+    },
+    {
+      "id": "p279",
+      "content": "$z^{45} + 35184372088832$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $z^{45}$ and $35184372088832$ ⇒ binomial."
+    },
+
+    {
+      "id": "p281",
+      "content": "$11000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p282",
+      "content": "$235m^{51}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $235m^{51}$ ⇒ monomial."
+    },
+    {
+      "id": "p283",
+      "content": "$p^2 + 92p + 2116$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $92p$, and $2116$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p287",
+      "content": "$240n^{52}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $240n^{52}$ ⇒ monomial."
+    },
+    {
+      "id": "p288",
+      "content": "$y^2 - 94y + 2209$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-94y$, and $2209$ ⇒ trinomial."
+    },
+    {
+      "id": "p289",
+      "content": "$r^{47} + 140737488355328$",
+      "correctCategory": "Binomial",
+      "explanation": "Two terms $r^{47}$ and $140737488355328$ ⇒ binomial."
+    },
+
+    {
+      "id": "p291",
+      "content": "$12000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p292",
+      "content": "$245a^{53}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $245a^{53}$ ⇒ monomial."
+    },
+    {
+      "id": "p293",
+      "content": "$b^2 + 96b + 2304$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $96b$, and $2304$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p297",
+      "content": "$250x^{54}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $250x^{54}$ ⇒ monomial."
+    },
+    {
+      "id": "p298",
+      "content": "$y^2 - 98y + 2401$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-98y$, and $2401$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p302",
+      "content": "$255m^{55}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $255m^{55}$ ⇒ monomial."
+    },
+    {
+      "id": "p303",
+      "content": "$p^2 + 100p + 2500$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $100p$, and $2500$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p307",
+      "content": "$260n^{56}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $260n^{56}$ ⇒ monomial."
+    },
+    {
+      "id": "p308",
+      "content": "$y^2 - 102y + 2601$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-102y$, and $2601$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p312",
+      "content": "$265a^{57}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $265a^{57}$ ⇒ monomial."
+    },
+    {
+      "id": "p313",
+      "content": "$b^2 + 104b + 2704$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $104b$, and $2704$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p317",
+      "content": "$270x^{58}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $270x^{58}$ ⇒ monomial."
+    },
+    {
+      "id": "p318",
+      "content": "$y^2 - 106y + 2809$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-106y$, and $2809$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p322",
+      "content": "$275m^{59}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $275m^{59}$ ⇒ monomial."
+    },
+    {
+      "id": "p323",
+      "content": "$p^2 + 108p + 2916$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $108p$, and $2916$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p327",
+      "content": "$280n^{60}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $280n^{60}$ ⇒ monomial."
+    },
+    {
+      "id": "p328",
+      "content": "$y^2 - 110y + 3025$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-110y$, and $3025$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p332",
+      "content": "$285a^{61}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $285a^{61}$ ⇒ monomial."
+    },
+    {
+      "id": "p333",
+      "content": "$b^2 + 112b + 3136$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $112b$, and $3136$ ⇒ trinomial."
+    },
+    {
+      "id": "p337",
+      "content": "$290x^{62}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $290x^{62}$ ⇒ monomial."
+    },
+    {
+      "id": "p338",
+      "content": "$y^2 - 114y + 3249$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-114y$, and $3249$ ⇒ trinomial."
+    },
+    {
+      "id": "p342",
+      "content": "$295m^{63}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $295m^{63}$ ⇒ monomial."
+    },
+    {
+      "id": "p343",
+      "content": "$p^2 + 116p + 3364$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $116p$, and $3364$ ⇒ trinomial."
+    },
+    {
+      "id": "p347",
+      "content": "$300n^{64}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $300n^{64}$ ⇒ monomial."
+    },
+    {
+      "id": "p348",
+      "content": "$y^2 - 118y + 3481$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-118y$, and $3481$ ⇒ trinomial."
+    },
+    {
+      "id": "p352",
+      "content": "$305a^{65}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $305a^{65}$ ⇒ monomial."
+    },
+    {
+      "id": "p353",
+      "content": "$b^2 + 120b + 3600$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $120b$, and $3600$ ⇒ trinomial."
+    },
+    {
+      "id": "p357",
+      "content": "$310x^{66}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $310x^{66}$ ⇒ monomial."
+    },
+    {
+      "id": "p358",
+      "content": "$y^2 - 122y + 3721$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-122y$, and $3721$ ⇒ trinomial."
+    },
+    {
+      "id": "p362",
+      "content": "$315m^{67}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $315m^{67}$ ⇒ monomial."
+    },
+    {
+      "id": "p363",
+      "content": "$p^2 + 124p + 3844$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $124p$, and $3844$ ⇒ trinomial."
+    },
+    {
+      "id": "p367",
+      "content": "$320n^{68}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $320n^{68}$ ⇒ monomial."
+    },
+    {
+      "id": "p368",
+      "content": "$y^2 - 126y + 3969$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-126y$, and $3969$ ⇒ trinomial."
+    },
+    {
+      "id": "p372",
+      "content": "$325a^{69}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $325a^{69}$ ⇒ monomial."
+    },
+    {
+      "id": "p373",
+      "content": "$b^2 + 128b + 4096$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $128b$, and $4096$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p377",
+      "content": "$330x^{70}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $330x^{70}$ ⇒ monomial."
+    },
+    {
+      "id": "p378",
+      "content": "$y^2 - 130y + 4225$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-130y$, and $4225$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p382",
+      "content": "$335m^{71}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $335m^{71}$ ⇒ monomial."
+    },
+    {
+      "id": "p383",
+      "content": "$p^2 + 132p + 4356$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $132p$, and $4356$ ⇒ trinomial."
+    },
+    {
+      "id": "p387",
+      "content": "$340n^{72}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $340n^{72}$ ⇒ monomial."
+    },
+    {
+      "id": "p388",
+      "content": "$y^2 - 134y + 4489$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-134y$, and $4489$ ⇒ trinomial."
+    },
+    {
+      "id": "p392",
+      "content": "$345a^{73}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $345a^{73}$ ⇒ monomial."
+    },
+    {
+      "id": "p393",
+      "content": "$b^2 + 136b + 4624$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $136b$, and $4624$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p397",
+      "content": "$350x^{74}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $350x^{74}$ ⇒ monomial."
+    },
+    {
+      "id": "p398",
+      "content": "$y^2 - 138y + 4761$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-138y$, and $4761$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p402",
+      "content": "$355m^{75}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $355m^{75}$ ⇒ monomial."
+    },
+    {
+      "id": "p403",
+      "content": "$p^2 + 140p + 4900$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $140p$, and $4900$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p407",
+      "content": "$360n^{76}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $360n^{76}$ ⇒ monomial."
+    },
+    {
+      "id": "p408",
+      "content": "$y^2 - 142y + 5041$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-142y$, and $5041$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p412",
+      "content": "$365a^{77}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $365a^{77}$ ⇒ monomial."
+    },
+    {
+      "id": "p413",
+      "content": "$b^2 + 144b + 5184$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $144b$, and $5184$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p417",
+      "content": "$370x^{78}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $370x^{78}$ ⇒ monomial."
+    },
+    {
+      "id": "p418",
+      "content": "$y^2 - 146y + 5329$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-146y$, and $5329$ ⇒ trinomial."
+    },
+    {
+      "id": "p422",
+      "content": "$375m^{79}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $375m^{79}$ ⇒ monomial."
+    },
+    {
+      "id": "p423",
+      "content": "$p^2 + 148p + 5476$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $p^2$, $148p$, and $5476$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p427",
+      "content": "$380n^{80}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $380n^{80}$ ⇒ monomial."
+    },
+    {
+      "id": "p428",
+      "content": "$y^2 - 150y + 5625$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-150y$, and $5625$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p431",
+      "content": "$26000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p432",
+      "content": "$385a^{81}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $385a^{81}$ ⇒ monomial."
+    },
+    {
+      "id": "p433",
+      "content": "$b^2 + 152b + 5776$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $152b$, and $5776$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p437",
+      "content": "$390n^{82}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $390n^{82}$ ⇒ monomial."
+    },
+    {
+      "id": "p438",
+      "content": "$y^2 - 154y + 5929$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-154y$, and $5929$ ⇒ trinomial."
+    },
+
+    {
+      "id": "p441",
+      "content": "$27000000$",
+      "correctCategory": "Constant",
+      "explanation": "Single numerical term ⇒ constant (also a monomial)."
+    },
+    {
+      "id": "p442",
+      "content": "$395a^{83}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $395a^{83}$ ⇒ monomial."
+    },
+    {
+      "id": "p443",
+      "content": "$b^2 + 156b + 6084$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $b^2$, $156b$, and $6084$ ⇒ trinomial."
+    },
+    {
+      "id": "p447",
+      "content": "$400n^{84}$",
+      "correctCategory": "Monomial",
+      "explanation": "Single term $400n^{84}$ ⇒ monomial."
+    },
+    {
+      "id": "p448",
+      "content": "$y^2 - 158y + 6241$",
+      "correctCategory": "Trinomial",
+      "explanation": "Three terms $y^2$, $-158y$, and $6241$ ⇒ trinomial."
     }
   ],
   "instructions": [
@@ -934,7 +1886,7 @@
     "Choose the number of polynomials you want to solve.",
     "Your task is to classify each polynomial into the correct category (e.g., monomial, binomial, trinomial, other polynomial).",
     "Click a polynomial to select it, then click the category where it belongs.",
-    "If you make a mistake, you can move polynomials between categories.",
+    "If you make a mistake, you can move polynomials been categories.",
     "When you finish, click the Submit button to see your results and score.",
     "Try to get as many correct as possible and see your name on the leaderboard!"
   ]
