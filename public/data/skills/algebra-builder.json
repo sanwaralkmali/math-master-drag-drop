@@ -1830,7 +1830,7 @@
     },
     {
       "id": "q61",
-      "content": "$\\sqrt{x + y - z$",
+      "content": "$\\sqrt{x + y - z}$",
       "correctCategory": "expression",
       "explanation": "Expression with radical and multiple variables"
     },
@@ -1968,7 +1968,7 @@
     },
     {
       "id": "q85",
-      "content": "$\\sqrt{(x^2 + y^2)$",
+      "content": "$\\sqrt{(x^2 + y^2)}$",
       "correctCategory": "expression",
       "explanation": "Distance formula expression"
     },
@@ -2058,7 +2058,7 @@
     },
     {
       "id": "q100",
-      "content": "$\\sqrt{3$",
+      "content": "$\\sqrt{3}$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational constant"
     },
@@ -2148,7 +2148,7 @@
     },
     {
       "id": "q115",
-      "content": "$\\sqrt{(x + 4) - 2$",
+      "content": "$\\sqrt{(x + 4)} - 2$",
       "correctCategory": "expression",
       "explanation": "Expression with square root"
     },
@@ -2346,7 +2346,7 @@
     },
     {
       "id": "q148",
-      "content": "$\\sqrt{x = 4$",
+      "content": "$\\sqrt{x} = 4$",
       "correctCategory": "equation",
       "explanation": "Radical equation"
     },
@@ -2478,7 +2478,7 @@
     },
     {
       "id": "q170",
-      "content": "$-\\sqrt{5$",
+      "content": "$-\\sqrt{5}$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational constant"
     },
@@ -2940,13 +2940,11 @@
     }
   ],
   "instructions": [
-    "Enter your name and start the game.",
     "Choose the number of expressions you want to solve. ",
     "Your task is to drag each into the correct category.",
     "Categories: Variable (letters), Constant (numbers), Expression (no =), or Equation (has =).",
     "Drag items to their matching category boxes.",
     "If you make a mistake, you can move items between categories.",
-    "When you finish, click Submit to see your results and score.",
-    "Try to get as many correct as possible and climb the leaderboard!"
+    "When you finish, click Submit to see your results and score."
   ]
 }
