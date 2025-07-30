@@ -159,7 +159,7 @@ const Index = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-game flex items-center justify-center">
-        <Card className="w-[98%] max-w-md mx-auto bg-card/80 backdrop-blur-sm">
+        <Card className="w-[98%] max-w-md mx-auto bg-card/80 backdrop-blur-sm font-cairo">
           <CardContent className="pt-6">
             <div className="text-center">
               <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
@@ -175,7 +175,7 @@ const Index = () => {
   if (error) {
     return (
       <div className="min-h-screen bg-gradient-game flex items-center justify-center">
-        <Card className="w-[98%] max-w-md mx-auto bg-card/80 backdrop-blur-sm">
+        <Card className="w-[98%] max-w-md mx-auto bg-card/80 backdrop-blur-sm font-cairo">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-destructive">
               <AlertCircle className="w-5 h-5" />
@@ -259,7 +259,7 @@ const Index = () => {
             </p>
           </div>
 
-          <Card className="w-[98%] max-w-md mx-auto bg-card/90 backdrop-blur-sm border-2 border-blue-200 shadow-xl">
+          <Card className="w-[98%] max-w-md mx-auto bg-card/90 backdrop-blur-sm border-2 border-blue-200 shadow-xl font-cairo">
             <CardHeader className="text-center pb-4">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
@@ -346,7 +346,7 @@ const Index = () => {
 
           {/* Leaderboard Dialog */}
           <Dialog open={showLeaderboard} onOpenChange={setShowLeaderboard}>
-            <DialogContent className="w-[98%] max-w-md mx-auto bg-card/95 backdrop-blur-sm border-2 border-purple-200">
+            <DialogContent className="w-[98%] max-w-md mx-auto bg-card/95 backdrop-blur-sm border-2 border-purple-200 font-cairo">
               <DialogHeader>
                 <DialogTitle className="text-xl text-purple-700 flex items-center gap-2">
                   🏆 Leaderboard - {gameData.title}
@@ -399,7 +399,7 @@ const Index = () => {
 
           {/* How to Play Dialog */}
           <Dialog open={showInstructions} onOpenChange={setShowInstructions}>
-            <DialogContent className="w-[98%] max-w-md mx-auto bg-card/95 backdrop-blur-sm border-2 border-orange-200">
+            <DialogContent className="w-[98%] max-w-md mx-auto bg-card/95 backdrop-blur-sm border-2 border-orange-200 font-cairo">
               <DialogHeader>
                 <DialogTitle className="text-xl text-orange-700 flex items-center gap-2">
                   📖 How to Play

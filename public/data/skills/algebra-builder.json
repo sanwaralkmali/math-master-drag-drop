@@ -60,7 +60,7 @@
     },
     {
       "id": "q6",
-      "content": "150",
+      "content": "$150$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -84,7 +84,7 @@
     },
     {
       "id": "q10",
-      "content": "e",
+      "content": "$e$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -108,7 +108,7 @@
     },
     {
       "id": "q14",
-      "content": "0.01",
+      "content": "$0.01$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -132,7 +132,7 @@
     },
     {
       "id": "q18",
-      "content": "1.25",
+      "content": "$1.25$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -156,7 +156,7 @@
     },
     {
       "id": "q22",
-      "content": "100",
+      "content": "$100$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -204,7 +204,7 @@
     },
     {
       "id": "q30",
-      "content": "10",
+      "content": "$10$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -270,7 +270,7 @@
     },
     {
       "id": "q42",
-      "content": "0.5",
+      "content": "$0.5$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -294,7 +294,7 @@
     },
     {
       "id": "q46",
-      "content": "1",
+      "content": "$1$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -354,7 +354,7 @@
     },
     {
       "id": "q59",
-      "content": "$y / 5$",
+      "content": "$y \\div 5$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
@@ -378,7 +378,7 @@
     },
     {
       "id": "q64",
-      "content": "$x / 4 = 2$",
+      "content": "$x \\div 4 = 2$",
       "correctCategory": "equation",
       "explanation": "Contains an equal sign with expressions on both sides"
     },
@@ -462,7 +462,7 @@
     },
     {
       "id": "q90",
-      "content": "2",
+      "content": "$2$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -480,7 +480,7 @@
     },
     {
       "id": "q94",
-      "content": "50",
+      "content": "$50$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -546,7 +546,7 @@
     },
     {
       "id": "q114",
-      "content": "200",
+      "content": "$200$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
@@ -564,13 +564,13 @@
     },
     {
       "id": "q118",
-      "content": "5",
+      "content": "$5$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value"
     },
     {
       "id": "q119",
-      "content": "$z / 6$",
+      "content": "$z \\div 6$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
@@ -726,7 +726,7 @@
     },
     {
       "id": "q179",
-      "content": "$z / 7$",
+      "content": "$z \\div 7$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
@@ -870,7 +870,7 @@
     },
     {
       "id": "q239",
-      "content": "$z / 8$",
+      "content": "$z \\div 8$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
@@ -1008,7 +1008,7 @@
     },
     {
       "id": "q299",
-      "content": "$z / 9$",
+      "content": "$z \\div 9$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
@@ -1152,7 +1152,7 @@
     },
     {
       "id": "q359",
-      "content": "$z / 10$",
+      "content": "$\\frac{z}{10}$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
@@ -1290,7 +1290,7 @@
     },
     {
       "id": "q419",
-      "content": "$z / 11$",
+      "content": "$z \\div 11$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
@@ -1434,7 +1434,7 @@
     },
     {
       "id": "q479",
-      "content": "$z / 12$",
+      "content": "$\\frac{z}{12}$",
       "correctCategory": "expression",
       "explanation": "Contains variables and operations but no equal sign"
     },
@@ -1506,1437 +1506,1437 @@
     },
     {
       "id": "q6",
-      "content": "-4",
+      "content": "$-4$",
       "correctCategory": "constant",
       "explanation": "Fixed negative numerical value"
     },
     {
       "id": "q7",
-      "content": "x² - 9",
+      "content": "$x^2 - 9$",
       "correctCategory": "expression",
       "explanation": "Polynomial expression without an equal sign"
     },
     {
       "id": "q8",
-      "content": "x + 3 = 7",
+      "content": "$x + 3 = 7$",
       "correctCategory": "equation",
       "explanation": "Shows equality between two expressions"
     },
     {
       "id": "q9",
-      "content": "n",
+      "content": "$n$",
       "correctCategory": "variable",
       "explanation": "Letter representing an unknown value"
     },
     {
       "id": "q10",
-      "content": "0",
+      "content": "$0$",
       "correctCategory": "constant",
       "explanation": "Fixed numerical value zero"
     },
     {
       "id": "q11",
-      "content": "5a - 2b + 8",
+      "content": "$5a - 2b + 8$",
       "correctCategory": "expression",
       "explanation": "Multiple terms with variables, no equal sign"
     },
     {
       "id": "q12",
-      "content": "y - 4 = 12",
+      "content": "$y - 4 = 12$",
       "correctCategory": "equation",
       "explanation": "Statement of equality between two expressions"
     },
     {
       "id": "q13",
-      "content": "t",
+      "content": "$t$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q14",
-      "content": "3.14",
+      "content": "$3.14$",
       "correctCategory": "constant",
       "explanation": "Fixed decimal numerical value"
     },
     {
       "id": "q15",
-      "content": "2(x + 5)",
+      "content": "$2(x + 5)$",
       "correctCategory": "expression",
       "explanation": "Expression with parentheses, no equal sign"
     },
     {
       "id": "q16",
-      "content": "4x = 20",
+      "content": "$4x = 20$",
       "correctCategory": "equation",
       "explanation": "Shows two expressions are equal"
     },
     {
       "id": "q17",
-      "content": "z",
+      "content": "$z$",
       "correctCategory": "variable",
       "explanation": "Letter representing a variable quantity"
     },
     {
       "id": "q18",
-      "content": "-100",
+      "content": "$-100$",
       "correctCategory": "constant",
       "explanation": "Fixed negative numerical value"
     },
     {
       "id": "q19",
-      "content": "x² + 2xy + y²",
+      "content": "$x^2 + 2xy + y^2$",
       "correctCategory": "expression",
       "explanation": "Polynomial expression without equality"
     },
     {
       "id": "q20",
-      "content": "2x + 3 = x - 5",
+      "content": "$2x + 3 = x - 5$",
       "correctCategory": "equation",
       "explanation": "Shows equality between two expressions"
     },
     {
       "id": "q21",
-      "content": "a",
+      "content": "$a$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q22",
-      "content": "1/2",
+      "content": "$\\frac{1}{2}$",
       "correctCategory": "constant",
       "explanation": "Fixed fractional numerical value"
     },
     {
       "id": "q23",
-      "content": "√x + 7",
+      "content": "$\\sqrt{x + 7$",
       "correctCategory": "expression",
       "explanation": "Contains radical and constant, no equal sign"
     },
     {
       "id": "q24",
-      "content": "x/3 = 9",
+      "content": "$\\frac{x}{3} = 9$",
       "correctCategory": "equation",
       "explanation": "Shows division expression equals a constant"
     },
     {
       "id": "q25",
-      "content": "m",
+      "content": "$m$",
       "correctCategory": "variable",
       "explanation": "Single letter representing a variable"
     },
     {
       "id": "q26",
-      "content": "π",
+      "content": "$\\pi$",
       "correctCategory": "constant",
       "explanation": "Fixed mathematical constant"
     },
     {
       "id": "q27",
-      "content": "3x² - 12x + 9",
+      "content": "$3x^2 - 12x + 9$",
       "correctCategory": "expression",
       "explanation": "Quadratic expression without equality"
     },
     {
       "id": "q28",
-      "content": "5(x - 2) = 15",
+      "content": "$5(x - 2) = 15$",
       "correctCategory": "equation",
       "explanation": "Shows equality after distribution"
     },
     {
       "id": "q29",
-      "content": "b",
+      "content": "$b$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q30",
-      "content": "0.75",
+      "content": "$0.75$",
       "correctCategory": "constant",
       "explanation": "Fixed decimal numerical value"
     },
     {
       "id": "q31",
-      "content": "4a - 7b + 2c - 5",
+      "content": "$4a - 7b + 2c - 5$",
       "correctCategory": "expression",
       "explanation": "Multiple variables and terms, no equal sign"
     },
     {
       "id": "q32",
-      "content": "2x + 5 = 3x - 1",
+      "content": "$2x + 5 = 3x - 1$",
       "correctCategory": "equation",
       "explanation": "Shows equality between two linear expressions"
     },
     {
       "id": "q33",
-      "content": "h",
+      "content": "$h$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q34",
-      "content": "-2.5",
+      "content": "$-2.5$",
       "correctCategory": "constant",
       "explanation": "Fixed negative decimal value"
     },
     {
       "id": "q35",
-      "content": "(x + 3)(x - 3)",
+      "content": "$(x + 3)(x - 3)$",
       "correctCategory": "expression",
       "explanation": "Factored expression without equality"
     },
     {
       "id": "q36",
-      "content": "y² = 25",
+      "content": "$y^2 = 25$",
       "correctCategory": "equation",
       "explanation": "Shows a squared variable equals a constant"
     },
     {
       "id": "q37",
-      "content": "k",
+      "content": "$k$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q38",
-      "content": "1000",
+      "content": "$1000$",
       "correctCategory": "constant",
       "explanation": "Fixed large numerical value"
     },
     {
       "id": "q39",
-      "content": "2x + 3y - 7",
+      "content": "$2x + 3y - 7$",
       "correctCategory": "expression",
       "explanation": "Two variables combined without equality"
     },
     {
       "id": "q40",
-      "content": "x + 2 = 2 + x",
+      "content": "$x + 2 = 2 + x$",
       "correctCategory": "equation",
       "explanation": "Shows equality between equivalent expressions"
     },
     {
       "id": "q41",
-      "content": "p",
+      "content": "$p$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q42",
-      "content": "5/8",
+      "content": "$\\frac{5}{8}$",
       "correctCategory": "constant",
       "explanation": "Fixed fractional numerical value"
     },
     {
       "id": "q43",
-      "content": "x³ - 8",
+      "content": "$x^3 - 8$",
       "correctCategory": "expression",
       "explanation": "Cubic expression without equality"
     },
     {
       "id": "q44",
-      "content": "3(x + 4) = 12",
+      "content": "$3(x + 4) = 12$",
       "correctCategory": "equation",
       "explanation": "Shows equality after multiplication"
     },
     {
       "id": "q45",
-      "content": "q",
+      "content": "$q$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q46",
-      "content": "-1",
+      "content": "$-1$",
       "correctCategory": "constant",
       "explanation": "Fixed negative integer value"
     },
     {
       "id": "q47",
-      "content": "4x²y - 3xy + 2y²",
+      "content": "$4x^2y - 3xy + 2y^2$",
       "correctCategory": "expression",
       "explanation": "Multivariable expression without equality"
     },
     {
       "id": "q48",
-      "content": "2x - 7 = 5",
+      "content": "$2x - 7 = 5$",
       "correctCategory": "equation",
       "explanation": "Shows equality between linear expression and constant"
     },
     {
       "id": "q49",
-      "content": "r",
+      "content": "$r$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q50",
-      "content": "2.718",
+      "content": "$2.718$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of mathematical constant e"
     },
     {
       "id": "q51",
-      "content": "s",
+      "content": "$s$",
       "correctCategory": "variable",
       "explanation": "Single letter representing a quantity"
     },
     {
       "id": "q52",
-      "content": "-√2",
+      "content": "$-\\sqrt{2$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational numerical value"
     },
     {
       "id": "q53",
-      "content": "5x - 2y + 7z",
+      "content": "$5x - 2y + 7z$",
       "correctCategory": "expression",
       "explanation": "Three-variable expression without equality"
     },
     {
       "id": "q54",
-      "content": "x² + 4x + 4 = 0",
+      "content": "$x^2 + 4x + 4 = 0$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation set equal to zero"
     },
     {
       "id": "q55",
-      "content": "u",
+      "content": "$u$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q56",
-      "content": "2.5",
+      "content": "$2.5$",
       "correctCategory": "constant",
       "explanation": "Fixed decimal value"
     },
     {
       "id": "q57",
-      "content": "a² + b²",
+      "content": "$a^2 + b^2$",
       "correctCategory": "expression",
       "explanation": "Sum of squares expression"
     },
     {
       "id": "q58",
-      "content": "3m - 4 = 2m + 1",
+      "content": "$3m - 4 = 2m + 1$",
       "correctCategory": "equation",
       "explanation": "Linear equation with variables on both sides"
     },
     {
       "id": "q59",
-      "content": "v",
+      "content": "$v$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q61",
-      "content": "√x + y - z",
+      "content": "$\\sqrt{x + y - z$",
       "correctCategory": "expression",
       "explanation": "Expression with radical and multiple variables"
     },
     {
       "id": "q62",
-      "content": "y/2 = 8",
+      "content": "$\\frac{y}{2} = 8$",
       "correctCategory": "equation",
       "explanation": "Shows division expression equals constant"
     },
     {
       "id": "q63",
-      "content": "w",
+      "content": "$w$",
       "correctCategory": "variable",
       "explanation": "Single letter variable"
     },
     {
       "id": "q64",
-      "content": "-3/4",
+      "content": "$-\\frac{3}{4}$",
       "correctCategory": "constant",
       "explanation": "Fixed negative fraction"
     },
     {
       "id": "q65",
-      "content": "4(x - 1) + 2x",
+      "content": "$4(x - 1) + 2x$",
       "correctCategory": "expression",
       "explanation": "Linear expression with distribution"
     },
     {
       "id": "q66",
-      "content": "x² - 9 = 0",
+      "content": "$x^2 - 9 = 0$",
       "correctCategory": "equation",
       "explanation": "Quadratic difference of squares equation"
     },
     {
       "id": "q67",
-      "content": "A",
+      "content": "$A$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q68",
-      "content": "9.81",
+      "content": "$9.81$",
       "correctCategory": "constant",
       "explanation": "Fixed decimal constant"
     },
     {
       "id": "q69",
-      "content": "2πr",
+      "content": "$2\\pir$",
       "correctCategory": "expression",
       "explanation": "Formula expression for circumference"
     },
     {
       "id": "q70",
-      "content": "2x + 3 = 11",
+      "content": "$2x + 3 = 11$",
       "correctCategory": "equation",
       "explanation": "Linear equation with addition"
     },
     {
       "id": "q71",
-      "content": "B",
+      "content": "$B$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q72",
-      "content": "1/3",
+      "content": "$\\frac{1}{3}$",
       "correctCategory": "constant",
       "explanation": "Fixed fractional value"
     },
     {
       "id": "q73",
-      "content": "x³ + 3x² - 2x + 1",
+      "content": "$x^3 + 3x^2 - 2x + 1$",
       "correctCategory": "expression",
       "explanation": "Cubic polynomial expression"
     },
     {
       "id": "q74",
-      "content": "5 - 2x = 3x + 1",
+      "content": "$5 - 2x = 3x + 1$",
       "correctCategory": "equation",
       "explanation": "Linear equation with variables on both sides"
     },
     {
       "id": "q75",
-      "content": "C",
+      "content": "$C$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q76",
-      "content": "-7.5",
+      "content": "$-7.5$",
       "correctCategory": "constant",
       "explanation": "Fixed negative decimal"
     },
     {
       "id": "q77",
-      "content": "(a + b)²",
+      "content": "$(a + b)^2$",
       "correctCategory": "expression",
       "explanation": "Squared binomial expression"
     },
     {
       "id": "q78",
-      "content": "x/4 + 2 = 5",
+      "content": "$\\frac{x}{4} + 2 = 5$",
       "correctCategory": "equation",
       "explanation": "Linear equation with fraction"
     },
     {
       "id": "q79",
-      "content": "D",
+      "content": "$D$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q81",
-      "content": "3x²y - 2xy² + y³",
+      "content": "$3x^2y - 2xy^2 + y^3$",
       "correctCategory": "expression",
       "explanation": "Multivariable cubic expression"
     },
     {
       "id": "q82",
-      "content": "x² + 5x + 6 = 0",
+      "content": "$x^2 + 5x + 6 = 0$",
       "correctCategory": "equation",
       "explanation": "Quadratic trinomial equation"
     },
     {
       "id": "q83",
-      "content": "E",
+      "content": "$E$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q84",
-      "content": "0.001",
+      "content": "$0.001$",
       "correctCategory": "constant",
       "explanation": "Fixed small decimal constant"
     },
     {
       "id": "q85",
-      "content": "√(x² + y²)",
+      "content": "$\\sqrt{(x^2 + y^2)$",
       "correctCategory": "expression",
       "explanation": "Distance formula expression"
     },
     {
       "id": "q86",
-      "content": "3(x - 2) = 9",
+      "content": "$3(x - 2) = 9$",
       "correctCategory": "equation",
       "explanation": "Linear equation with distribution"
     },
     {
       "id": "q87",
-      "content": "F",
+      "content": "$F$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q88",
-      "content": "-1/2",
+      "content": "$-\\frac{1}{2}$",
       "correctCategory": "constant",
       "explanation": "Fixed negative fraction"
     },
     {
       "id": "q89",
-      "content": "4x³ - 2x² + x - 7",
+      "content": "$4x^3 - 2x^2 + x - 7$",
       "correctCategory": "expression",
       "explanation": "Cubic polynomial expression"
     },
     {
       "id": "q90",
-      "content": "2x/3 = 8",
+      "content": "$\\frac{2x}{3} = 8$",
       "correctCategory": "equation",
       "explanation": "Linear equation with fractional coefficient"
     },
     {
       "id": "q91",
-      "content": "G",
+      "content": "$G$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q92",
-      "content": "2.71828",
+      "content": "$2.71828$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of e"
     },
     {
       "id": "q93",
-      "content": "x² - 4x + 4",
+      "content": "$x^2 - 4x + 4$",
       "correctCategory": "expression",
       "explanation": "Perfect square trinomial expression"
     },
     {
       "id": "q94",
-      "content": "x + y = 10",
+      "content": "$x + y = 10$",
       "correctCategory": "equation",
       "explanation": "Linear equation with two variables"
     },
     {
       "id": "q95",
-      "content": "H",
+      "content": "$H$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q96",
-      "content": "-1000",
+      "content": "$-1000$",
       "correctCategory": "constant",
       "explanation": "Fixed large negative integer"
     },
     {
       "id": "q97",
-      "content": "5a²b - 3ab² + 2a - 4b + 7",
+      "content": "$5a^2b - 3ab^2 + 2a - 4b + 7$",
       "correctCategory": "expression",
       "explanation": "Multivariable polynomial expression"
     },
     {
       "id": "q98",
-      "content": "x² - 5x + 6 = 0",
+      "content": "$x^2 - 5x + 6 = 0$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation in standard form"
     },
     {
       "id": "q99",
-      "content": "I",
+      "content": "$I$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q100",
-      "content": "√3",
+      "content": "$\\sqrt{3$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational constant"
     },
     {
       "id": "q101",
-      "content": "J",
+      "content": "$J$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q102",
-      "content": "1.414",
+      "content": "$1.414$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of √2"
     },
     {
       "id": "q103",
-      "content": "2x + 3y - z",
+      "content": "$2x + 3y - z$",
       "correctCategory": "expression",
       "explanation": "Three-variable linear expression"
     },
     {
       "id": "q104",
-      "content": "4x - 7 = 2x + 5",
+      "content": "$4x - 7 = 2x + 5$",
       "correctCategory": "equation",
       "explanation": "Linear equation with variables on both sides"
     },
     {
       "id": "q105",
-      "content": "K",
+      "content": "$K$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q106",
-      "content": "-π",
+      "content": "$-\\pi$",
       "correctCategory": "constant",
       "explanation": "Fixed negative irrational constant"
     },
     {
       "id": "q107",
-      "content": "(x + 1)/(x - 1)",
+      "content": "$\\frac{(x + 1)}{(x - 1)}$",
       "correctCategory": "expression",
       "explanation": "Rational expression"
     },
     {
       "id": "q108",
-      "content": "3x² = 27",
+      "content": "$3x^2 = 27$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation solved for x²"
     },
     {
       "id": "q109",
-      "content": "L",
+      "content": "$L$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q110",
-      "content": "5/12",
+      "content": "$\\frac{5}{12}$",
       "correctCategory": "constant",
       "explanation": "Fixed fractional constant"
     },
     {
       "id": "q111",
-      "content": "7x - 2(x + 3) + 5",
+      "content": "$7x - 2(x + 3) + 5$",
       "correctCategory": "expression",
       "explanation": "Linear expression with distribution"
     },
     {
       "id": "q112",
-      "content": "x³ - 8 = 0",
+      "content": "$x^3 - 8 = 0$",
       "correctCategory": "equation",
       "explanation": "Cubic equation set equal to zero"
     },
     {
       "id": "q113",
-      "content": "M",
+      "content": "$M$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q114",
-      "content": "0.333...",
+      "content": "$0.333...$",
       "correctCategory": "constant",
-      "explanation": "Fixed repeating decimal (1/3)"
+      "explanation": "Fixed repeating decimal (1\\div3)"
     },
     {
       "id": "q115",
-      "content": "√(x + 4) - 2",
+      "content": "$\\sqrt{(x + 4) - 2$",
       "correctCategory": "expression",
       "explanation": "Expression with square root"
     },
     {
       "id": "q116",
-      "content": "2(x + 3) = 4x - 2",
+      "content": "$2(x + 3) = 4x - 2$",
       "correctCategory": "equation",
       "explanation": "Linear equation with distribution"
     },
     {
       "id": "q117",
-      "content": "N",
+      "content": "$N$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q118",
-      "content": "e²",
+      "content": "$e^2$",
       "correctCategory": "constant",
       "explanation": "Fixed constant (e squared)"
     },
     {
       "id": "q119",
-      "content": "x² + y² - 2xy",
+      "content": "$x^2 + y^2 - 2xy$",
       "correctCategory": "expression",
       "explanation": "Perfect square expression"
     },
     {
       "id": "q120",
-      "content": "x/2 + x/3 = 5",
+      "content": "$x\\div2 + x\\div3 = 5$",
       "correctCategory": "equation",
       "explanation": "Linear equation with fractional terms"
     },
     {
       "id": "q121",
-      "content": "O",
+      "content": "$O$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q122",
-      "content": "-0.125",
+      "content": "$-0.125$",
       "correctCategory": "constant",
-      "explanation": "Fixed negative decimal (-1/8)"
+      "explanation": "Fixed negative decimal (-1\\div8)"
     },
     {
       "id": "q123",
-      "content": "3(x - y) + 2(y - x)",
+      "content": "$3(x - y) + 2(y - x)$",
       "correctCategory": "expression",
       "explanation": "Expression with distribution and like terms"
     },
     {
       "id": "q124",
-      "content": "5x - 3 = 2x + 12",
+      "content": "$5x - 3 = 2x + 12$",
       "correctCategory": "equation",
       "explanation": "Linear equation with variables on both sides"
     },
     {
       "id": "q125",
-      "content": "P",
+      "content": "$P$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q126",
-      "content": "10⁶",
+      "content": "$10^6$",
       "correctCategory": "constant",
       "explanation": "Fixed large power of 10"
     },
     {
       "id": "q127",
-      "content": "a³ + b³",
+      "content": "$a^3 + b^3$",
       "correctCategory": "expression",
       "explanation": "Sum of cubes expression"
     },
     {
       "id": "q128",
-      "content": "x² + 4x = -4",
+      "content": "$x^2 + 4x = -4$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation not in standard form"
     },
     {
       "id": "q129",
-      "content": "Q",
+      "content": "$Q$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q130",
-      "content": "φ",
+      "content": "$\\phi$",
       "correctCategory": "constant",
       "explanation": "Fixed golden ratio constant"
     },
     {
       "id": "q131",
-      "content": "2x² - 8x + 6",
+      "content": "$2x^2 - 8x + 6$",
       "correctCategory": "expression",
       "explanation": "Quadratic expression that factors"
     },
     {
       "id": "q132",
-      "content": "3(x + 2) = 3x + 6",
+      "content": "$3(x + 2) = 3x + 6$",
       "correctCategory": "equation",
       "explanation": "Identity equation (always true)"
     },
     {
       "id": "q133",
-      "content": "R",
+      "content": "$R$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q134",
-      "content": "1.618",
+      "content": "$1.618$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of φ"
     },
     {
       "id": "q135",
-      "content": "4x - 2(3x - 1)",
+      "content": "$4x - 2(3x - 1)$",
       "correctCategory": "expression",
       "explanation": "Linear expression requiring distribution"
     },
     {
       "id": "q136",
-      "content": "2x + 5 = 2x + 3",
+      "content": "$2x + 5 = 2x + 3$",
       "correctCategory": "equation",
       "explanation": "Contradiction equation (no solution)"
     },
     {
       "id": "q137",
-      "content": "S",
+      "content": "$S$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q138",
-      "content": "-2π",
+      "content": "$-2\\pi$",
       "correctCategory": "constant",
       "explanation": "Fixed negative irrational multiple"
     },
     {
       "id": "q139",
-      "content": "(x + 2)³",
+      "content": "$(x + 2)^3$",
       "correctCategory": "expression",
       "explanation": "Cubed binomial expression"
     },
     {
       "id": "q140",
-      "content": "x² - 9x + 20 = 0",
+      "content": "$x^2 - 9x + 20 = 0$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation in standard form"
     },
     {
       "id": "q141",
-      "content": "T",
+      "content": "$T$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q142",
-      "content": "3/7",
+      "content": "$\\frac{3}{7}$",
       "correctCategory": "constant",
       "explanation": "Fixed fractional value"
     },
     {
       "id": "q143",
-      "content": "5 - 2(x + 3) + 4x",
+      "content": "$5 - 2(x + 3) + 4x$",
       "correctCategory": "expression",
       "explanation": "Linear expression with distribution and combining"
     },
     {
       "id": "q144",
-      "content": "4x - 8 = 4(x - 2)",
+      "content": "$4x - 8 = 4(x - 2)$",
       "correctCategory": "equation",
       "explanation": "Identity equation after simplification"
     },
     {
       "id": "q145",
-      "content": "U",
+      "content": "$U$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q146",
-      "content": "0.625",
+      "content": "$0.625$",
       "correctCategory": "constant",
-      "explanation": "Fixed decimal (5/8)"
+      "explanation": "Fixed decimal (5\\div8)"
     },
     {
       "id": "q147",
-      "content": "x⁴ - 16",
+      "content": "$x^4 - 16$",
       "correctCategory": "expression",
       "explanation": "Difference of squares (twice)"
     },
     {
       "id": "q148",
-      "content": "√x = 4",
+      "content": "$\\sqrt{x = 4$",
       "correctCategory": "equation",
       "explanation": "Radical equation"
     },
     {
       "id": "q149",
-      "content": "V",
+      "content": "$V$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q150",
-      "content": "-e",
+      "content": "$-e$",
       "correctCategory": "constant",
       "explanation": "Fixed negative irrational constant"
     },
     {
       "id": "q151",
-      "content": "W",
+      "content": "$W$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q152",
-      "content": "7/9",
+      "content": "$\\frac{7}{9}$",
       "correctCategory": "constant",
       "explanation": "Fixed fractional value"
     },
     {
       "id": "q153",
-      "content": "2x + 3y - 4z + 5w - 6",
+      "content": "$2x + 3y - 4z + 5w - 6$",
       "correctCategory": "expression",
       "explanation": "Four-variable linear expression"
     },
     {
       "id": "q154",
-      "content": "x² + 2x = 3",
+      "content": "$x^2 + 2x = 3$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation not yet in standard form"
     },
     {
       "id": "q155",
-      "content": "X",
+      "content": "$X$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q156",
-      "content": "-0.1",
+      "content": "$-0.1$",
       "correctCategory": "constant",
       "explanation": "Fixed negative decimal"
     },
     {
       "id": "q157",
-      "content": "3(x² - 4x + 4)",
+      "content": "$3(x^2 - 4x + 4)$",
       "correctCategory": "expression",
       "explanation": "Perfect square trinomial multiplied by constant"
     },
     {
       "id": "q158",
-      "content": "2x - 3y = 12",
+      "content": "$2x - 3y = 12$",
       "correctCategory": "equation",
       "explanation": "Linear equation in two variables"
     },
     {
       "id": "q159",
-      "content": "Y",
+      "content": "$Y$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q160",
-      "content": "1.732",
+      "content": "$1.732$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of √3"
     },
     {
       "id": "q161",
-      "content": "Z",
+      "content": "$Z$",
       "correctCategory": "variable",
       "explanation": "Single capital letter variable"
     },
     {
       "id": "q162",
-      "content": "-5/6",
+      "content": "$-\\frac{5}{6}$",
       "correctCategory": "constant",
       "explanation": "Fixed negative fraction"
     },
     {
       "id": "q163",
-      "content": "x² + y² - 2xy - 1",
+      "content": "$x^2 + y^2 - 2xy - 1$",
       "correctCategory": "expression",
       "explanation": "Four-term expression"
     },
     {
       "id": "q164",
-      "content": "3x + 2 = 3x + 5",
+      "content": "$3x + 2 = 3x + 5$",
       "correctCategory": "equation",
       "explanation": "Contradiction with no solution"
     },
     {
       "id": "q165",
-      "content": "α",
+      "content": "$\\alpha$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q166",
-      "content": "22/7",
+      "content": "$\\frac{22}{7}$",
       "correctCategory": "constant",
       "explanation": "Fixed rational approximation of π"
     },
     {
       "id": "q167",
-      "content": "2(x + 3)² - 8",
+      "content": "$2(x + 3)^2 - 8$",
       "correctCategory": "expression",
       "explanation": "Quadratic expression in vertex form"
     },
     {
       "id": "q168",
-      "content": "x² - 4x + 4 = (x - 2)²",
+      "content": "$x^2 - 4x + 4 = (x - 2)^2$",
       "correctCategory": "equation",
       "explanation": "Identity showing perfect square equivalence"
     },
     {
       "id": "q169",
-      "content": "β",
+      "content": "$\\beta$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q170",
-      "content": "-√5",
+      "content": "$-\\sqrt{5$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational constant"
     },
     {
       "id": "q171",
-      "content": "γ",
+      "content": "$\\gamma$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q172",
-      "content": "0.875",
+      "content": "$0.875$",
       "correctCategory": "constant",
-      "explanation": "Fixed decimal (7/8)"
+      "explanation": "Fixed decimal (7\\div8)"
     },
     {
       "id": "q173",
-      "content": "4x - 3(x - 2) + 5",
+      "content": "$4x - 3(x - 2) + 5$",
       "correctCategory": "expression",
       "explanation": "Linear expression after simplification"
     },
     {
       "id": "q174",
-      "content": "2x² - 8x + 6 = 0",
+      "content": "$2x^2 - 8x + 6 = 0$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation ready for factoring"
     },
     {
       "id": "q175",
-      "content": "δ",
+      "content": "$\\delta$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q176",
-      "content": "1/√2",
+      "content": "$\\frac{1}{\\sqrt{2}}$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational fractional constant"
     },
     {
       "id": "q177",
-      "content": "θ",
+      "content": "$\\theta$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q178",
-      "content": "-3.14159",
+      "content": "$-3.14159$",
       "correctCategory": "constant",
       "explanation": "Fixed negative decimal approximation of π"
     },
     {
       "id": "q179",
-      "content": "x² - y²",
+      "content": "$x^2 - y^2$",
       "correctCategory": "expression",
       "explanation": "Difference of squares expression"
     },
     {
       "id": "q180",
-      "content": "5x - 3(x + 1) = 2x - 3",
+      "content": "$5x - 3(x + 1) = 2x - 3$",
       "correctCategory": "equation",
       "explanation": "Linear equation leading to identity"
     },
     {
       "id": "q181",
-      "content": "λ",
+      "content": "$\\lambda$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q182",
-      "content": "√7",
+      "content": "$\\sqrt{7$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational constant"
     },
     {
       "id": "q183",
-      "content": "μ",
+      "content": "$\\mu$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q184",
-      "content": "8/3",
+      "content": "$\\frac{8}{3}$",
       "correctCategory": "constant",
       "explanation": "Fixed fractional constant"
     },
     {
       "id": "q185",
-      "content": "3x² - 12x + 9 - 2x² + 4x - 3",
+      "content": "$3x^2 - 12x + 9 - 2x^2 + 4x - 3$",
       "correctCategory": "expression",
       "explanation": "Quadratic expression after combining like terms"
     },
     {
       "id": "q186",
-      "content": "x² + 6x + 9 = 16",
+      "content": "$x^2 + 6x + 9 = 16$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation after completing the square"
     },
     {
       "id": "q187",
-      "content": "σ",
+      "content": "$\\sigma$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q188",
-      "content": "-2.236",
+      "content": "$-2.236$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of -√5"
     },
     {
       "id": "q189",
-      "content": "τ",
+      "content": "$\\tau$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q190",
-      "content": "1.61803",
+      "content": "$1.61803$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of φ (golden ratio)"
     },
     {
       "id": "q191",
-      "content": "2x + 3y - 4xy + 5x²y - 7",
+      "content": "$2x + 3y - 4xy + 5x^2y - 7$",
       "correctCategory": "expression",
       "explanation": "Mixed-degree multivariable expression"
     },
     {
       "id": "q192",
-      "content": "3x - 5 = 2x + 7",
+      "content": "$3x - 5 = 2x + 7$",
       "correctCategory": "equation",
       "explanation": "Linear equation with one variable"
     },
     {
       "id": "q194",
-      "content": "-e²",
+      "content": "$-e^2$",
       "correctCategory": "constant",
       "explanation": "Fixed negative exponential constant"
     },
     {
       "id": "q195",
-      "content": "Ω",
+      "content": "$\\Omega$",
       "correctCategory": "variable",
       "explanation": "Greek letter variable"
     },
     {
       "id": "q196",
-      "content": "5.5",
+      "content": "$5.5$",
       "correctCategory": "constant",
       "explanation": "Fixed decimal constant"
     },
     {
       "id": "q197",
-      "content": "(x + 1)(x - 2)(x + 3)",
+      "content": "$(x + 1)(x - 2)(x + 3)$",
       "correctCategory": "expression",
       "explanation": "Factored cubic expression"
     },
     {
       "id": "q198",
-      "content": "x³ - 1 = 0",
+      "content": "$x^3 - 1 = 0$",
       "correctCategory": "equation",
       "explanation": "Cubic difference of cubes equation"
     },
     {
       "id": "q199",
-      "content": "a₁",
+      "content": "$a_1$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q200",
-      "content": "-1.732",
+      "content": "$-1.732$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of -√3"
     },
     {
       "id": "q201",
-      "content": "x₂",
+      "content": "$x_2$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q202",
-      "content": "2/9",
+      "content": "$\\frac{2}{9}$",
       "correctCategory": "constant",
       "explanation": "Fixed fractional constant"
     },
     {
       "id": "q203",
-      "content": "y₁ + y₂",
+      "content": "$y_1 + y_2$",
       "correctCategory": "expression",
       "explanation": "Sum of subscripted variables"
     },
     {
       "id": "q205",
-      "content": "v₀",
+      "content": "$v_0$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable with zero"
     },
     {
       "id": "q206",
-      "content": "-4.2",
+      "content": "$-4.2$",
       "correctCategory": "constant",
       "explanation": "Fixed negative decimal"
     },
     {
       "id": "q207",
-      "content": "t²",
+      "content": "$t^2$",
       "correctCategory": "variable",
       "explanation": "Variable with exponent"
     },
     {
       "id": "q208",
-      "content": "3.14159",
+      "content": "$3.14159$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of π"
     },
     {
       "id": "q209",
-      "content": "a² + b² + c²",
+      "content": "$a^2 + b^2 + c^2$",
       "correctCategory": "expression",
       "explanation": "Sum of squares of three variables"
     },
     {
       "id": "q210",
-      "content": "2x + 1 = 0",
+      "content": "$2x + 1 = 0$",
       "correctCategory": "equation",
       "explanation": "Simple linear equation"
     },
     {
       "id": "q211",
-      "content": "m₁",
+      "content": "$m_1$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q212",
-      "content": "-9/10",
+      "content": "$-\\frac{9}{10}$",
       "correctCategory": "constant",
       "explanation": "Fixed negative fraction"
     },
     {
       "id": "q214",
-      "content": "x² - 9 = (x - 3)(x + 3)",
+      "content": "$x^2 - 9 = (x - 3)(x + 3)$",
       "correctCategory": "equation",
       "explanation": "Identity showing factored form"
     },
     {
       "id": "q215",
-      "content": "k₂",
+      "content": "$k_2$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q217",
-      "content": "p₁ + p₂ + p₃",
+      "content": "$p_1 + p_2 + p_3$",
       "correctCategory": "expression",
       "explanation": "Sum of three subscripted variables"
     },
     {
       "id": "q218",
-      "content": "4x - 7 = 5",
+      "content": "$4x - 7 = 5$",
       "correctCategory": "equation",
       "explanation": "Simple linear equation"
     },
     {
       "id": "q219",
-      "content": "r³",
+      "content": "$r^3$",
       "correctCategory": "variable",
       "explanation": "Variable with exponent 3"
     },
     {
       "id": "q220",
-      "content": "-0.577",
+      "content": "$-0.577$",
       "correctCategory": "constant",
-      "explanation": "Fixed approximation of -1/√3"
+      "explanation": "Fixed approximation of -1\\div√3"
     },
     {
       "id": "q221",
-      "content": "s² + t²",
+      "content": "$s^2 + t^2$",
       "correctCategory": "expression",
       "explanation": "Sum of two squared variables"
     },
     {
       "id": "q222",
-      "content": "x² + 1 = 0",
+      "content": "$x^2 + 1 = 0$",
       "correctCategory": "equation",
       "explanation": "Quadratic equation with no real solutions"
     },
     {
       "id": "q223",
-      "content": "h₁",
+      "content": "$h_1$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q224",
-      "content": "1.41421",
+      "content": "$1.41421$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of √2"
     },
     {
       "id": "q225",
-      "content": "u₄",
+      "content": "$u_4$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q226",
-      "content": "-1.73205",
+      "content": "$-1.73205$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of -√3"
     },
     {
       "id": "q227",
-      "content": "2x² - 4xy + 2y²",
+      "content": "$2x^2 - 4xy + 2y^2$",
       "correctCategory": "expression",
       "explanation": "Perfect square expression with two variables"
     },
     {
       "id": "q228",
-      "content": "3x + 2 = 3x + 2",
+      "content": "$3x + 2 = 3x + 2$",
       "correctCategory": "equation",
       "explanation": "Identity equation (always true)"
     },
     {
       "id": "q229",
-      "content": "w₅",
+      "content": "$w_5$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q230",
-      "content": "0.707",
+      "content": "$0.707$",
       "correctCategory": "constant",
-      "explanation": "Fixed approximation of 1/√2"
+      "explanation": "Fixed approximation of 1\\div√2"
     },
     {
       "id": "q231",
-      "content": "z₁ + z₂",
+      "content": "$z_1 + z_2$",
       "correctCategory": "expression",
       "explanation": "Sum of two complex variables"
     },
     {
       "id": "q232",
-      "content": "x³ = 8",
+      "content": "$x^3 = 8$",
       "correctCategory": "equation",
       "explanation": "Cubic equation"
     },
     {
       "id": "q233",
-      "content": "c₃",
+      "content": "$c_3$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q234",
-      "content": "-2.23607",
+      "content": "$-2.23607$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of -√5"
     },
     {
       "id": "q235",
-      "content": "d₄",
+      "content": "$d_4$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q236",
-      "content": "0.1666...",
+      "content": "$0.1666...$",
       "correctCategory": "constant",
-      "explanation": "Fixed repeating decimal (1/6)"
+      "explanation": "Fixed repeating decimal (1\\div6)"
     },
     {
       "id": "q237",
-      "content": "5x² - 3x + 7 - 2x² + 4x - 1",
+      "content": "$5x^2 - 3x + 7 - 2x^2 + 4x - 1$",
       "correctCategory": "expression",
       "explanation": "Quadratic expression after combining like terms"
     },
     {
       "id": "q238",
-      "content": "2x - 4 = 2(x - 2)",
+      "content": "$2x - 4 = 2(x - 2)$",
       "correctCategory": "equation",
       "explanation": "Identity equation after factoring"
     },
     {
       "id": "q239",
-      "content": "e₅",
+      "content": "$e_5$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q240",
-      "content": "-0.25",
+      "content": "$-0.25$",
       "correctCategory": "constant",
-      "explanation": "Fixed negative decimal (-1/4)"
+      "explanation": "Fixed negative decimal (-1\\div4)"
     },
     {
       "id": "q241",
-      "content": "f₆",
+      "content": "$f_6$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q242",
-      "content": "√11",
+      "content": "$\\sqrt{11$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational constant"
     },
     {
       "id": "q243",
-      "content": "g₇",
+      "content": "$g_7$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q244",
-      "content": "-7/8",
+      "content": "$-\\frac{7}{8}$",
       "correctCategory": "constant",
       "explanation": "Fixed negative fraction"
     },
     {
       "id": "q245",
-      "content": "h₈",
+      "content": "$h_8$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q246",
-      "content": "1.73205",
+      "content": "$1.73205$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of √3"
     },
     {
       "id": "q247",
-      "content": "i₉",
+      "content": "$i_9$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q248",
-      "content": "-2.449",
+      "content": "$-2.449$",
       "correctCategory": "constant",
       "explanation": "Fixed approximation of -√6"
     },
     {
       "id": "q249",
-      "content": "j₁₀",
+      "content": "$j_1_0$",
       "correctCategory": "variable",
       "explanation": "Subscripted variable"
     },
     {
       "id": "q250",
-      "content": "0.142857",
+      "content": "$0.142857$",
       "correctCategory": "constant",
-      "explanation": "Fixed repeating decimal (1/7)"
+      "explanation": "Fixed repeating decimal (1\\div7)"
     }
   ],
   "instructions": [

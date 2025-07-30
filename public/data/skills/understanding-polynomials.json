@@ -1314,9 +1314,9 @@
     },
     {
       "id": "p260",
-      "content": "$a^{42} - 2a^{41} + 3a^{40} - 4a^{39} + 5a^{38} - 6a^{37} + 7a^{36} - 8a^{35} + 9a^{34} - 10a^{33} + 11a^{32} - 12a^{31} + 13a^{30} - 14a^{29} + 15a^{28} - 16a^{27} + 17a^{26} - 18a^{25} + 19a^{24} - 20a^{23} + 21a^{22} - 22a^{21} + 23a^{20} - 24a^{19} + 25a^{18} - 26a^{17} + 27a^{16} - 28a^{15} + 29a^{14} - 30a^{13} + 31a^{12} - 32a^{11} + 33a^{10} - 34a^9 + 35a^8 - 36a^7 + 37a^6 - 38a^5 + 39a^4 - 40a^3 + 41a^2 - 42a + 43$",
+      "content": "$a^{42} - 2a^{41} + 3a^{40} - 4a^{39} + 5a^{38} - 17$",
       "correctCategory": "other_polynomial",
-      "explanation": "Forty-three terms ⇒ other polynomial."
+      "explanation": "Six terms ⇒ other polynomial."
     },
     {
       "id": "p261",
@@ -1361,12 +1361,6 @@
       "explanation": "Three terms $b^2$, $88b$, and $1936$ ⇒ trinomial."
     },
     {
-      "id": "p274",
-      "content": "$c^{44} - 17592186044416$",
-      "correctCategory": "binomial",
-      "explanation": "Two terms $c^{44}$ and $-17592186044416$ ⇒ binomial."
-    },
-    {
       "id": "p277",
       "content": "$230x^{50}$",
       "correctCategory": "monomial",
@@ -1380,9 +1374,9 @@
     },
     {
       "id": "p279",
-      "content": "$z^{45} + 35184372088832$",
+      "content": "$z^{45} + 88832$",
       "correctCategory": "binomial",
-      "explanation": "Two terms $z^{45}$ and $35184372088832$ ⇒ binomial."
+      "explanation": "Two terms $z^{45}$ and $88832$ ⇒ binomial."
     },
     {
       "id": "p281",
@@ -1824,12 +1818,10 @@
     }
   ],
   "instructions": [
-    "Enter your name and start the game.",
     "Choose the number of polynomials you want to solve.",
-    "Your task is to classify each polynomial into the correct category (e.g., monomial, binomial, trinomial, other polynomial).",
+    "Your task is to classify each polynomial into the correct category.",
     "Click a polynomial to select it, then click the category where it belongs.",
     "If you make a mistake, you can move polynomials been categories.",
-    "When you finish, click the Submit button to see your results and score.",
-    "Try to get as many correct as possible and see your name on the leaderboard!"
+    "When you finish, click the Submit button to see your results and score."
   ]
 }

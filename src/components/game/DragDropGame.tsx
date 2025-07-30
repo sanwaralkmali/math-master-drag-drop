@@ -204,7 +204,7 @@ export const DragDropGame = ({
                   onClick={() =>
                     setSelectedItem(selectedItem === item.id ? null : item.id)
                   }
-                  className={`px-3 py-2 bg-white border-2 rounded-lg text-xs font-medium transition-all shadow-sm hover:shadow-md ${
+                  className={`px-3 py-2 bg-white border-2 rounded-lg text-sm sm:text-base font-medium transition-all shadow-sm hover:shadow-md font-cairo ${
                     selectedItem === item.id
                       ? "border-blue-500 bg-blue-100 shadow-lg scale-105"
                       : "border-blue-200 hover:border-blue-300"
@@ -287,7 +287,7 @@ export const DragDropGame = ({
                             selectedItem === item.id ? null : item.id
                           )
                         }
-                        className={`px-3 py-2 bg-white border-2 rounded-lg text-xs font-medium transition-all shadow-sm hover:shadow-md ${
+                        className={`px-3 py-2 bg-white border-2 rounded-lg text-sm sm:text-base font-medium transition-all shadow-sm hover:shadow-md font-cairo ${
                           selectedItem === item.id
                             ? "border-blue-500 bg-blue-100 shadow-lg scale-105"
                             : "border-gray-200 hover:border-gray-300"
@@ -423,7 +423,7 @@ export const DragDropGame = ({
                               ref={provided.innerRef}
                               {...provided.draggableProps}
                               {...provided.dragHandleProps}
-                              className={`p-2 bg-card border rounded-lg shadow-sm cursor-grab active:cursor-grabbing transition-all text-sm ${
+                              className={`p-2 bg-card border rounded-lg shadow-sm cursor-grab active:cursor-grabbing transition-all text-sm sm:text-base font-cairo ${
                                 snapshot.isDragging
                                   ? "shadow-lg scale-105 rotate-2"
                                   : "hover:shadow-md"
@@ -524,7 +524,7 @@ export const DragDropGame = ({
                                     ref={provided.innerRef}
                                     {...provided.draggableProps}
                                     {...provided.dragHandleProps}
-                                    className={`p-1.5 bg-white border rounded shadow-sm cursor-grab active:cursor-grabbing transition-all text-xs ${
+                                    className={`p-1.5 bg-white border rounded shadow-sm cursor-grab active:cursor-grabbing transition-all text-sm sm:text-base font-cairo ${
                                       snapshot.isDragging
                                         ? "shadow-lg scale-105 rotate-2"
                                         : "hover:shadow-md"

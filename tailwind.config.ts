@@ -21,6 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ["Cairo", "sans-serif"],
+				cairo: ["Cairo", "sans-serif"],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

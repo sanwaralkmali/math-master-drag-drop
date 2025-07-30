@@ -20,11 +20,19 @@ button .katex,
   font-size: 0.9em !important;
 }
 
-/* Mobile-specific LaTeX sizing */
+/* Mobile-specific LaTeX sizing - make it bigger on small screens */
 @media (max-width: 768px) {
   button .katex,
   .card .katex {
-    font-size: 0.8em !important;
+    font-size: 1.2em !important;
+  }
+}
+
+/* Extra large on very small screens */
+@media (max-width: 480px) {
+  button .katex,
+  .card .katex {
+    font-size: 1em !important;
   }
 }
 
@@ -169,6 +177,11 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-cairo;
+  }
+  
+  /* Ensure all text uses Cairo font */
+  html, body, div, span, p, h1, h2, h3, h4, h5, h6, button, input, textarea, select {
+    font-family: 'Cairo', sans-serif;
   }
 }
