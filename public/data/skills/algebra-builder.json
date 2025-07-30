@@ -2886,7 +2886,7 @@
     },
     {
       "id": "q242",
-      "content": "$\\sqrt{11$",
+      "content": "$\\sqrt{11}$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational constant"
     },
