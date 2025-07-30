@@ -159,7 +159,7 @@ const Index = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-game flex items-center justify-center">
-        <Card className="w-full max-w-md mx-4 bg-card/80 backdrop-blur-sm">
+        <Card className="w-[98%] max-w-md mx-auto bg-card/80 backdrop-blur-sm">
           <CardContent className="pt-6">
             <div className="text-center">
               <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
@@ -175,7 +175,7 @@ const Index = () => {
   if (error) {
     return (
       <div className="min-h-screen bg-gradient-game flex items-center justify-center">
-        <Card className="w-full max-w-md mx-4 bg-card/80 backdrop-blur-sm">
+        <Card className="w-[98%] max-w-md mx-auto bg-card/80 backdrop-blur-sm">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-destructive">
               <AlertCircle className="w-5 h-5" />
@@ -254,12 +254,12 @@ const Index = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-2 animate-pulse">
               🎮 {gameData.title} 🎮
             </h1>
-            <p className="text-sm sm:text-base text-muted-foreground max-w-md mx-auto">
-              Ready to become a math master? Let's have some fun! 🚀
+            <p className="text-sm sm:text-base text-muted-foreground max-w-md mx-auto px-2">
+              Ready to become a math master? Have fun! 🚀
             </p>
           </div>
 
-          <Card className="w-full max-w-md mx-4 bg-card/90 backdrop-blur-sm border-2 border-blue-200 shadow-xl">
+          <Card className="w-[98%] max-w-md mx-auto bg-card/90 backdrop-blur-sm border-2 border-blue-200 shadow-xl">
             <CardHeader className="text-center pb-4">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
@@ -346,7 +346,7 @@ const Index = () => {
 
           {/* Leaderboard Dialog */}
           <Dialog open={showLeaderboard} onOpenChange={setShowLeaderboard}>
-            <DialogContent className="max-w-md mx-4 bg-card/95 backdrop-blur-sm border-2 border-purple-200">
+            <DialogContent className="w-[98%] max-w-md mx-auto bg-card/95 backdrop-blur-sm border-2 border-purple-200">
               <DialogHeader>
                 <DialogTitle className="text-xl text-purple-700 flex items-center gap-2">
                   🏆 Leaderboard - {gameData.title}
@@ -399,7 +399,7 @@ const Index = () => {
 
           {/* How to Play Dialog */}
           <Dialog open={showInstructions} onOpenChange={setShowInstructions}>
-            <DialogContent className="max-w-md mx-4 bg-card/95 backdrop-blur-sm border-2 border-orange-200">
+            <DialogContent className="w-[98%] max-w-md mx-auto bg-card/95 backdrop-blur-sm border-2 border-orange-200">
               <DialogHeader>
                 <DialogTitle className="text-xl text-orange-700 flex items-center gap-2">
                   📖 How to Play
@@ -535,14 +535,14 @@ const Index = () => {
             </div>
 
             {/* Bottom row: Player info and timer */}
-            <div className="flex items-center justify-between text-xs sm:text-sm">
+            <div className="flex items-center justify-between text-sm sm:text-sm mt-5">
               <div className="font-medium">
                 Player:{" "}
-                <span className="text-primary font-semibold">{userName}</span>
+                <span className="text-blue-700 font-bold">{userName}</span>
               </div>
               <div className="font-medium">
                 Time:{" "}
-                <span className="text-primary font-semibold">
+                <span className="text-blue-700 font-bold">
                   {Math.floor(timer / 60)}:
                   {(timer % 60).toString().padStart(2, "0")}
                 </span>
