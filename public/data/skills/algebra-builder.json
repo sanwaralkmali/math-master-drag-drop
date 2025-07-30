@@ -2550,7 +2550,7 @@
     },
     {
       "id": "q182",
-      "content": "$\\sqrt{7$",
+      "content": "$\\sqrt{7}$",
       "correctCategory": "constant",
       "explanation": "Fixed irrational constant"
     },
