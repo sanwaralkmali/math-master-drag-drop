@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/dialog";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import { MATHLOGAMEFooter } from "@/components/ui/mathlogame-footer";
 
 const Index = () => {
   const [searchParams] = useSearchParams();
@@ -446,22 +447,8 @@ const Index = () => {
           </Dialog>
         </div>
 
-        {/* Footer at the bottom */}
-        <footer className="w-full py-2 text-center text-sm text-muted-foreground border-t bg-background/80 backdrop-blur-sm font-cairo mt-8 relative z-10">
-          <div className="container mx-auto">
-            <p>
-              Educational Game 2025 | Created for Educational purposes By{" "}
-              <Link
-                to="https://sanwaralkmali.github.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline font-semibold"
-              >
-                Salah Alkmali
-              </Link>
-            </p>
-          </div>
-        </footer>
+        {/* MATHLOGAME Footer */}
+        <MATHLOGAMEFooter />
       </div>
     );
   }
@@ -579,22 +566,8 @@ const Index = () => {
           />
         </div>
 
-        {/* Footer at the bottom */}
-        <footer className="w-full py-2 text-center text-sm text-muted-foreground border-t bg-background/80 backdrop-blur-sm font-cairo mt-8 relative z-10">
-          <div className="container mx-auto">
-            <p>
-              Educational Game 2025 | Created for Educational purposes By{" "}
-              <Link
-                to="https://sanwaralkmali.github.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline font-semibold"
-              >
-                Salah Alkmali
-              </Link>
-            </p>
-          </div>
-        </footer>
+        {/* MATHLOGAME Footer */}
+        <MATHLOGAMEFooter />
       </div>
     );
   }

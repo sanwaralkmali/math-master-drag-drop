@@ -9,6 +9,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Brain, Target, Zap, Star, Trophy, PlayCircle } from "lucide-react";
+import { MATHLOGAMEFooter } from "@/components/ui/mathlogame-footer";
 
 const GamesOverview = () => {
   const getDifficultyColor = (difficulty: string) => {
@@ -25,8 +26,8 @@ const GamesOverview = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-game">
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen bg-gradient-game flex flex-col">
+      <div className="flex-1 container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
@@ -58,6 +59,7 @@ const GamesOverview = () => {
           </div>
         </div>
       </div>
+      <MATHLOGAMEFooter />
     </div>
   );
 };

@@ -182,6 +182,17 @@ All colors MUST be HSL.
   
   /* Ensure all text uses Cairo font */
   html, body, div, span, p, h1, h2, h3, h4, h5, h6, button, input, textarea, select {
-    font-family: 'Cairo', sans-serif;
-  }
+  font-family: 'Cairo', sans-serif;
+}
+
+/* MATHLOGAME Footer Styles */
+.mathlogame-logo {
+  font-family: 'Cairo', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(135deg, #4BB3FD 0%, #10B981 50%, #4BB3FD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 }
